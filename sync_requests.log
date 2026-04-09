@@ -1,0 +1,913 @@
+=========== [ 2026-04-08T17:22:37.976248300-06:00 ] ===========
+TENANT_ID: a213a6e5-038b-49a8-99fc-85a9222920cd
+RECORDS COUNT: 1
+PAYLOAD: 
+{
+  "tenantId" : "a213a6e5-038b-49a8-99fc-85a9222920cd",
+  "records" : [ {
+    "id" : "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+    "tenant_id" : "62d4dcb1-71dd-4a28-85c6-a6826ff56c85",
+    "name" : "Coca Cola FEMSA",
+    "contact_name" : "Juan Pérez",
+    "phone" : "5551234567",
+    "category" : "Refrescos",
+    "visit_day" : "Lunes",
+    "delivery_day" : "Miércoles",
+    "frequency" : "Semanal",
+    "total_debt" : 1500.0,
+    "is_active" : 1,
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-08T10:00:00Z",
+    "updated_at" : "2026-04-08T10:00:00Z"
+  } ]
+}
+
+=========== [ 2026-04-08T17:23:18.057445800-06:00 ] ===========
+TENANT_ID: d7c394ca-e074-4338-81c8-83b5f2d158e5
+RECORDS COUNT: 1
+PAYLOAD: 
+{
+  "tenantId" : "d7c394ca-e074-4338-81c8-83b5f2d158e5",
+  "records" : [ {
+    "id" : "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+    "tenant_id" : "62d4dcb1-71dd-4a28-85c6-a6826ff56c85",
+    "name" : "Coca Cola FEMSA",
+    "contact_name" : "Juan Pérez",
+    "phone" : "5551234567",
+    "category" : "Refrescos",
+    "visit_day" : "Lunes",
+    "delivery_day" : "Miércoles",
+    "frequency" : "Semanal",
+    "total_debt" : 1500.0,
+    "is_active" : 1,
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-08T10:00:00Z",
+    "updated_at" : "2026-04-08T10:00:00Z"
+  } ]
+}
+
+=========== [ 2026-04-08T18:23:26.807880100-06:00 ] ===========
+TENANT_ID: d7c394ca-e074-4338-81c8-83b5f2d158e5
+RECORDS COUNT: 1
+PAYLOAD: 
+{
+  "tenantId" : "d7c394ca-e074-4338-81c8-83b5f2d158e5",
+  "records" : [ {
+    "id" : "a9c715fc-9dea-4269-b228-5b60f8fa3234",
+    "tenant_id" : "d7c394ca-e074-4338-81c8-83b5f2d158e5",
+    "name" : "Gabriel Juárez",
+    "contact_name" : null,
+    "phone" : "9991557878",
+    "category" : "Lacteos",
+    "visit_day" : "Lunes",
+    "delivery_day" : "Lunes",
+    "frequency" : "Semanal",
+    "total_debt" : 100.0,
+    "is_active" : 1,
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-08T18:08:42.409971",
+    "updated_at" : "2026-04-08T18:08:42.409971",
+    "is_dirty" : 1,
+    "synced_at" : null
+  } ]
+}
+
+=========== [ 2026-04-08T18:26:26.973632300-06:00 ] ===========
+TENANT_ID: d7c394ca-e074-4338-81c8-83b5f2d158e5
+RECORDS COUNT: 1
+PAYLOAD: 
+{
+  "tenantId" : "d7c394ca-e074-4338-81c8-83b5f2d158e5",
+  "records" : [ {
+    "id" : "a6044268-19bc-496d-b46d-786bde387c4e",
+    "tenant_id" : "d7c394ca-e074-4338-81c8-83b5f2d158e5",
+    "name" : "Gabriel Adrian",
+    "contact_name" : null,
+    "phone" : "9851459075",
+    "category" : "Gggf",
+    "visit_day" : "Lunes",
+    "delivery_day" : "Lunes",
+    "frequency" : "Semanal",
+    "total_debt" : 250.0,
+    "is_active" : 1,
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-08T18:26:18.240276",
+    "updated_at" : "2026-04-08T18:26:18.240276",
+    "is_dirty" : 1,
+    "synced_at" : null
+  } ]
+}
+
+=========== [ 2026-04-08T19:06:01.531286100-06:00 ] ===========
+TENANT_ID: d7c394ca-e074-4338-81c8-83b5f2d158e5
+RECORDS COUNT: 1
+PAYLOAD: 
+{
+  "tenantId" : "d7c394ca-e074-4338-81c8-83b5f2d158e5",
+  "records" : [ {
+    "id" : "a9fac7ae-dd4f-455d-915d-4d0aac8f36d2",
+    "tenant_id" : "d7c394ca-e074-4338-81c8-83b5f2d158e5",
+    "name" : "Jorge Sánchez",
+    "contact_name" : null,
+    "phone" : "9852571389",
+    "category" : "Lácteos",
+    "visit_day" : "Lunes",
+    "delivery_day" : "Lunes",
+    "frequency" : "Semanal",
+    "total_debt" : 100.0,
+    "is_active" : 1,
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-08T19:05:28.785888",
+    "updated_at" : "2026-04-08T19:05:28.785888",
+    "is_dirty" : 1,
+    "synced_at" : null
+  } ]
+}
+
+=========== [ 2026-04-08T21:38:25.689430500-06:00 ] ===========
+TENANT_ID: d6a743b0-6b8b-4d19-918b-395e4fe04758
+RECORDS COUNT: 1
+PAYLOAD: 
+{
+  "tenantId" : "d6a743b0-6b8b-4d19-918b-395e4fe04758",
+  "records" : [ {
+    "id" : "d098229b-76ff-408b-8402-12f3daaa751d",
+    "tenant_id" : "d6a743b0-6b8b-4d19-918b-395e4fe04758",
+    "name" : "Imelda De La Cruz",
+    "contact_name" : null,
+    "phone" : "9991557878",
+    "category" : "Lácteos",
+    "visit_day" : "Lunes",
+    "delivery_day" : "Lunes",
+    "frequency" : "Semanal",
+    "total_debt" : 1000.0,
+    "is_active" : 1,
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-08T21:37:49.895924Z",
+    "updated_at" : "2026-04-08T21:37:49.895924Z",
+    "is_dirty" : 1,
+    "synced_at" : null
+  } ]
+}
+
+=========== [ 2026-04-09T00:25:23.445651300-06:00 ] ===========
+TENANT_ID: 36ca918f-2281-4cf0-8660-d3bc03935a98
+RECORDS COUNT: 2
+PAYLOAD: 
+{
+  "tenantId" : "36ca918f-2281-4cf0-8660-d3bc03935a98",
+  "records" : [ {
+    "id" : "cc981abd-ca54-42ed-beb8-472e32912dff",
+    "tenant_id" : "36ca918f-2281-4cf0-8660-d3bc03935a98",
+    "user_id" : "b8937fd7-e681-4dad-93ba-b26d53b1a0d3",
+    "cash_session_id" : "3e28c5b3-45f4-4ce6-bb8a-423d57687b29",
+    "folio" : "SAL-20260409-0001",
+    "total" : 25.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T00:17:29.190564Z",
+    "updated_at" : "2026-04-09T00:17:29.190564Z",
+    "items" : [ {
+      "id" : "cc981abd-ca54-42ed-beb8-472e32912dff-7503039601277",
+      "sale_id" : "cc981abd-ca54-42ed-beb8-472e32912dff",
+      "upc" : "7503039601277",
+      "product_name" : "soary",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0
+    } ]
+  }, {
+    "id" : "aea6caaa-7475-49fb-9d56-45c7bb6574e9",
+    "tenant_id" : "36ca918f-2281-4cf0-8660-d3bc03935a98",
+    "user_id" : "b8937fd7-e681-4dad-93ba-b26d53b1a0d3",
+    "cash_session_id" : "3e28c5b3-45f4-4ce6-bb8a-423d57687b29",
+    "folio" : "SAL-20260409-0002",
+    "total" : 25.0,
+    "payment_type" : "CARD",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T00:18:02.537085Z",
+    "updated_at" : "2026-04-09T00:18:02.537085Z",
+    "items" : [ {
+      "id" : "aea6caaa-7475-49fb-9d56-45c7bb6574e9-75007614",
+      "sale_id" : "aea6caaa-7475-49fb-9d56-45c7bb6574e9",
+      "upc" : "75007614",
+      "product_name" : "Coca cola 600 ml",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0
+    } ]
+  } ]
+}
+
+=========== [ 2026-04-09T00:26:08.096242-06:00 ] ===========
+TENANT_ID: 36ca918f-2281-4cf0-8660-d3bc03935a98
+RECORDS COUNT: 2
+PAYLOAD: 
+{
+  "tenantId" : "36ca918f-2281-4cf0-8660-d3bc03935a98",
+  "records" : [ {
+    "id" : "cc981abd-ca54-42ed-beb8-472e32912dff",
+    "tenant_id" : "36ca918f-2281-4cf0-8660-d3bc03935a98",
+    "user_id" : "b8937fd7-e681-4dad-93ba-b26d53b1a0d3",
+    "cash_session_id" : "3e28c5b3-45f4-4ce6-bb8a-423d57687b29",
+    "folio" : "SAL-20260409-0001",
+    "total" : 25.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T00:17:29.190564Z",
+    "updated_at" : "2026-04-09T00:17:29.190564Z",
+    "items" : [ {
+      "id" : "cc981abd-ca54-42ed-beb8-472e32912dff-7503039601277",
+      "sale_id" : "cc981abd-ca54-42ed-beb8-472e32912dff",
+      "upc" : "7503039601277",
+      "product_name" : "soary",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0
+    } ]
+  }, {
+    "id" : "aea6caaa-7475-49fb-9d56-45c7bb6574e9",
+    "tenant_id" : "36ca918f-2281-4cf0-8660-d3bc03935a98",
+    "user_id" : "b8937fd7-e681-4dad-93ba-b26d53b1a0d3",
+    "cash_session_id" : "3e28c5b3-45f4-4ce6-bb8a-423d57687b29",
+    "folio" : "SAL-20260409-0002",
+    "total" : 25.0,
+    "payment_type" : "CARD",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T00:18:02.537085Z",
+    "updated_at" : "2026-04-09T00:18:02.537085Z",
+    "items" : [ {
+      "id" : "aea6caaa-7475-49fb-9d56-45c7bb6574e9-75007614",
+      "sale_id" : "aea6caaa-7475-49fb-9d56-45c7bb6574e9",
+      "upc" : "75007614",
+      "product_name" : "Coca cola 600 ml",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0
+    } ]
+  } ]
+}
+
+=========== [ 2026-04-09T00:26:23.341817300-06:00 ] ===========
+TENANT_ID: 36ca918f-2281-4cf0-8660-d3bc03935a98
+RECORDS COUNT: 2
+PAYLOAD: 
+{
+  "tenantId" : "36ca918f-2281-4cf0-8660-d3bc03935a98",
+  "records" : [ {
+    "id" : "cc981abd-ca54-42ed-beb8-472e32912dff",
+    "tenant_id" : "36ca918f-2281-4cf0-8660-d3bc03935a98",
+    "user_id" : "b8937fd7-e681-4dad-93ba-b26d53b1a0d3",
+    "cash_session_id" : "3e28c5b3-45f4-4ce6-bb8a-423d57687b29",
+    "folio" : "SAL-20260409-0001",
+    "total" : 25.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T00:17:29.190564Z",
+    "updated_at" : "2026-04-09T00:17:29.190564Z",
+    "items" : [ {
+      "id" : "cc981abd-ca54-42ed-beb8-472e32912dff-7503039601277",
+      "sale_id" : "cc981abd-ca54-42ed-beb8-472e32912dff",
+      "upc" : "7503039601277",
+      "product_name" : "soary",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0
+    } ]
+  }, {
+    "id" : "aea6caaa-7475-49fb-9d56-45c7bb6574e9",
+    "tenant_id" : "36ca918f-2281-4cf0-8660-d3bc03935a98",
+    "user_id" : "b8937fd7-e681-4dad-93ba-b26d53b1a0d3",
+    "cash_session_id" : "3e28c5b3-45f4-4ce6-bb8a-423d57687b29",
+    "folio" : "SAL-20260409-0002",
+    "total" : 25.0,
+    "payment_type" : "CARD",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T00:18:02.537085Z",
+    "updated_at" : "2026-04-09T00:18:02.537085Z",
+    "items" : [ {
+      "id" : "aea6caaa-7475-49fb-9d56-45c7bb6574e9-75007614",
+      "sale_id" : "aea6caaa-7475-49fb-9d56-45c7bb6574e9",
+      "upc" : "75007614",
+      "product_name" : "Coca cola 600 ml",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0
+    } ]
+  } ]
+}
+
+=========== [ 2026-04-09T00:28:23.381707500-06:00 ] ===========
+TENANT_ID: 36ca918f-2281-4cf0-8660-d3bc03935a98
+RECORDS COUNT: 2
+PAYLOAD: 
+{
+  "tenantId" : "36ca918f-2281-4cf0-8660-d3bc03935a98",
+  "records" : [ {
+    "id" : "cc981abd-ca54-42ed-beb8-472e32912dff",
+    "tenant_id" : "36ca918f-2281-4cf0-8660-d3bc03935a98",
+    "user_id" : "b8937fd7-e681-4dad-93ba-b26d53b1a0d3",
+    "cash_session_id" : "3e28c5b3-45f4-4ce6-bb8a-423d57687b29",
+    "folio" : "SAL-20260409-0001",
+    "total" : 25.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T00:17:29.190564Z",
+    "updated_at" : "2026-04-09T00:17:29.190564Z",
+    "items" : [ {
+      "id" : "cc981abd-ca54-42ed-beb8-472e32912dff-7503039601277",
+      "sale_id" : "cc981abd-ca54-42ed-beb8-472e32912dff",
+      "upc" : "7503039601277",
+      "product_name" : "soary",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0
+    } ]
+  }, {
+    "id" : "aea6caaa-7475-49fb-9d56-45c7bb6574e9",
+    "tenant_id" : "36ca918f-2281-4cf0-8660-d3bc03935a98",
+    "user_id" : "b8937fd7-e681-4dad-93ba-b26d53b1a0d3",
+    "cash_session_id" : "3e28c5b3-45f4-4ce6-bb8a-423d57687b29",
+    "folio" : "SAL-20260409-0002",
+    "total" : 25.0,
+    "payment_type" : "CARD",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T00:18:02.537085Z",
+    "updated_at" : "2026-04-09T00:18:02.537085Z",
+    "items" : [ {
+      "id" : "aea6caaa-7475-49fb-9d56-45c7bb6574e9-75007614",
+      "sale_id" : "aea6caaa-7475-49fb-9d56-45c7bb6574e9",
+      "upc" : "75007614",
+      "product_name" : "Coca cola 600 ml",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0
+    } ]
+  } ]
+}
+
+=========== [ 2026-04-09T00:28:44.386153800-06:00 ] ===========
+TENANT_ID: 36ca918f-2281-4cf0-8660-d3bc03935a98
+RECORDS COUNT: 2
+PAYLOAD: 
+{
+  "tenantId" : "36ca918f-2281-4cf0-8660-d3bc03935a98",
+  "records" : [ {
+    "id" : "cc981abd-ca54-42ed-beb8-472e32912dff",
+    "tenant_id" : "36ca918f-2281-4cf0-8660-d3bc03935a98",
+    "user_id" : "b8937fd7-e681-4dad-93ba-b26d53b1a0d3",
+    "cash_session_id" : "3e28c5b3-45f4-4ce6-bb8a-423d57687b29",
+    "folio" : "SAL-20260409-0001",
+    "total" : 25.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T00:17:29.190564Z",
+    "updated_at" : "2026-04-09T00:17:29.190564Z",
+    "items" : [ {
+      "id" : "cc981abd-ca54-42ed-beb8-472e32912dff-7503039601277",
+      "sale_id" : "cc981abd-ca54-42ed-beb8-472e32912dff",
+      "upc" : "7503039601277",
+      "product_name" : "soary",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0
+    } ]
+  }, {
+    "id" : "aea6caaa-7475-49fb-9d56-45c7bb6574e9",
+    "tenant_id" : "36ca918f-2281-4cf0-8660-d3bc03935a98",
+    "user_id" : "b8937fd7-e681-4dad-93ba-b26d53b1a0d3",
+    "cash_session_id" : "3e28c5b3-45f4-4ce6-bb8a-423d57687b29",
+    "folio" : "SAL-20260409-0002",
+    "total" : 25.0,
+    "payment_type" : "CARD",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T00:18:02.537085Z",
+    "updated_at" : "2026-04-09T00:18:02.537085Z",
+    "items" : [ {
+      "id" : "aea6caaa-7475-49fb-9d56-45c7bb6574e9-75007614",
+      "sale_id" : "aea6caaa-7475-49fb-9d56-45c7bb6574e9",
+      "upc" : "75007614",
+      "product_name" : "Coca cola 600 ml",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0
+    } ]
+  } ]
+}
+
+=========== [ 2026-04-09T00:29:23.574583100-06:00 ] ===========
+TENANT_ID: 36ca918f-2281-4cf0-8660-d3bc03935a98
+RECORDS COUNT: 2
+PAYLOAD: 
+{
+  "tenantId" : "36ca918f-2281-4cf0-8660-d3bc03935a98",
+  "records" : [ {
+    "id" : "cc981abd-ca54-42ed-beb8-472e32912dff",
+    "tenant_id" : "36ca918f-2281-4cf0-8660-d3bc03935a98",
+    "user_id" : "b8937fd7-e681-4dad-93ba-b26d53b1a0d3",
+    "cash_session_id" : "3e28c5b3-45f4-4ce6-bb8a-423d57687b29",
+    "folio" : "SAL-20260409-0001",
+    "total" : 25.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T00:17:29.190564Z",
+    "updated_at" : "2026-04-09T00:17:29.190564Z",
+    "items" : [ {
+      "id" : "cc981abd-ca54-42ed-beb8-472e32912dff-7503039601277",
+      "sale_id" : "cc981abd-ca54-42ed-beb8-472e32912dff",
+      "upc" : "7503039601277",
+      "product_name" : "soary",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0
+    } ]
+  }, {
+    "id" : "aea6caaa-7475-49fb-9d56-45c7bb6574e9",
+    "tenant_id" : "36ca918f-2281-4cf0-8660-d3bc03935a98",
+    "user_id" : "b8937fd7-e681-4dad-93ba-b26d53b1a0d3",
+    "cash_session_id" : "3e28c5b3-45f4-4ce6-bb8a-423d57687b29",
+    "folio" : "SAL-20260409-0002",
+    "total" : 25.0,
+    "payment_type" : "CARD",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T00:18:02.537085Z",
+    "updated_at" : "2026-04-09T00:18:02.537085Z",
+    "items" : [ {
+      "id" : "aea6caaa-7475-49fb-9d56-45c7bb6574e9-75007614",
+      "sale_id" : "aea6caaa-7475-49fb-9d56-45c7bb6574e9",
+      "upc" : "75007614",
+      "product_name" : "Coca cola 600 ml",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0
+    } ]
+  } ]
+}
+
+=========== [ 2026-04-09T00:30:33.472948600-06:00 ] ===========
+TENANT_ID: 36ca918f-2281-4cf0-8660-d3bc03935a98
+RECORDS COUNT: 2
+PAYLOAD: 
+{
+  "tenantId" : "36ca918f-2281-4cf0-8660-d3bc03935a98",
+  "records" : [ {
+    "id" : "cc981abd-ca54-42ed-beb8-472e32912dff",
+    "tenant_id" : "36ca918f-2281-4cf0-8660-d3bc03935a98",
+    "user_id" : "b8937fd7-e681-4dad-93ba-b26d53b1a0d3",
+    "cash_session_id" : "3e28c5b3-45f4-4ce6-bb8a-423d57687b29",
+    "folio" : "SAL-20260409-0001",
+    "total" : 25.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T00:17:29.190564Z",
+    "updated_at" : "2026-04-09T00:17:29.190564Z",
+    "items" : [ {
+      "id" : "cc981abd-ca54-42ed-beb8-472e32912dff-7503039601277",
+      "sale_id" : "cc981abd-ca54-42ed-beb8-472e32912dff",
+      "upc" : "7503039601277",
+      "product_name" : "soary",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0
+    } ]
+  }, {
+    "id" : "aea6caaa-7475-49fb-9d56-45c7bb6574e9",
+    "tenant_id" : "36ca918f-2281-4cf0-8660-d3bc03935a98",
+    "user_id" : "b8937fd7-e681-4dad-93ba-b26d53b1a0d3",
+    "cash_session_id" : "3e28c5b3-45f4-4ce6-bb8a-423d57687b29",
+    "folio" : "SAL-20260409-0002",
+    "total" : 25.0,
+    "payment_type" : "CARD",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T00:18:02.537085Z",
+    "updated_at" : "2026-04-09T00:18:02.537085Z",
+    "items" : [ {
+      "id" : "aea6caaa-7475-49fb-9d56-45c7bb6574e9-75007614",
+      "sale_id" : "aea6caaa-7475-49fb-9d56-45c7bb6574e9",
+      "upc" : "75007614",
+      "product_name" : "Coca cola 600 ml",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0
+    } ]
+  } ]
+}
+
+=========== [ 2026-04-09T00:33:50.750637900-06:00 ] ===========
+TENANT_ID: 8691f5d8-24f6-4c3d-93a1-0852e9540dae
+RECORDS COUNT: 1
+PAYLOAD: 
+{
+  "tenantId" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+  "records" : [ {
+    "id" : "5a9d0a66-2c3b-4065-825b-633c70cf126e",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "initial_amount" : 208.0,
+    "total_sales" : 0.0,
+    "cash_total" : 0.0,
+    "card_total" : 0.0,
+    "transfer_total" : 0.0,
+    "opened_at" : "2026-04-09T06:33:32.157296Z",
+    "closed_at" : null
+  } ]
+}
+
+=========== [ 2026-04-09T00:33:53.992970800-06:00 ] ===========
+TENANT_ID: 8691f5d8-24f6-4c3d-93a1-0852e9540dae
+RECORDS COUNT: 1
+PAYLOAD: 
+{
+  "tenantId" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+  "records" : [ {
+    "id" : "350f1122-eae0-4023-b533-badc32f5263c",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "upc" : "7503039601277",
+    "cost_price" : 0.0,
+    "supplier_id" : null,
+    "price" : 5.0,
+    "name" : "lsldmd",
+    "stock" : -1.0,
+    "min_stock" : 3.0,
+    "measurement_unit" : "PZA",
+    "product_type" : "STANDARD",
+    "is_active" : true,
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T06:33:48.719009Z",
+    "updated_at" : "2026-04-09T06:33:52.386351Z"
+  } ]
+}
+
+=========== [ 2026-04-09T00:33:56.230203-06:00 ] ===========
+TENANT_ID: 8691f5d8-24f6-4c3d-93a1-0852e9540dae
+RECORDS COUNT: 1
+PAYLOAD: 
+{
+  "tenantId" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+  "records" : [ {
+    "id" : "0371863d-8411-46a9-8df8-cbdb95565d88",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "tipo" : "SAL",
+    "fecha" : "2026-04-09",
+    "ultimo_folio" : 1
+  } ]
+}
+
+=========== [ 2026-04-09T00:34:02.773479100-06:00 ] ===========
+TENANT_ID: 8691f5d8-24f6-4c3d-93a1-0852e9540dae
+RECORDS COUNT: 1
+PAYLOAD: 
+{
+  "tenantId" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+  "records" : [ {
+    "id" : "4784c577-75a5-421e-b461-cd7283e278c2",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "5a9d0a66-2c3b-4065-825b-633c70cf126e",
+    "folio" : "SAL-20260409-0001",
+    "total" : 5.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T00:33:52.075870Z",
+    "updated_at" : "2026-04-09T00:33:52.075870Z",
+    "items" : [ {
+      "id" : "30095221-5d08-4d10-9544-b922c0158c8c",
+      "sale_id" : "4784c577-75a5-421e-b461-cd7283e278c2",
+      "upc" : "7503039601277",
+      "product_name" : "lsldmd",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 5.0,
+      "subtotal" : 5.0
+    } ]
+  } ]
+}
+
+=========== [ 2026-04-09T00:34:23.147688500-06:00 ] ===========
+TENANT_ID: 8691f5d8-24f6-4c3d-93a1-0852e9540dae
+RECORDS COUNT: 1
+PAYLOAD: 
+{
+  "tenantId" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+  "records" : [ {
+    "id" : "5a9d0a66-2c3b-4065-825b-633c70cf126e",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "initial_amount" : 208.0,
+    "total_sales" : 5.0,
+    "cash_total" : 5.0,
+    "card_total" : 0.0,
+    "transfer_total" : 0.0,
+    "opened_at" : "2026-04-09T06:33:32.157296Z",
+    "closed_at" : null
+  } ]
+}
+
+=========== [ 2026-04-09T00:34:33.680310300-06:00 ] ===========
+TENANT_ID: 8691f5d8-24f6-4c3d-93a1-0852e9540dae
+RECORDS COUNT: 1
+PAYLOAD: 
+{
+  "tenantId" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+  "records" : [ {
+    "id" : "4784c577-75a5-421e-b461-cd7283e278c2",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "5a9d0a66-2c3b-4065-825b-633c70cf126e",
+    "folio" : "SAL-20260409-0001",
+    "total" : 5.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T00:33:52.075870Z",
+    "updated_at" : "2026-04-09T00:33:52.075870Z",
+    "items" : [ {
+      "id" : "30095221-5d08-4d10-9544-b922c0158c8c",
+      "sale_id" : "4784c577-75a5-421e-b461-cd7283e278c2",
+      "upc" : "7503039601277",
+      "product_name" : "lsldmd",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 5.0,
+      "subtotal" : 5.0
+    } ]
+  } ]
+}
+
+=========== [ 2026-04-09T00:43:00.971026-06:00 ] ===========
+TENANT_ID: 8691f5d8-24f6-4c3d-93a1-0852e9540dae
+RECORDS COUNT: 1
+PAYLOAD: 
+{
+  "tenantId" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+  "records" : [ {
+    "id" : "4784c577-75a5-421e-b461-cd7283e278c2",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "5a9d0a66-2c3b-4065-825b-633c70cf126e",
+    "folio" : "SAL-20260409-0001",
+    "total" : 5.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T00:33:52.075870Z",
+    "updated_at" : "2026-04-09T00:33:52.075870Z",
+    "items" : [ {
+      "id" : "30095221-5d08-4d10-9544-b922c0158c8c",
+      "sale_id" : "4784c577-75a5-421e-b461-cd7283e278c2",
+      "upc" : "7503039601277",
+      "product_name" : "lsldmd",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 5.0,
+      "subtotal" : 5.0
+    } ]
+  } ]
+}
+
+=========== [ 2026-04-09T00:44:50.817804500-06:00 ] ===========
+TENANT_ID: 8691f5d8-24f6-4c3d-93a1-0852e9540dae
+RECORDS COUNT: 1
+PAYLOAD: 
+{
+  "tenantId" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+  "records" : [ {
+    "id" : "5a9d0a66-2c3b-4065-825b-633c70cf126e",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "initial_amount" : 208.0,
+    "total_sales" : 255.0,
+    "cash_total" : 255.0,
+    "card_total" : 0.0,
+    "transfer_total" : 0.0,
+    "opened_at" : "2026-04-09T06:33:32.157296Z",
+    "closed_at" : null
+  } ]
+}
+
+=========== [ 2026-04-09T00:44:53.131613900-06:00 ] ===========
+TENANT_ID: 8691f5d8-24f6-4c3d-93a1-0852e9540dae
+RECORDS COUNT: 5
+PAYLOAD: 
+{
+  "tenantId" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+  "records" : [ {
+    "id" : "1213cf5f-5bf9-472a-b41f-38a72de1a890",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "upc" : "7501032925529",
+    "cost_price" : 0.0,
+    "supplier_id" : null,
+    "price" : 82.0,
+    "name" : "ggcv baygo",
+    "stock" : -1.0,
+    "min_stock" : 3.0,
+    "measurement_unit" : "PZA",
+    "product_type" : "STANDARD",
+    "is_active" : true,
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T06:44:03.487727Z",
+    "updated_at" : "2026-04-09T06:44:35.994393Z"
+  }, {
+    "id" : "fce8926d-77b9-4e4e-9431-d8172adb5549",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "upc" : "7501055300594",
+    "cost_price" : 0.0,
+    "supplier_id" : null,
+    "price" : 50.0,
+    "name" : "Coca cola",
+    "stock" : -1.0,
+    "min_stock" : 3.0,
+    "measurement_unit" : "PZA",
+    "product_type" : "STANDARD",
+    "is_active" : true,
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T06:44:21.617611Z",
+    "updated_at" : "2026-04-09T06:44:36.021057Z"
+  }, {
+    "id" : "dfbcf3f0-300c-403a-85f0-eabb55c33e22",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "upc" : "7501055333851",
+    "cost_price" : 0.0,
+    "supplier_id" : null,
+    "price" : 25.0,
+    "name" : "Del Valle Nectar de Durazno",
+    "stock" : -1.0,
+    "min_stock" : 3.0,
+    "measurement_unit" : "PZA",
+    "product_type" : "STANDARD",
+    "is_active" : true,
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T06:44:15.066592Z",
+    "updated_at" : "2026-04-09T06:44:36.006720Z"
+  }, {
+    "id" : "01719470-aab7-44da-bc5d-9aa9acff5855",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "upc" : "7501072200723",
+    "cost_price" : 0.0,
+    "supplier_id" : null,
+    "price" : 88.0,
+    "name" : "ggg",
+    "stock" : -1.0,
+    "min_stock" : 3.0,
+    "measurement_unit" : "PZA",
+    "product_type" : "STANDARD",
+    "is_active" : true,
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T06:44:30.846417Z",
+    "updated_at" : "2026-04-09T06:44:36.035467Z"
+  }, {
+    "id" : "350f1122-eae0-4023-b533-badc32f5263c",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "upc" : "7503039601277",
+    "cost_price" : 0.0,
+    "supplier_id" : null,
+    "price" : 5.0,
+    "name" : "lsldmd",
+    "stock" : -2.0,
+    "min_stock" : 3.0,
+    "measurement_unit" : "PZA",
+    "product_type" : "STANDARD",
+    "is_active" : true,
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T06:33:48.719009Z",
+    "updated_at" : "2026-04-09T06:44:35.987192Z"
+  } ]
+}
+
+=========== [ 2026-04-09T00:44:55.420002400-06:00 ] ===========
+TENANT_ID: 8691f5d8-24f6-4c3d-93a1-0852e9540dae
+RECORDS COUNT: 1
+PAYLOAD: 
+{
+  "tenantId" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+  "records" : [ {
+    "id" : "0371863d-8411-46a9-8df8-cbdb95565d88",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "tipo" : "SAL",
+    "fecha" : "2026-04-09",
+    "ultimo_folio" : 2
+  } ]
+}
+
+=========== [ 2026-04-09T00:45:01.949032200-06:00 ] ===========
+TENANT_ID: 8691f5d8-24f6-4c3d-93a1-0852e9540dae
+RECORDS COUNT: 1
+PAYLOAD: 
+{
+  "tenantId" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+  "records" : [ {
+    "id" : "6dbdccd6-46b5-4909-9ddf-122d3086209d",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "5a9d0a66-2c3b-4065-825b-633c70cf126e",
+    "folio" : "SAL-20260409-0002",
+    "total" : 250.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T00:44:35.832663Z",
+    "updated_at" : "2026-04-09T00:44:35.832663Z",
+    "items" : [ {
+      "id" : "8ed52713-b2d9-46e5-a1c3-b2d14bc6e95b",
+      "sale_id" : "6dbdccd6-46b5-4909-9ddf-122d3086209d",
+      "upc" : "7503039601277",
+      "product_name" : "lsldmd",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 5.0,
+      "subtotal" : 5.0
+    }, {
+      "id" : "3c531276-2af9-4097-924e-4be9d41e6d81",
+      "sale_id" : "6dbdccd6-46b5-4909-9ddf-122d3086209d",
+      "upc" : "7501032925529",
+      "product_name" : "ggcv baygo",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 82.0,
+      "subtotal" : 82.0
+    }, {
+      "id" : "1cc032a1-8d47-4922-b0a1-b0f610fb2e4a",
+      "sale_id" : "6dbdccd6-46b5-4909-9ddf-122d3086209d",
+      "upc" : "7501055333851",
+      "product_name" : "Del Valle Nectar de Durazno",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0
+    }, {
+      "id" : "6a450051-2d94-4ae5-9b47-15c2ef13c880",
+      "sale_id" : "6dbdccd6-46b5-4909-9ddf-122d3086209d",
+      "upc" : "7501055300594",
+      "product_name" : "Coca cola",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 50.0,
+      "subtotal" : 50.0
+    }, {
+      "id" : "d31e8c4f-4267-4583-892c-f8742e8dcd5b",
+      "sale_id" : "6dbdccd6-46b5-4909-9ddf-122d3086209d",
+      "upc" : "7501072200723",
+      "product_name" : "ggg",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 88.0,
+      "subtotal" : 88.0
+    } ]
+  } ]
+}
+

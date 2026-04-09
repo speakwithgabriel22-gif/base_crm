@@ -23,7 +23,6 @@ public class Supplier {
 
     /** Unique ID for the supplier record */
     @Id
-    @GeneratedValue(strategy = GenerationType.UUID)
     @JdbcTypeCode(SqlTypes.UUID)
     @Column(name = "id", updatable = false, nullable = false)
     private UUID id;
@@ -36,6 +35,10 @@ public class Supplier {
     /** Legal or trade name of the supplier (e.g., "Bimbo S.A. de C.V.") */
     @Column(nullable = false, length = 150)
     private String name;
+
+    /** Nombre del contacto o preventista del proveedor */
+    @Column(name = "contact_name", length = 150)
+    private String contactName;
 
     /** Phone number for the supplier or account representative */
     @Column(length = 20)

@@ -1,10 +1,11 @@
 package com.services.crm.entity;
 
-import com.services.crm.enums.UserRole;
 import jakarta.persistence.*;
 import lombok.*;
 
 import java.time.OffsetDateTime;
+import java.util.Set;
+import java.util.HashSet;
 import java.util.UUID;
 
 import org.hibernate.annotations.JdbcTypeCode;
@@ -15,11 +16,9 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @JsonIgnoreProperties({ "hibernateLazyInitializer", "handler" })
 @Entity
-@Table(name = "users", uniqueConstraints = @UniqueConstraint(name = "uq_users_tenant_email", columnNames = {
-        "tenant_id", "email" }), indexes = {
-                @Index(name = "idx_users_tenant_id", columnList = "tenant_id"),
-                @Index(name = "idx_users_email", columnList = "email")
-        })
+@Table(name = "users", indexes = {
+        @Index(name = "idx_users_email", columnList = "email")
+})
 @Getter
 @Setter
 @NoArgsConstructor
@@ -34,10 +33,10 @@ public class User {
     @Column(name = "id", updatable = false, nullable = false)
     private UUID id;
 
-    /** The store this user belongs to */
-    @ManyToOne(fetch = FetchType.LAZY, optional = false)
-    @JoinColumn(name = "tenant_id", nullable = false, updatable = false)
-    private Tenant tenant;
+    /** Relación a las múltiples sucursales que tiene el usuario */
+    @OneToMany(mappedBy = "user", fetch = FetchType.LAZY)
+    @Builder.Default
+    private Set<UserTenant> userTenants = new HashSet<>();
 
     /** Mobile phone number used for login or notifications */
     @Column(nullable = false, length = 20, unique = true)
@@ -47,9 +46,14 @@ public class User {
     @Column(nullable = false, length = 255, unique = true)
     private String email;
 
+    /** Indica si el usuario ha verificado su cuenta de correo */
+    @Column(name = "email_verified", nullable = false)
+    @Builder.Default
+    private Boolean emailVerified = false;
+
     /** Quick access PIN for the POS terminal */
     @JsonIgnore
-    @Column(length = 6)
+    @Column(length = 60)
     private String pin;
 
     /** BCrypt hash of the user's password (hidden in JSON) */
@@ -60,12 +64,6 @@ public class User {
     /** User's formal full name */
     @Column(name = "full_name", nullable = false, length = 255)
     private String fullName;
-
-    /** Access level: ADMIN, AGENT, VIEWER, etc. */
-    @Enumerated(EnumType.STRING)
-    @Column(nullable = false, length = 30)
-    @Builder.Default
-    private UserRole role = UserRole.AGENT;
 
     /** Whether the user is permitted to log in */
     @Column(name = "is_active", nullable = false)

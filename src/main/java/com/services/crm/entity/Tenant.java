@@ -9,8 +9,9 @@ import org.hibernate.type.SqlTypes;
 
 import java.time.OffsetDateTime;
 import java.util.Map;
+import java.util.Set;
+import java.util.HashSet;
 import java.util.UUID;
-
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @JsonIgnoreProperties({ "hibernateLazyInitializer", "handler" })
@@ -43,6 +44,10 @@ public class Tenant {
     /** Contact phone number of the store */
     @Column(length = 30)
     private String phone;
+
+    /** Physical address of the store */
+    @Column(length = 255)
+    private String address;
 
     /** Verification status (e.g., identity or phone verification) */
     @Column(name = "is_verified")
@@ -89,6 +94,11 @@ public class Tenant {
     @Column(columnDefinition = "jsonb")
     @Builder.Default
     private Map<String, Object> settings = Map.of();
+
+    /** Relación a los múltiples usuarios que tiene la sucursal */
+    @OneToMany(mappedBy = "tenant", fetch = FetchType.LAZY)
+    @Builder.Default
+    private Set<UserTenant> userTenants = new HashSet<>();
 
     /** Record creation date */
     @Column(name = "created_at", nullable = false, updatable = false)

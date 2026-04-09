@@ -25,7 +25,6 @@ public class StoreProduct {
 
     /** Unique ID for the local store product record */
     @Id
-    @GeneratedValue(strategy = GenerationType.UUID)
     @JdbcTypeCode(SqlTypes.UUID)
     @Column(name = "id", updatable = false, nullable = false)
     private UUID id;
@@ -35,10 +34,12 @@ public class StoreProduct {
     @JoinColumn(name = "tenant_id", nullable = false, updatable = false)
     private Tenant tenant;
 
-    /** Reference to the global product catalog data */
-    @ManyToOne(fetch = FetchType.LAZY, optional = false)
-    @JoinColumn(name = "upc", nullable = false)
-    private UpcCatalog upcCatalog;
+    private String upc;
+
+    private String name;
+
+    @Column(name = "measurement_unit", length = 20)
+    private String measurementUnit;
 
     /** The cost price at which the store last purchased this product */
     @Column(name = "cost_price", precision = 10, scale = 2)
@@ -54,13 +55,18 @@ public class StoreProduct {
     private BigDecimal price;
 
     /** Current physical quantity available in the store */
-    @Column(nullable = false)
-    private Integer stock;
+    @Column(nullable = false, precision = 12, scale = 3)
+    private java.math.BigDecimal stock;
+
+    /** Type of product (STANDARD, WEIGHED, PREPARED, INTERNAL, SERVICE) */
+    @Column(name = "product_type", length = 30)
+    @Builder.Default
+    private String productType = "STANDARD";
 
     /** Threshold for low-stock alerts */
-    @Column(name = "min_stock", nullable = false)
+    @Column(name = "min_stock", nullable = false, precision = 12, scale = 3)
     @Builder.Default
-    private Integer minStock = 3;
+    private java.math.BigDecimal minStock = java.math.BigDecimal.valueOf(3);
 
     /** Whether this product is currently visible for sale in the store */
     @Column(name = "is_active", nullable = false)

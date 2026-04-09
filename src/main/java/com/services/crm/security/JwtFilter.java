@@ -39,7 +39,7 @@ public class JwtFilter extends OncePerRequestFilter {
                 Claims claims = jwtUtil.extractAllClaims(jwt);
                 String userId = claims.getSubject();
                 String role = claims.get("role", String.class);
-                String type = claims.get("type", String.class);
+                // tipo de token (CRM/CUSTOMER) — disponible en claims.get("type") si se necesita
                 
                 String authorityRole = role != null ? "ROLE_" + role : "ROLE_USER";
 

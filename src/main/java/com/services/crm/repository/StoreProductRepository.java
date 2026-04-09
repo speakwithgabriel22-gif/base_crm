@@ -1,12 +1,20 @@
 package com.services.crm.repository;
 
 import com.services.crm.entity.StoreProduct;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
+
+import org.springframework.data.jpa.repository.EntityGraph;
+import org.springframework.data.jpa.repository.Lock;
+import jakarta.persistence.LockModeType;
 
 /**
  * Repository for local store products (inventory).
@@ -15,25 +23,45 @@ import java.util.UUID;
 @Repository
 public interface StoreProductRepository extends JpaRepository<StoreProduct, UUID> {
 
-    /**
-     * Finds a product in a specific tenant's inventory by its UPC.
-     * @param tenantId The store ID.
-     * @param upc The barcode.
-     * @return Optional containing the local store product.
-     */
-    Optional<StoreProduct> findByTenantIdAndUpcCatalogUpc(UUID tenantId, String upc);
+        /**
+         * Finds a product in a specific tenant's inventory by its UPC.
+         * Usa PESSIMISTIC_WRITE para evitar condiciones de carrera si dos ventas
+         * concurrentes
+         * intentan consultar y/o crear el mismo producto en StoreProduct al mismo
+         * tiempo.
+         */
+        @Lock(LockModeType.PESSIMISTIC_WRITE)
+        Optional<StoreProduct> findByTenantIdAndUpcAndRegBorrado(UUID tenantId, String upc, Integer regBorrado);
 
-    /**
-     * Lists all inventory for a specific tenant.
-     * @param tenantId The store ID.
-     * @return List of store products.
-     */
-    List<StoreProduct> findAllByTenantId(UUID tenantId);
+        /**
+         * Lists all inventory for a specific tenant.
+         */
+        Page<StoreProduct> findByTenantIdAndRegBorrado(UUID tenantId, Integer regBorrado, Pageable pageable);
 
-    /**
-     * Lists all products with low stock for alerts.
-     * @param tenantId The store ID.
-     * @return List of products needing replenishment.
-     */
-    List<StoreProduct> findAllByTenantIdAndStockLessThanEqual(UUID tenantId, Integer minStock);
+        /**
+         * Lists all products with low stock for alerts.
+         */
+        List<StoreProduct> findAllByTenantIdAndStockLessThanEqualAndRegBorrado(UUID tenantId,
+                        java.math.BigDecimal minStock, Integer regBorrado);
+
+        /**
+         * Finds a product by UPC or Name in a specific tenant's inventory (SEARCH).
+         */
+        @Query("SELECT sp FROM StoreProduct sp " +
+                        "WHERE sp.tenant.id = :tenantId AND (sp.upc = :term OR LOWER(sp.name) LIKE LOWER(CONCAT('%', :term, '%'))) "
+                        +
+                        "AND sp.regBorrado = 1")
+        Page<StoreProduct> searchProducts(@Param("tenantId") UUID tenantId, @Param("term") String term,
+                        Pageable pageable);
+
+        /**
+         * Búsqueda en tiempo real por UPC o Nombre en el inventario local.
+         */
+        @Query("SELECT sp FROM StoreProduct sp " +
+                        "WHERE sp.tenant.id = :tenantId AND (sp.upc LIKE CONCAT('%', :term, '%') OR LOWER(sp.name) LIKE LOWER(CONCAT('%', :term, '%'))) "
+                        +
+                        "AND sp.regBorrado = 1")
+        List<StoreProduct> searchByTermRealTime(@Param("tenantId") UUID tenantId, @Param("term") String term,
+                        Pageable pageable);
+
 }

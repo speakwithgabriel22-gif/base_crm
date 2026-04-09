@@ -7,6 +7,7 @@ import org.hibernate.annotations.JdbcTypeCode;
 import org.hibernate.type.SqlTypes;
 import java.math.BigDecimal;
 import java.time.OffsetDateTime;
+import java.util.List;
 import java.util.UUID;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
@@ -26,7 +27,6 @@ public class Sale {
 
     /** Unique ID of the sale record */
     @Id
-    @GeneratedValue(strategy = GenerationType.UUID)
     @JdbcTypeCode(SqlTypes.UUID)
     @Column(name = "id", updatable = false, nullable = false)
     private UUID id;
@@ -40,6 +40,10 @@ public class Sale {
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
     @JoinColumn(name = "user_id", nullable = false)
     private User user;
+
+    @ManyToOne(fetch = FetchType.LAZY, optional = false)
+    @JoinColumn(name = "cash_session_id", nullable = false)
+    private CashSession cashSession;
 
     /** Unique invoice/sale number for the store (e.g., "V-20260406-001") */
     @Column(nullable = false, length = 30)
@@ -63,6 +67,10 @@ public class Sale {
     @Column(name = "created_at", nullable = false, updatable = false)
     @Builder.Default
     private OffsetDateTime createdAt = OffsetDateTime.now();
+
+    /** Detalle de productos vendidos en esta venta (relación inversa) */
+    @OneToMany(mappedBy = "sale", fetch = FetchType.LAZY)
+    private List<SaleItem> items;
 
     /** Record last update date */
     @Column(name = "updated_at", nullable = false)

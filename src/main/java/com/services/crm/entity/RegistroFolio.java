@@ -7,6 +7,7 @@ import org.hibernate.type.SqlTypes;
 import java.time.LocalDate;
 import java.util.UUID;
 
+
 /**
  * Control de folios por tenant, tipo y fecha.
  * El incremento real se hace mediante SELECT FOR UPDATE + UPDATE en el
@@ -28,13 +29,13 @@ import java.util.UUID;
 public class RegistroFolio {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.UUID)
     @JdbcTypeCode(SqlTypes.UUID)
     @Column(name = "id", updatable = false, nullable = false)
     private UUID id;
 
-    @Column(name = "tenant_id", nullable = false)
-    private UUID tenantId;
+    @ManyToOne(fetch = FetchType.LAZY, optional = false)
+    @JoinColumn(name = "tenant_id", nullable = false)
+    private Tenant tenant;
 
     /**
      * Tipo de folio:

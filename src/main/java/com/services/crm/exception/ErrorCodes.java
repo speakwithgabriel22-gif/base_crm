@@ -29,6 +29,8 @@ public final class ErrorCodes {
     public static final String AUTH_INVALID_CREDENTIALS = "AUTH-001";
     public static final String AUTH_TOKEN_EXPIRED = "AUTH-002";
     public static final String AUTH_UNAUTHORIZED = "AUTH-004";
+    public static final String AUTH_PHONE_ALREADY_REGISTERED = "AUTH-005";
+    public static final String AUTH_EMAIL_ALREADY_REGISTERED = "AUTH-006";
 
     // ============================================
     // Mensajes descriptivos
@@ -54,4 +56,7 @@ public final class ErrorCodes {
     public static final String MSG_PROMO_NOT_APPLICABLE = "Esta promoción no aplica para los productos en tu carrito.";
     public static final String USER_NOT_FOUND = "USER-001";
     public static final String MSG_USER_NOT_FOUND = "Usuario no encontrado";
+
+    public static final String MSG_AUTH_PHONE_ALREADY_REGISTERED = "El número telefónico ya se encuentra registrado.";
+    public static final String MSG_AUTH_EMAIL_ALREADY_REGISTERED = "El correo electrónico ya se encuentra registrado.";
 }

@@ -1,0 +1,6 @@
+﻿
+[INFO] Building crm 
+0.0.1-SNAPSHOT
+[INFO] BUILD SUCCESS
+
+

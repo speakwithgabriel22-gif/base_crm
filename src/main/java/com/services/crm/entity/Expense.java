@@ -8,11 +8,12 @@ import org.hibernate.type.SqlTypes;
 import java.math.BigDecimal;
 import java.time.OffsetDateTime;
 import java.util.UUID;
+import com.services.crm.enums.PaymentType;
 
 @Entity
 @Table(name = "expenses", indexes = {
         @Index(name = "idx_expense_tenant_id", columnList = "tenant_id"),
-        @Index(name = "idx_expense_category_id", columnList = "category_id")
+        @Index(name = "idx_expense_category", columnList = "category")
 })
 @Getter
 @Setter
@@ -22,7 +23,6 @@ import java.util.UUID;
 public class Expense {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.UUID)
     @JdbcTypeCode(SqlTypes.UUID)
     @Column(name = "id", updatable = false, nullable = false)
     private UUID id;
@@ -40,6 +40,15 @@ public class Expense {
 
     @Column(nullable = false, precision = 12, scale = 2)
     private BigDecimal amount;
+
+    @Enumerated(EnumType.STRING)
+    @Column(name = "payment_method", length = 30)
+    @Builder.Default
+    private PaymentType paymentMethod = PaymentType.CASH;
+
+    /** Descriptive text of the expense (e.g., "Factura CFE abril") */
+    @Column(length = 200)
+    private String description;
 
     @Column(length = 200)
     private String note;

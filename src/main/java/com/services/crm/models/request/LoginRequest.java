@@ -1,13 +1,13 @@
 package com.services.crm.models.request;
 
 import jakarta.validation.constraints.NotBlank;
-import lombok.Data;
+import jakarta.validation.constraints.Size;
 
-@Data
-public class LoginRequest {
-    @NotBlank
-    private String identifier; // email or phone
-    
-    @NotBlank
-    private String password;
-}
+public record LoginRequest(
+    @NotBlank(message = "El teléfono es obligatorio")
+    String phone,
+
+    @NotBlank(message = "El PIN es obligatorio")
+    @Size(min = 4, max = 4, message = "El PIN debe ser de 4 dígitos")
+    String pin
+) {}

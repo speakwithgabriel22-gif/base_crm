@@ -13,8 +13,11 @@ import java.util.UUID;
 
 public interface RegistroFolioRepository extends JpaRepository<RegistroFolio, UUID> {
 
+    // 🆕 Método adicional sin bloqueo (para solo consultar)
+    Optional<RegistroFolio> findByTenantIdAndTipoAndFecha(UUID tenantId, String tipo, LocalDate fecha);
+
     @Lock(LockModeType.PESSIMISTIC_WRITE)
-    @Query("SELECT r FROM RegistroFolio r WHERE r.tenantId = :tenantId AND r.tipo = :tipo AND r.fecha = :fecha")
+    @Query("SELECT r FROM RegistroFolio r WHERE r.tenant.id = :tenantId AND r.tipo = :tipo AND r.fecha = :fecha")
     Optional<RegistroFolio> findForUpdate(@Param("tenantId") UUID tenantId,
             @Param("tipo") String tipo,
             @Param("fecha") LocalDate fecha);

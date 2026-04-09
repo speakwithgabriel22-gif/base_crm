@@ -21,7 +21,6 @@ public class SaleItem {
 
     /** Unique ID of the sale item record */
     @Id
-    @GeneratedValue(strategy = GenerationType.UUID)
     @JdbcTypeCode(SqlTypes.UUID)
     @Column(name = "id", updatable = false, nullable = false)
     private UUID id;
@@ -54,14 +53,17 @@ public class SaleItem {
     private BigDecimal iepsAmount;
 
     /** Quantity sold (can represent weight or units) */
-    @Column(nullable = false)
-    private Integer quantity;
+    @Column(nullable = false, precision = 12, scale = 3)
+    private BigDecimal quantity;
 
     /** Snapshot of the unit price at the moment of sale */
     @Column(name = "unit_price", nullable = false, precision = 10, scale = 2)
     private BigDecimal unitPrice;
 
-    /** Line subtotal (quantity * unitPrice) before or after taxes depending on settings */
+    /**
+     * Line subtotal (quantity * unitPrice) before or after taxes depending on
+     * settings
+     */
     @Column(nullable = false, precision = 12, scale = 2)
     private BigDecimal subtotal;
 }

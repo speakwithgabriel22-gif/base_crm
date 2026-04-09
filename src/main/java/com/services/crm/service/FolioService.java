@@ -2,6 +2,7 @@ package com.services.crm.service;
 
 import com.services.crm.entity.RegistroFolio;
 import com.services.crm.repository.RegistroFolioRepository;
+import com.services.crm.repository.TenantRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -14,6 +15,7 @@ import java.util.UUID;
 public class FolioService {
 
     private final RegistroFolioRepository repository;
+    private final TenantRepository tenantRepository;
 
     /**
      * Genera el siguiente folio para un tenant y tipo dados.
@@ -30,7 +32,7 @@ public class FolioService {
                 .findForUpdate(tenantId, tipo, hoy)
                 .orElseGet(() -> {
                     RegistroFolio nuevo = new RegistroFolio();
-                    nuevo.setTenantId(tenantId);
+                    nuevo.setTenant(tenantRepository.getReferenceById(tenantId));
                     nuevo.setTipo(tipo);
                     nuevo.setFecha(hoy);
                     nuevo.setUltimoFolio(0);

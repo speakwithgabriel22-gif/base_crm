@@ -23,7 +23,6 @@ public class CashSession {
 
     /** Unique ID of the cash session (shift) */
     @Id
-    @GeneratedValue(strategy = GenerationType.UUID)
     @JdbcTypeCode(SqlTypes.UUID)
     @Column(name = "id", updatable = false, nullable = false)
     private UUID id;

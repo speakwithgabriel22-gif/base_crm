@@ -22,7 +22,6 @@ public class ReceptionItem {
 
     /** Unique ID of the reception item record */
     @Id
-    @GeneratedValue(strategy = GenerationType.UUID)
     @JdbcTypeCode(SqlTypes.UUID)
     @Column(name = "id", updatable = false, nullable = false)
     private UUID id;

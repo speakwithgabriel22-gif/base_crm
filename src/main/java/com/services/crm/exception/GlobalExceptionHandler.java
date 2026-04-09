@@ -1,6 +1,6 @@
 package com.services.crm.exception;
 
-import java.time.LocalDateTime;
+import java.time.OffsetDateTime;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -33,7 +33,7 @@ public class GlobalExceptionHandler {
         });
 
         ErrorResponse errorResponse = ErrorResponse.builder()
-                .timestamp(LocalDateTime.now())
+                .timestamp(OffsetDateTime.now())
                 .status(HttpStatus.BAD_REQUEST.value())
                 .error(HttpStatus.BAD_REQUEST.getReasonPhrase())
                 .code("VALIDATION_ERROR")
@@ -60,7 +60,7 @@ public class GlobalExceptionHandler {
         }
 
         ErrorResponse errorResponse = ErrorResponse.builder()
-                .timestamp(LocalDateTime.now())
+                .timestamp(OffsetDateTime.now())
                 .status(ex.getStatus().value())
                 .error(ex.getStatus().getReasonPhrase())
                 .code(ex.getCode())
@@ -77,7 +77,7 @@ public class GlobalExceptionHandler {
 
         return new ResponseEntity<>(
                 ErrorResponse.builder()
-                        .timestamp(LocalDateTime.now())
+                        .timestamp(OffsetDateTime.now())
                         .status(HttpStatus.BAD_REQUEST.value())
                         .error(HttpStatus.BAD_REQUEST.getReasonPhrase())
                         .code("ILLEGAL_STATE")
@@ -93,7 +93,7 @@ public class GlobalExceptionHandler {
 
         return new ResponseEntity<>(
                 ErrorResponse.builder()
-                        .timestamp(LocalDateTime.now())
+                        .timestamp(OffsetDateTime.now())
                         .status(HttpStatus.BAD_REQUEST.value())
                         .error(HttpStatus.BAD_REQUEST.getReasonPhrase())
                         .code("ILLEGAL_ARGUMENT")
@@ -120,7 +120,7 @@ public class GlobalExceptionHandler {
 
         return new ResponseEntity<>(
                 ErrorResponse.builder()
-                        .timestamp(LocalDateTime.now())
+                        .timestamp(OffsetDateTime.now())
                         .status(HttpStatus.INTERNAL_SERVER_ERROR.value())
                         .error(HttpStatus.INTERNAL_SERVER_ERROR.getReasonPhrase())
                         .code("INTERNAL_ERROR")

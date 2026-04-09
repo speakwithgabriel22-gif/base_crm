@@ -25,7 +25,6 @@ public class SupplierTransaction {
 
     /** Unique ID of the supplier transaction record */
     @Id
-    @GeneratedValue(strategy = GenerationType.UUID)
     @JdbcTypeCode(SqlTypes.UUID)
     @Column(name = "id", updatable = false, nullable = false)
     private UUID id;

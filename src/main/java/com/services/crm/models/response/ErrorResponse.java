@@ -1,6 +1,6 @@
 package com.services.crm.models.response;
 
-import java.time.LocalDateTime;
+import java.time.OffsetDateTime;
 import java.util.Map;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
@@ -16,8 +16,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class ErrorResponse {
 
-    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd HH:mm:ss")
-    private LocalDateTime timestamp;
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd HH:mm:ssZ")
+    private OffsetDateTime timestamp;
 
     private int status;
 
@@ -33,7 +33,7 @@ public class ErrorResponse {
 
     // Constructor para errores simples
     public ErrorResponse(int status, String error, String code, String message, String path) {
-        this.timestamp = LocalDateTime.now();
+        this.timestamp = OffsetDateTime.now();
         this.status = status;
         this.error = error;
         this.code = code;
