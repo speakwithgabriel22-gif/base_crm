@@ -32,8 +32,8 @@ public class SaleItem {
 
     /** Reference to the global product sold */
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
-    @JoinColumn(name = "upc", nullable = false)
-    private UpcCatalog upcCatalog;
+    @JoinColumn(name = "store_product_id", nullable = false)
+    private StoreProduct storeProduct;
 
     /** Snapshot of the product name at the moment of sale */
     @Column(name = "product_name", nullable = false, length = 200)

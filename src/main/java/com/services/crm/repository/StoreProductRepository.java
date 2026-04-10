@@ -31,7 +31,7 @@ public interface StoreProductRepository extends JpaRepository<StoreProduct, UUID
          * tiempo.
          */
         @Lock(LockModeType.PESSIMISTIC_WRITE)
-        Optional<StoreProduct> findByTenantIdAndUpcAndRegBorrado(UUID tenantId, String upc, Integer regBorrado);
+        Optional<StoreProduct> findByTenantIdAndUpcCatalogUpcAndRegBorrado(UUID tenantId, String upc, Integer regBorrado);
 
         /**
          * Lists all inventory for a specific tenant.
@@ -48,7 +48,7 @@ public interface StoreProductRepository extends JpaRepository<StoreProduct, UUID
          * Finds a product by UPC or Name in a specific tenant's inventory (SEARCH).
          */
         @Query("SELECT sp FROM StoreProduct sp " +
-                        "WHERE sp.tenant.id = :tenantId AND (sp.upc = :term OR LOWER(sp.name) LIKE LOWER(CONCAT('%', :term, '%'))) "
+                        "WHERE sp.tenant.id = :tenantId AND (sp.upcCatalog.upc = :term OR LOWER(sp.name) LIKE LOWER(CONCAT('%', :term, '%'))) "
                         +
                         "AND sp.regBorrado = 1")
         Page<StoreProduct> searchProducts(@Param("tenantId") UUID tenantId, @Param("term") String term,
@@ -58,7 +58,7 @@ public interface StoreProductRepository extends JpaRepository<StoreProduct, UUID
          * Búsqueda en tiempo real por UPC o Nombre en el inventario local.
          */
         @Query("SELECT sp FROM StoreProduct sp " +
-                        "WHERE sp.tenant.id = :tenantId AND (sp.upc LIKE CONCAT('%', :term, '%') OR LOWER(sp.name) LIKE LOWER(CONCAT('%', :term, '%'))) "
+                        "WHERE sp.tenant.id = :tenantId AND (sp.upcCatalog.upc LIKE CONCAT('%', :term, '%') OR LOWER(sp.name) LIKE LOWER(CONCAT('%', :term, '%'))) "
                         +
                         "AND sp.regBorrado = 1")
         List<StoreProduct> searchByTermRealTime(@Param("tenantId") UUID tenantId, @Param("term") String term,

@@ -27,7 +27,7 @@ public interface SaleItemRepository extends JpaRepository<SaleItem, UUID> {
      * NO carga: sale (entidad), upcCatalog (entidad completa), ivaAmount, iepsAmount.
      */
     @Query("SELECT new com.services.crm.models.response.SaleItemDTO(" +
-           "CAST(si.id AS string), si.upcCatalog.upc, si.productName, " +
+           "CAST(si.id AS string), si.storeProduct.upcCatalog.upc, si.productName, " +
            "CAST(si.measurementUnit AS string), si.quantity, si.unitPrice, si.subtotal) " +
            "FROM SaleItem si WHERE si.sale.id = :saleId")
     List<SaleItemDTO> findAllDtoBySaleId(@Param("saleId") UUID saleId);
@@ -36,6 +36,6 @@ public interface SaleItemRepository extends JpaRepository<SaleItem, UUID> {
      * Items de una venta — entidad completa con upcCatalog precargado.
      * Solo para operaciones que necesitan la entidad (raro, pero disponible).
      */
-    @EntityGraph(attributePaths = {"upcCatalog"})
+    @EntityGraph(attributePaths = {"storeProduct.upcCatalog"})
     List<SaleItem> findAllBySaleId(UUID saleId);
 }

@@ -59,6 +59,10 @@ public class SyncService {
     private final RegistroFolioRepository registroFolioRepository;
     private final ReceptionItemRepository receptionItemRepository;
 
+    // ==========================================
+    // SUPPLIERS
+    // ==========================================
+
     @Transactional
     public int processSuppliers(String tenantIdStr, List<Map<String, Object>> records) {
         UUID tenantId = toUUID(tenantIdStr);
@@ -72,8 +76,7 @@ public class SyncService {
                 processSingleSupplier(tenant, record);
                 successCount++;
             } catch (Exception e) {
-                log.error("❌ Error procesando supplier {}: {}",
-                        record.get("id"), e.getMessage());
+                log.error("❌ Error procesando supplier {}: {}", record.get("id"), e.getMessage());
             }
         }
 
@@ -115,10 +118,108 @@ public class SyncService {
         log.debug("   ✅ Supplier guardado: {}", supplier.getName());
     }
 
-    private String getString(Map<String, Object> map, String key) {
-        Object value = map.get(key);
-        return value != null ? value.toString() : null;
+    // ==========================================
+    // CASH SESSIONS (UPSERT)
+    // ==========================================
+
+    @Transactional
+    public int processCashSessions(String tenantIdStr, List<Map<String, Object>> records) {
+        UUID tenantId = toUUID(tenantIdStr);
+        Tenant tenant = tenantRepository.findById(tenantId)
+                .orElseThrow(() -> new RuntimeException("Tenant no encontrado"));
+
+        int successCount = 0;
+
+        for (Map<String, Object> record : records) {
+            try {
+                processSingleCashSession(tenant, record);
+                successCount++;
+            } catch (Exception e) {
+                log.error("❌ Error procesando cash_session {}: {}", record.get("id"), e.getMessage());
+            }
+        }
+
+        log.info("✅ Cash sessions procesados: {}/{}", successCount, records.size());
+        return successCount;
     }
+
+    private void processSingleCashSession(Tenant tenant, Map<String, Object> record) {
+        UUID id = toUUID(record.get("id"));
+
+        // 🆕 1. Buscar si YA existe una sesión ABIERTA para este tenant
+        Optional<CashSession> existingOpen = cashSessionRepository
+                .findByTenantIdAndClosedAtIsNull(tenant.getId());
+
+        CashSession session;
+        if (existingOpen.isPresent()) {
+            session = existingOpen.get();
+            log.debug("   🔄 Actualizando sesión existente: {}", session.getId());
+        } else {
+            session = cashSessionRepository.findById(id)
+                    .orElseGet(() -> CashSession.builder()
+                            .id(id)
+                            .tenant(tenant)
+                            .openedAt(OffsetDateTime.now())
+                            .build());
+        }
+
+        // 2. Actualizar campos (usar valores más altos)
+        updateCashSessionFields(session, record);
+
+        cashSessionRepository.save(session);
+        log.debug("   ✅ CashSession guardada: {} (abierta: {})",
+                session.getId(), session.getClosedAt() == null);
+    }
+
+    private void updateCashSessionFields(CashSession session, Map<String, Object> record) {
+        // Initial amount (mantener original si ya tiene)
+        if (session.getInitialAmount() == null ||
+                session.getInitialAmount().compareTo(BigDecimal.ZERO) == 0) {
+            session.setInitialAmount(new BigDecimal(record.get("initial_amount").toString()));
+        }
+
+        // Totales (usar el más alto)
+        BigDecimal newTotalSales = new BigDecimal(record.get("total_sales").toString());
+        if (newTotalSales.compareTo(session.getTotalSales()) > 0) {
+            session.setTotalSales(newTotalSales);
+        }
+
+        BigDecimal newCashTotal = new BigDecimal(record.get("cash_total").toString());
+        if (newCashTotal.compareTo(session.getCashTotal()) > 0) {
+            session.setCashTotal(newCashTotal);
+        }
+
+        BigDecimal newCardTotal = new BigDecimal(record.get("card_total").toString());
+        if (newCardTotal.compareTo(session.getCardTotal()) > 0) {
+            session.setCardTotal(newCardTotal);
+        }
+
+        BigDecimal newTransferTotal = new BigDecimal(record.get("transfer_total").toString());
+        if (newTransferTotal.compareTo(session.getTransferTotal()) > 0) {
+            session.setTransferTotal(newTransferTotal);
+        }
+
+        // Fechas
+        if (session.getOpenedAt() == null && record.get("opened_at") != null) {
+            session.setOpenedAt(OffsetDateTime.parse((String) record.get("opened_at")));
+        }
+
+        if (record.get("closed_at") != null) {
+            session.setClosedAt(OffsetDateTime.parse((String) record.get("closed_at")));
+        }
+
+        // Usuario
+        if (session.getUser() == null) {
+            UUID userId = toUUID(record.get("user_id"));
+            User user = userRepository.findById(userId)
+                    .orElseThrow(() -> new RuntimeException("User no encontrado"));
+            session.setUser(user);
+        }
+    }
+
+    // ==========================================
+    // SALES + SALE_ITEMS
+    // ==========================================
 
     @Transactional
     public int processSales(String tenantIdStr, List<Map<String, Object>> records) {
@@ -133,8 +234,7 @@ public class SyncService {
                 processSingleSale(tenant, record);
                 successCount++;
             } catch (Exception e) {
-                log.error("❌ Error procesando sale {}: {}",
-                        record.get("id"), e.getMessage());
+                log.error("❌ Error procesando sale {}: {}", record.get("id"), e.getMessage());
             }
         }
 
@@ -161,7 +261,6 @@ public class SyncService {
 
         // Sesión de caja
         UUID cashSessionId = toUUID(record.get("cash_session_id"));
-
         CashSession cashSession = cashSessionRepository
                 .findById(cashSessionId)
                 .orElseThrow(() -> new RuntimeException("CashSession no encontrada: " + cashSessionId));
@@ -185,8 +284,11 @@ public class SyncService {
 
         // 2. Procesar items de venta
         List<Map<String, Object>> items = (List<Map<String, Object>>) record.get("items");
+
         if (items != null) {
             for (Map<String, Object> itemRecord : items) {
+                log.info("🔍 Recibido SaleItem - UPC: '{}', product_name: '{}'", itemRecord.get("upc"),
+                        itemRecord.get("product_name"));
                 processSingleSaleItem(sale, itemRecord);
             }
         }
@@ -198,28 +300,31 @@ public class SyncService {
     private void processSingleSaleItem(Sale sale, Map<String, Object> record) {
         UUID itemId = toUUID(record.get("id"));
         String upc = (String) record.get("upc");
+        String productName = (String) record.get("product_name");
+        String measurementUnitStr = (String) record.get("measurement_unit");
 
-        // 🆕 Asegurar que UpcCatalog existe
-        UpcCatalog upcCatalog = upcCatalogRepository.findById(upc)
-                .orElseGet(() -> {
-                    log.info("🆕 Creando UpcCatalog para UPC: {}", upc);
-                    UpcCatalog newCatalog = UpcCatalog.builder()
-                            .upc(upc)
-                            .nombre((String) record.get("product_name"))
-                            .measurementUnit(MeasurementUnit.valueOf((String) record.get("measurement_unit")))
-                            .build();
-                    return upcCatalogRepository.save(newCatalog);
-                });
+        // Validar nombre
+        if (productName == null || productName.trim().isEmpty()) {
+            productName = "Producto " + upc;
+        }
 
+        // 1. Obtener o crear el registro de inventario (StoreProduct)
+        // Este método ahora se encarga de crear el StoreProduct y vincularlo al
+        // UpcCatalog si aplica
+        StoreProduct storeProduct = getOrCreateStoreProductInternal(sale.getTenant(), upc, productName,
+                measurementUnitStr);
+
+        // 2. Crear o actualizar SaleItem vinculado al registro de inventario de la
+        // tienda
         SaleItem item = saleItemRepository.findById(itemId)
                 .orElseGet(() -> SaleItem.builder()
                         .id(itemId)
                         .sale(sale)
                         .build());
 
-        item.setUpcCatalog(upcCatalog); // ✅ Asignar el catálogo
-        item.setProductName((String) record.get("product_name"));
-        item.setMeasurementUnit(MeasurementUnit.valueOf((String) record.get("measurement_unit")));
+        item.setStoreProduct(storeProduct);
+        item.setProductName(productName);
+        item.setMeasurementUnit(parseMeasurementUnit(measurementUnitStr));
         item.setQuantity(new BigDecimal(record.get("quantity").toString()));
         item.setUnitPrice(new BigDecimal(record.get("unit_price").toString()));
         item.setSubtotal(new BigDecimal(record.get("subtotal").toString()));
@@ -234,356 +339,90 @@ public class SyncService {
         saleItemRepository.save(item);
         log.debug("   ✅ SaleItem guardado: {} - {}", upc, item.getQuantity());
 
-        // Actualizar stock
-        Tenant tenant = sale.getTenant();
-        updateStoreProductStock(tenant, upc, item.getQuantity().negate());
+        // 3. Descontar stock
+        storeProduct.setStock(storeProduct.getStock().subtract(item.getQuantity()));
+        storeProductRepository.save(storeProduct);
     }
 
-    @Transactional
-    public int processRegistroFolios(String tenantIdStr, List<Map<String, Object>> records) {
-        UUID tenantId = toUUID(tenantIdStr);
-        Tenant tenant = tenantRepository.findById(tenantId)
-                .orElseThrow(() -> new RuntimeException("Tenant no encontrado: " + tenantIdStr));
-
-        int successCount = 0;
-
-        for (Map<String, Object> record : records) {
-            try {
-                processSingleRegistroFolio(tenant, record);
-                successCount++;
-            } catch (Exception e) {
-                log.error("❌ Error procesando registro_folio {}: {}",
-                        record.get("id"), e.getMessage());
-            }
-        }
-
-        log.info("✅ Registro folios procesados: {}/{}", successCount, records.size());
-        return successCount;
-    }
-
-    private void processSingleRegistroFolio(Tenant tenant, Map<String, Object> record) {
-        String tipo = (String) record.get("tipo");
-        String fechaStr = (String) record.get("fecha");
-        LocalDate fecha = LocalDate.parse(fechaStr);
-        Integer ultimoFolio = (Integer) record.get("ultimo_folio");
-
-        // 🆕 Buscar por tenant, tipo y fecha (NO por ID)
-        Optional<RegistroFolio> existing = registroFolioRepository
-                .findByTenantIdAndTipoAndFecha(tenant.getId(), tipo, fecha);
-
-        RegistroFolio folio;
-        if (existing.isPresent()) {
-            folio = existing.get();
-            // Solo actualizar si el folio enviado es mayor
-            if (ultimoFolio > folio.getUltimoFolio()) {
-                folio.setUltimoFolio(ultimoFolio);
-            }
+    /**
+     * Busca un StoreProduct por tenant y UPC. Si no existe, lo crea asegurando
+     * también la existencia en UpcCatalog si es un UPC válido.
+     */
+    private StoreProduct getOrCreateStoreProductInternal(Tenant tenant, String upc, String name,
+            String measurementUnit) {
+        // A. Asegurar UpcCatalog si es válido
+        final UpcCatalog finalCatalog;
+        if (isValidProductUpc(upc)) {
+            finalCatalog = upcCatalogRepository.findById(upc)
+                    .orElseGet(() -> {
+                        UpcCatalog newCatalog = UpcCatalog.builder()
+                                .upc(upc)
+                                .nombre(name != null ? name : "Producto " + upc)
+                                .measurementUnit(parseMeasurementUnit(measurementUnit))
+                                .build();
+                        return upcCatalogRepository.save(newCatalog);
+                    });
         } else {
-            folio = RegistroFolio.builder()
-                    .id(UUID.randomUUID())
-                    .tenant(tenant)
-                    .tipo(tipo)
-                    .fecha(fecha)
-                    .ultimoFolio(ultimoFolio)
-                    .build();
+            finalCatalog = null;
         }
 
-        registroFolioRepository.save(folio);
-    }
-
-    private void updateStoreProductStock(Tenant tenant, String upc, BigDecimal delta) {
-        StoreProduct product = storeProductRepository
-                .findByTenantIdAndUpcAndRegBorrado(tenant.getId(), upc, 1) // ✅ Usar upc directo
+        // B. Buscar/Crear StoreProduct
+        return storeProductRepository
+                .findByTenantIdAndUpcCatalogUpcAndRegBorrado(tenant.getId(), upc, 1)
                 .orElseGet(() -> {
-                    // Si no existe, crearlo
-                    return StoreProduct.builder()
+                    StoreProduct newProduct = StoreProduct.builder()
+                            .id(UUID.randomUUID())
                             .tenant(tenant)
-                            .upc(upc)
-                            .name("Producto " + upc) // Nombre temporal
-                            .measurementUnit("PZA") // Unidad por defecto
+                            .upcCatalog(finalCatalog)
+                            .name(name != null ? name : "Producto " + upc)
+                            .measurementUnit(measurementUnit != null ? measurementUnit : "PZA")
                             .price(BigDecimal.ZERO)
                             .stock(BigDecimal.ZERO)
                             .minStock(BigDecimal.valueOf(3))
-                            .productType("STANDARD")
+                            .productType(isValidProductUpc(upc) ? "STANDARD" : "INTERNAL")
                             .isActive(true)
                             .regBorrado(1)
                             .createdAt(OffsetDateTime.now())
                             .build();
+
+                    if (finalCatalog == null) {
+                        UpcCatalog internalCatalog = UpcCatalog.builder()
+                                .upc(upc)
+                                .nombre(name)
+                                .measurementUnit(parseMeasurementUnit(measurementUnit))
+                                .build();
+                        newProduct.setUpcCatalog(upcCatalogRepository.save(internalCatalog));
+                    }
+
+                    return storeProductRepository.save(newProduct);
                 });
-
-        product.setStock(product.getStock().add(delta));
-        product.setUpdatedAt(OffsetDateTime.now());
-        storeProductRepository.save(product);
     }
 
-    @Transactional
-    public int processStoreProducts(String tenantIdStr, List<Map<String, Object>> records) {
-        UUID tenantId = toUUID(tenantIdStr);
-        Tenant tenant = tenantRepository.findById(tenantId)
-                .orElseThrow(() -> new RuntimeException("Tenant no encontrado"));
+    // 🆕 Método para validar si un UPC es un código de barras estándar
+    private boolean isValidProductUpc(String upc) {
+        if (upc == null || upc.trim().isEmpty())
+            return false;
 
-        int successCount = 0;
-
-        for (Map<String, Object> record : records) {
-            try {
-                processSingleStoreProduct(tenant, record);
-                successCount++;
-            } catch (Exception e) {
-                log.error("❌ Error procesando store_product {}: {}",
-                        record.get("id"), e.getMessage());
-            }
+        // UPCs internos/genéricos (los que NO deben ir a upc_catalog)
+        if (upc.startsWith("INT-") || upc.startsWith("PRP-") || upc.equals("N/A")) {
+            return false;
         }
 
-        log.info("✅ Store products procesados: {}/{}", successCount, records.size());
-        return successCount;
+        // UPC estándar: solo dígitos, 12-13 caracteres
+        return upc.matches("^\\d{12,13}$");
     }
 
-    private void processSingleStoreProduct(Tenant tenant, Map<String, Object> record) {
-        UUID id = toUUID(record.get("id"));
-
-        StoreProduct product = storeProductRepository
-                .findByTenantIdAndUpcAndRegBorrado(tenant.getId(), (String) record.get("upc"), 1)
-                .orElseGet(() -> StoreProduct.builder()
-                        .id(id)
-                        .tenant(tenant)
-                        .createdAt(OffsetDateTime.now())
-                        .build());
-
-        // Asegurar UPC en catálogo
-        String upc = (String) record.get("upc");
-        upcCatalogRepository.findById(upc)
-                .orElseGet(() -> {
-                    UpcCatalog newCatalog = UpcCatalog.builder()
-                            .upc(upc)
-                            .nombre((String) record.get("name"))
-                            .measurementUnit(MeasurementUnit.valueOf((String) record.get("measurement_unit")))
-                            .build();
-                    return upcCatalogRepository.save(newCatalog);
-                });
-
-        product.setUpc(upc);
-        product.setName((String) record.get("name"));
-        product.setMeasurementUnit((String) record.get("measurement_unit"));
-        product.setPrice(new BigDecimal(record.get("price").toString()));
-        product.setStock(new BigDecimal(record.get("stock").toString()));
-        product.setMinStock(new BigDecimal(record.get("min_stock").toString()));
-
-        if (record.get("cost_price") != null) {
-            product.setCostPrice(new BigDecimal(record.get("cost_price").toString()));
+    // 🆕 Método auxiliar para parsear MeasurementUnit
+    private MeasurementUnit parseMeasurementUnit(String unitStr) {
+        if (unitStr == null || unitStr.trim().isEmpty()) {
+            return MeasurementUnit.PZA;
         }
-        if (record.get("supplier_id") != null) {
-            Supplier supplier = supplierRepository.findById(toUUID(record.get("supplier_id")))
-                    .orElse(null);
-            product.setSupplier(supplier);
+        try {
+            return MeasurementUnit.valueOf(unitStr);
+        } catch (IllegalArgumentException e) {
+            log.warn("⚠️ MeasurementUnit inválido: '{}', usando PZA", unitStr);
+            return MeasurementUnit.PZA;
         }
-        if (record.get("product_type") != null) {
-            product.setProductType((String) record.get("product_type"));
-        }
-
-        product.setIsActive((Boolean) record.get("is_active"));
-        product.setRegBorrado((Integer) record.get("reg_borrado"));
-        product.setUpdatedAt(OffsetDateTime.now());
-
-        storeProductRepository.save(product);
-        log.debug("   ✅ StoreProduct guardado: {} - ${}", product.getName(), product.getPrice());
-    }
-
-    @Transactional
-    public int processSupplierTransactions(String tenantIdStr, List<Map<String, Object>> records) {
-        UUID tenantId = toUUID(tenantIdStr);
-        Tenant tenant = tenantRepository.findById(tenantId)
-                .orElseThrow(() -> new RuntimeException("Tenant no encontrado: " + tenantIdStr));
-
-        int successCount = 0;
-
-        for (Map<String, Object> record : records) {
-            try {
-                processSingleSupplierTransaction(tenant, record);
-                successCount++;
-            } catch (Exception e) {
-                log.error("❌ Error procesando supplier_transaction {}: {}",
-                        record.get("id"), e.getMessage());
-            }
-        }
-
-        log.info("✅ Supplier transactions procesados: {}/{}", successCount, records.size());
-        return successCount;
-    }
-
-    @Transactional
-    public int processReceptionItems(String tenantIdStr, List<Map<String, Object>> records) {
-        UUID tenantId = toUUID(tenantIdStr);
-        Tenant tenant = tenantRepository.findById(tenantId)
-                .orElseThrow(() -> new RuntimeException("Tenant no encontrado: " + tenantIdStr));
-
-        int successCount = 0;
-
-        for (Map<String, Object> record : records) {
-            try {
-                processSingleReceptionItem(tenant, record);
-                successCount++;
-            } catch (Exception e) {
-                log.error("❌ Error procesando reception_item {}: {}",
-                        record.get("id"), e.getMessage());
-            }
-        }
-
-        log.info("✅ Reception items procesados: {}/{}", successCount, records.size());
-        return successCount;
-    }
-
-    private void processSingleReceptionItem(Tenant tenant, Map<String, Object> record) {
-        UUID id = toUUID(record.get("id"));
-
-        ReceptionItem item = receptionItemRepository.findById(id)
-                .orElseGet(() -> ReceptionItem.builder()
-                        .id(id)
-                        .build());
-
-        // Transacción padre (debe existir)
-        UUID transactionId = toUUID(record.get("transaction_id"));
-        SupplierTransaction transaction = supplierTransactionRepository
-                .findById(transactionId)
-                .orElseThrow(() -> new RuntimeException("SupplierTransaction no encontrada: " + transactionId));
-        item.setTransaction(transaction);
-
-        // UPC Catalog
-        String upc = (String) record.get("upc");
-        UpcCatalog upcCatalog = upcCatalogRepository.findById(upc)
-                .orElseGet(() -> {
-                    UpcCatalog newCatalog = UpcCatalog.builder()
-                            .upc(upc)
-                            .nombre((String) record.get("product_name"))
-                            .measurementUnit(MeasurementUnit.PZA)
-                            .build();
-                    return upcCatalogRepository.save(newCatalog);
-                });
-        item.setUpcCatalog(upcCatalog);
-
-        // Datos del item
-        item.setQuantity(Integer.parseInt(record.get("quantity").toString()));
-        item.setCostPrice(new BigDecimal(record.get("cost_price").toString()));
-        item.setSubtotal(new BigDecimal(record.get("subtotal").toString()));
-
-        receptionItemRepository.save(item);
-        log.debug("   ✅ ReceptionItem guardado: {} - cantidad: {}", upc, item.getQuantity());
-    }
-
-    private void processSingleSupplierTransaction(Tenant tenant, Map<String, Object> record) {
-        UUID id = toUUID(record.get("id"));
-
-        SupplierTransaction transaction = supplierTransactionRepository
-                .findById(id)
-                .orElseGet(() -> SupplierTransaction.builder()
-                        .id(id)
-                        .tenant(tenant)
-                        .createdAt(OffsetDateTime.now())
-                        .build());
-
-        // Proveedor (obligatorio)
-        UUID supplierId = toUUID(record.get("supplier_id"));
-        Supplier supplier = supplierRepository.findById(supplierId)
-                .orElseThrow(() -> new RuntimeException("Supplier no encontrado: " + supplierId));
-        transaction.setSupplier(supplier);
-
-        // Sesión de caja (opcional, solo para PAYMENT)
-        UUID cashSessionId = toUUID(record.get("cash_session_id"));
-        if (cashSessionId != null) {
-            CashSession cashSession = cashSessionRepository
-                    .findById(cashSessionId)
-                    .orElse(null);
-            transaction.setCashSession(cashSession);
-        }
-
-        // Tipo de transacción: PAYMENT o RECEPTION
-        String type = (String) record.get("type");
-        transaction.setType(TransactionType.valueOf(type));
-
-        // Monto
-        transaction.setAmount(new BigDecimal(record.get("amount").toString()));
-
-        // Nota opcional
-        transaction.setNote((String) record.get("note"));
-
-        // Soft delete
-        Object regBorrado = record.get("reg_borrado");
-        transaction.setRegBorrado(regBorrado != null ? (Integer) regBorrado : 1);
-
-        // Fechas
-        if (record.get("created_at") != null) {
-            transaction.setCreatedAt(OffsetDateTime.parse((String) record.get("created_at")));
-        }
-        transaction.setUpdatedAt(OffsetDateTime.now());
-
-        supplierTransactionRepository.save(transaction);
-        log.debug("   ✅ Supplier transaction guardado: {} - {} - ${}",
-                transaction.getType(), transaction.getSupplier().getName(), transaction.getAmount());
-    }
-
-    @Transactional
-    public int processExpenses(String tenantIdStr, List<Map<String, Object>> records) {
-        UUID tenantId = toUUID(tenantIdStr);
-        Tenant tenant = tenantRepository.findById(tenantId)
-                .orElseThrow(() -> new RuntimeException("Tenant no encontrado: " + tenantIdStr));
-
-        int successCount = 0;
-
-        for (Map<String, Object> record : records) {
-            try {
-                processSingleExpense(tenant, record);
-                successCount++;
-            } catch (Exception e) {
-                log.error("❌ Error procesando expense {}: {}",
-                        record.get("id"), e.getMessage());
-            }
-        }
-
-        log.info("✅ Expenses procesados: {}/{}", successCount, records.size());
-        return successCount;
-    }
-
-    private void processSingleExpense(Tenant tenant, Map<String, Object> record) {
-        UUID id = toUUID(record.get("id"));
-
-        // Buscar o crear el gasto
-        Expense expense = expenseRepository.findById(id)
-                .orElseGet(() -> Expense.builder()
-                        .id(id)
-                        .tenant(tenant)
-                        .build());
-
-        // Asignar sesión de caja (puede ser null)
-        UUID cashSessionId = toUUID(record.get("cash_session_id"));
-        if (cashSessionId != null) {
-            CashSession cashSession = cashSessionRepository
-                    .findById(cashSessionId)
-                    .orElse(null);
-            expense.setCashSession(cashSession);
-        }
-
-        // Mapear campos
-        expense.setCategory((String) record.get("category"));
-        expense.setDescription((String) record.get("description"));
-        expense.setNote((String) record.get("note"));
-        expense.setAmount(new BigDecimal(record.get("amount").toString()));
-
-        // Método de pago
-        String paymentMethod = (String) record.get("payment_method");
-        expense.setPaymentMethod(paymentMethod != null ? PaymentType.valueOf(paymentMethod) : PaymentType.CASH);
-
-        // Soft delete
-        Object regBorrado = record.get("reg_borrado");
-        expense.setRegBorrado(regBorrado != null ? (Integer) regBorrado : 1);
-
-        // Fechas
-        if (record.get("created_at") != null) {
-            expense.setCreatedAt(OffsetDateTime.parse((String) record.get("created_at")));
-        }
-        expense.setUpdatedAt(OffsetDateTime.now());
-
-        expenseRepository.save(expense);
-        log.debug("   ✅ Expense guardado: {} - ${}",
-                expense.getDescription(), expense.getAmount());
     }
 
     private void updateCashSessionTotals(CashSession session, Sale sale) {
@@ -604,6 +443,339 @@ public class SyncService {
         cashSessionRepository.save(session);
     }
 
+    // ==========================================
+    // STORE PRODUCTS
+    // ==========================================
+
+    // updateStoreProductStock removido y reemplazado por lógica en
+    // getOrCreateStoreProductInternal y subtractStock
+
+    @Transactional
+    public int processStoreProducts(String tenantIdStr, List<Map<String, Object>> records) {
+        UUID tenantId = toUUID(tenantIdStr);
+        Tenant tenant = tenantRepository.findById(tenantId)
+                .orElseThrow(() -> new RuntimeException("Tenant no encontrado"));
+
+        int successCount = 0;
+
+        for (Map<String, Object> record : records) {
+            try {
+                processSingleStoreProduct(tenant, record);
+                successCount++;
+            } catch (Exception e) {
+                log.error("❌ Error procesando store_product {}: {}", record.get("id"), e.getMessage());
+            }
+        }
+
+        log.info("✅ Store products procesados: {}/{}", successCount, records.size());
+        return successCount;
+    }
+
+    private void processSingleStoreProduct(Tenant tenant, Map<String, Object> record) {
+        log.info("🔍 Recibido StoreProduct - UPC: '{}', name: '{}'", record.get("upc"),
+                record.get("name"));
+
+        UUID id = toUUID(record.get("id"));
+        String upc = (String) record.get("upc");
+
+        StoreProduct product = storeProductRepository
+                .findByTenantIdAndUpcCatalogUpcAndRegBorrado(tenant.getId(), upc, 1)
+                .orElseGet(() -> StoreProduct.builder()
+                        .id(id)
+                        .tenant(tenant)
+                        .createdAt(OffsetDateTime.now())
+                        .build());
+
+        // Asegurar UPC en catálogo
+        UpcCatalog catalog = upcCatalogRepository.findById(upc)
+                .orElseGet(() -> {
+                    UpcCatalog newCatalog = UpcCatalog.builder()
+                            .upc(upc)
+                            .nombre((String) record.get("name"))
+                            .measurementUnit(parseMeasurementUnit((String) record.get("measurement_unit")))
+                            .build();
+                    return upcCatalogRepository.save(newCatalog);
+                });
+
+        product.setUpcCatalog(catalog);
+        product.setName((String) record.get("name"));
+        product.setMeasurementUnit((String) record.get("measurement_unit"));
+        product.setPrice(new BigDecimal(record.get("price").toString()));
+        product.setStock(new BigDecimal(record.get("stock").toString()));
+        product.setMinStock(new BigDecimal(record.get("min_stock").toString()));
+
+        if (record.get("cost_price") != null) {
+            product.setCostPrice(new BigDecimal(record.get("cost_price").toString()));
+        }
+        if (record.get("supplier_id") != null) {
+            Supplier supplier = supplierRepository.findById(toUUID(record.get("supplier_id")))
+                    .orElse(null);
+            product.setSupplier(supplier);
+        }
+        if (record.get("product_type") != null) {
+            product.setProductType((String) record.get("product_type"));
+        }
+
+        Object isActive = record.get("is_active");
+        product.setIsActive(
+                isActive != null && (isActive instanceof Boolean ? (Boolean) isActive : (int) isActive == 1));
+
+        Object regBorrado = record.get("reg_borrado");
+        product.setRegBorrado(regBorrado != null ? (Integer) regBorrado : 1);
+        product.setUpdatedAt(OffsetDateTime.now());
+
+        storeProductRepository.save(product);
+        log.debug("   ✅ StoreProduct guardado: {} - ${}", product.getName(), product.getPrice());
+    }
+
+    // ==========================================
+    // REGISTRO FOLIOS
+    // ==========================================
+
+    @Transactional
+    public int processRegistroFolios(String tenantIdStr, List<Map<String, Object>> records) {
+        UUID tenantId = toUUID(tenantIdStr);
+        Tenant tenant = tenantRepository.findById(tenantId)
+                .orElseThrow(() -> new RuntimeException("Tenant no encontrado: " + tenantIdStr));
+
+        int successCount = 0;
+
+        for (Map<String, Object> record : records) {
+            try {
+                processSingleRegistroFolio(tenant, record);
+                successCount++;
+            } catch (Exception e) {
+                log.error("❌ Error procesando registro_folio {}: {}", record.get("id"), e.getMessage());
+            }
+        }
+
+        log.info("✅ Registro folios procesados: {}/{}", successCount, records.size());
+        return successCount;
+    }
+
+    private void processSingleRegistroFolio(Tenant tenant, Map<String, Object> record) {
+        String tipo = (String) record.get("tipo");
+        String fechaStr = (String) record.get("fecha");
+        LocalDate fecha = LocalDate.parse(fechaStr);
+        Integer ultimoFolio = (Integer) record.get("ultimo_folio");
+
+        Optional<RegistroFolio> existing = registroFolioRepository
+                .findForUpdate(tenant.getId(), tipo, fecha);
+
+        RegistroFolio folio;
+        if (existing.isPresent()) {
+            folio = existing.get();
+            if (ultimoFolio > folio.getUltimoFolio()) {
+                folio.setUltimoFolio(ultimoFolio);
+            }
+        } else {
+            folio = RegistroFolio.builder()
+                    .id(UUID.randomUUID())
+                    .tenant(tenant)
+                    .tipo(tipo)
+                    .fecha(fecha)
+                    .ultimoFolio(ultimoFolio)
+                    .build();
+        }
+
+        registroFolioRepository.save(folio);
+    }
+
+    // ==========================================
+    // EXPENSES
+    // ==========================================
+
+    @Transactional
+    public int processExpenses(String tenantIdStr, List<Map<String, Object>> records) {
+        UUID tenantId = toUUID(tenantIdStr);
+        Tenant tenant = tenantRepository.findById(tenantId)
+                .orElseThrow(() -> new RuntimeException("Tenant no encontrado: " + tenantIdStr));
+
+        int successCount = 0;
+
+        for (Map<String, Object> record : records) {
+            try {
+                processSingleExpense(tenant, record);
+                successCount++;
+            } catch (Exception e) {
+                log.error("❌ Error procesando expense {}: {}", record.get("id"), e.getMessage());
+            }
+        }
+
+        log.info("✅ Expenses procesados: {}/{}", successCount, records.size());
+        return successCount;
+    }
+
+    private void processSingleExpense(Tenant tenant, Map<String, Object> record) {
+        UUID id = toUUID(record.get("id"));
+
+        Expense expense = expenseRepository.findById(id)
+                .orElseGet(() -> Expense.builder()
+                        .id(id)
+                        .tenant(tenant)
+                        .build());
+
+        UUID cashSessionId = toUUID(record.get("cash_session_id"));
+        if (cashSessionId != null) {
+            CashSession cashSession = cashSessionRepository
+                    .findById(cashSessionId)
+                    .orElse(null);
+            expense.setCashSession(cashSession);
+        }
+
+        expense.setCategory((String) record.get("category"));
+        expense.setDescription((String) record.get("description"));
+        expense.setNote((String) record.get("note"));
+        expense.setAmount(new BigDecimal(record.get("amount").toString()));
+
+        String paymentMethod = (String) record.get("payment_method");
+        expense.setPaymentMethod(paymentMethod != null ? PaymentType.valueOf(paymentMethod) : PaymentType.CASH);
+
+        Object regBorrado = record.get("reg_borrado");
+        expense.setRegBorrado(regBorrado != null ? (Integer) regBorrado : 1);
+
+        if (record.get("created_at") != null) {
+            expense.setCreatedAt(OffsetDateTime.parse((String) record.get("created_at")));
+        }
+        expense.setUpdatedAt(OffsetDateTime.now());
+
+        expenseRepository.save(expense);
+        log.debug("   ✅ Expense guardado: {} - ${}", expense.getDescription(), expense.getAmount());
+    }
+
+    // ==========================================
+    // SUPPLIER TRANSACTIONS
+    // ==========================================
+
+    @Transactional
+    public int processSupplierTransactions(String tenantIdStr, List<Map<String, Object>> records) {
+        UUID tenantId = toUUID(tenantIdStr);
+        Tenant tenant = tenantRepository.findById(tenantId)
+                .orElseThrow(() -> new RuntimeException("Tenant no encontrado: " + tenantIdStr));
+
+        int successCount = 0;
+
+        for (Map<String, Object> record : records) {
+            try {
+                processSingleSupplierTransaction(tenant, record);
+                successCount++;
+            } catch (Exception e) {
+                log.error("❌ Error procesando supplier_transaction {}: {}", record.get("id"), e.getMessage());
+            }
+        }
+
+        log.info("✅ Supplier transactions procesados: {}/{}", successCount, records.size());
+        return successCount;
+    }
+
+    private void processSingleSupplierTransaction(Tenant tenant, Map<String, Object> record) {
+        UUID id = toUUID(record.get("id"));
+
+        SupplierTransaction transaction = supplierTransactionRepository
+                .findById(id)
+                .orElseGet(() -> SupplierTransaction.builder()
+                        .id(id)
+                        .tenant(tenant)
+                        .createdAt(OffsetDateTime.now())
+                        .build());
+
+        UUID supplierId = toUUID(record.get("supplier_id"));
+        Supplier supplier = supplierRepository.findById(supplierId)
+                .orElseThrow(() -> new RuntimeException("Supplier no encontrado: " + supplierId));
+        transaction.setSupplier(supplier);
+
+        UUID cashSessionId = toUUID(record.get("cash_session_id"));
+        if (cashSessionId != null) {
+            CashSession cashSession = cashSessionRepository
+                    .findById(cashSessionId)
+                    .orElse(null);
+            transaction.setCashSession(cashSession);
+        }
+
+        String type = (String) record.get("type");
+        transaction.setType(TransactionType.valueOf(type));
+
+        transaction.setAmount(new BigDecimal(record.get("amount").toString()));
+        transaction.setNote((String) record.get("note"));
+
+        Object regBorrado = record.get("reg_borrado");
+        transaction.setRegBorrado(regBorrado != null ? (Integer) regBorrado : 1);
+
+        if (record.get("created_at") != null) {
+            transaction.setCreatedAt(OffsetDateTime.parse((String) record.get("created_at")));
+        }
+        transaction.setUpdatedAt(OffsetDateTime.now());
+
+        supplierTransactionRepository.save(transaction);
+        log.debug("   ✅ Supplier transaction guardado: {} - {} - ${}",
+                transaction.getType(), transaction.getSupplier().getName(), transaction.getAmount());
+    }
+
+    // ==========================================
+    // RECEPTION ITEMS
+    // ==========================================
+
+    @Transactional
+    public int processReceptionItems(String tenantIdStr, List<Map<String, Object>> records) {
+        UUID tenantId = toUUID(tenantIdStr);
+        Tenant tenant = tenantRepository.findById(tenantId)
+                .orElseThrow(() -> new RuntimeException("Tenant no encontrado: " + tenantIdStr));
+
+        int successCount = 0;
+
+        for (Map<String, Object> record : records) {
+            try {
+                processSingleReceptionItem(tenant, record);
+                successCount++;
+            } catch (Exception e) {
+                log.error("❌ Error procesando reception_item {}: {}", record.get("id"), e.getMessage());
+            }
+        }
+
+        log.info("✅ Reception items procesados: {}/{}", successCount, records.size());
+        return successCount;
+    }
+
+    private void processSingleReceptionItem(Tenant tenant, Map<String, Object> record) {
+        UUID id = toUUID(record.get("id"));
+
+        ReceptionItem item = receptionItemRepository.findById(id)
+                .orElseGet(() -> ReceptionItem.builder()
+                        .id(id)
+                        .build());
+
+        UUID transactionId = toUUID(record.get("transaction_id"));
+        SupplierTransaction transaction = supplierTransactionRepository
+                .findById(transactionId)
+                .orElseThrow(() -> new RuntimeException("SupplierTransaction no encontrada: " + transactionId));
+        item.setTransaction(transaction);
+
+        String upc = (String) record.get("upc");
+        String productName = (String) record.get("product_name");
+
+        UpcCatalog upcCatalog = upcCatalogRepository.findById(upc)
+                .orElseGet(() -> {
+                    UpcCatalog newCatalog = UpcCatalog.builder()
+                            .upc(upc)
+                            .nombre(productName)
+                            .measurementUnit(MeasurementUnit.PZA)
+                            .build();
+                    return upcCatalogRepository.save(newCatalog);
+                });
+        item.setUpcCatalog(upcCatalog);
+
+        item.setQuantity(Integer.parseInt(record.get("quantity").toString()));
+        item.setCostPrice(new BigDecimal(record.get("cost_price").toString()));
+        item.setSubtotal(new BigDecimal(record.get("subtotal").toString()));
+
+        receptionItemRepository.save(item);
+        log.debug("   ✅ ReceptionItem guardado: {} - cantidad: {}", upc, item.getQuantity());
+    }
+
+    // ==========================================
+    // UTILIDADES
+    // ==========================================
+
     private UUID toUUID(Object value) {
         if (value == null)
             return null;
@@ -613,67 +785,8 @@ public class SyncService {
         return UUID.fromString(str);
     }
 
-    @Transactional
-    public int processCashSessions(String tenantIdStr, List<Map<String, Object>> records) {
-        UUID tenantId = toUUID(tenantIdStr);
-        Tenant tenant = tenantRepository.findById(tenantId)
-                .orElseThrow(() -> new RuntimeException("Tenant no encontrado"));
-
-        int successCount = 0;
-
-        for (Map<String, Object> record : records) {
-            try {
-                processSingleCashSession(tenant, record);
-                successCount++;
-            } catch (Exception e) {
-                log.error("❌ Error procesando cash_session {}: {}",
-                        record.get("id"), e.getMessage());
-            }
-        }
-
-        log.info("✅ Cash sessions procesados: {}/{}", successCount, records.size());
-        return successCount;
+    private String getString(Map<String, Object> map, String key) {
+        Object value = map.get(key);
+        return value != null ? value.toString() : null;
     }
-
-    private void processSingleCashSession(Tenant tenant, Map<String, Object> record) {
-        UUID id = toUUID(record.get("id"));
-        CashSession session = cashSessionRepository.findById(id)
-                .orElseGet(() -> CashSession.builder()
-                        .id(id)
-                        .tenant(tenant)
-                        .build());
-
-        session.setInitialAmount(new BigDecimal(record.get("initial_amount").toString()));
-        session.setTotalSales(new BigDecimal(record.get("total_sales").toString()));
-        session.setCashTotal(new BigDecimal(record.get("cash_total").toString()));
-        session.setCardTotal(new BigDecimal(record.get("card_total").toString()));
-        session.setTransferTotal(new BigDecimal(record.get("transfer_total").toString()));
-        session.setOpenedAt(OffsetDateTime.parse((String) record.get("opened_at")));
-
-        if (record.get("closed_at") != null) {
-            session.setClosedAt(OffsetDateTime.parse((String) record.get("closed_at")));
-        } else {
-            // 🆕 Validar regla de negocio: "Solo una caja abierta por tenant"
-            // Si la sesión que llega está abierta (closed_at == null),
-            // verificamos que no exista otra abierta con ID diferente.
-            Optional<CashSession> activeSession = cashSessionRepository
-                    .findByTenantIdAndClosedAtIsNull(tenant.getId());
-
-            if (activeSession.isPresent() && !activeSession.get().getId().equals(session.getId())) {
-                log.warn("⚠️ Intento de sincronizar segunda sesión abierta para tenant {}. Saltando registro.",
-                        tenant.getId());
-                throw new RuntimeException("Ya existe una sesión abierta para este tenant.");
-            }
-            session.setClosedAt(null);
-        }
-
-        UUID userId = toUUID(record.get("user_id"));
-        User user = userRepository.findById(userId)
-                .orElseThrow(() -> new RuntimeException("User no encontrado"));
-        session.setUser(user);
-
-        cashSessionRepository.save(session);
-        log.debug("   ✅ Cash session guardada: {}", session.getId());
-    }
-
 }

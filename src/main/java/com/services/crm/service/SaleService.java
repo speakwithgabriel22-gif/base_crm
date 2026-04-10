@@ -63,7 +63,7 @@ public class SaleService {
         // Buscar cada producto por UPC dentro del tenant
         for (SaleItemRequest itemReq : request.items()) {
             StoreProduct product = storeProductRepository
-                    .findByTenantIdAndUpcAndRegBorrado(
+                    .findByTenantIdAndUpcCatalogUpcAndRegBorrado(
                             tenant.getId(), itemReq.upc(), 1)
                     .orElseGet(() -> {
                         // 1. Si no existe en la tienda, buscar o crearlo en el catálogo global
@@ -77,7 +77,7 @@ public class SaleService {
                         // 2. Crear StoreProduct localmente para permitir la venta
                         StoreProduct newProduct = new StoreProduct();
                         newProduct.setTenant(tenant);
-                        newProduct.setUpc(catalog.getUpc());
+                        newProduct.setUpcCatalog(catalog);
                         newProduct.setName(catalog.getNombre());
                         if (catalog.getMeasurementUnit() != null) {
                             newProduct.setMeasurementUnit(catalog.getMeasurementUnit().name());
@@ -103,19 +103,14 @@ public class SaleService {
             product.setStock(product.getStock().subtract(quantity));
             storeProductRepository.save(product);
 
-            // Obtener el catálogo original para el SaleItem
-            UpcCatalog catalogItem = upcCatalogRepository.findByUpc(product.getUpc())
-                    .orElseGet(() -> upcCatalogRepository.save(
-                             UpcCatalog.builder()
-                                    .upc(product.getUpc())
-                                    .nombre(product.getName() != null ? product.getName() : "Art. " + product.getUpc())
-                                    .build()));
+            // Obtener el catálogo original para el SaleItem (vía StoreProduct)
+            UpcCatalog catalogItem = product.getUpcCatalog();
 
             // Crear item de venta
             BigDecimal subtotal = itemReq.unitPrice().multiply(quantity);
             SaleItem item = SaleItem.builder()
                     .sale(sale)
-                    .upcCatalog(catalogItem)
+                    .storeProduct(product)
                     .productName(product.getName())
                     .measurementUnit(catalogItem.getMeasurementUnit())
                     .quantity(quantity)

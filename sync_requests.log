@@ -1,620 +1,23 @@
-=========== [ 2026-04-08T17:22:37.976248300-06:00 ] ===========
-TENANT_ID: a213a6e5-038b-49a8-99fc-85a9222920cd
-RECORDS COUNT: 1
-PAYLOAD: 
-{
-  "tenantId" : "a213a6e5-038b-49a8-99fc-85a9222920cd",
-  "records" : [ {
-    "id" : "f47ac10b-58cc-4372-a567-0e02b2c3d479",
-    "tenant_id" : "62d4dcb1-71dd-4a28-85c6-a6826ff56c85",
-    "name" : "Coca Cola FEMSA",
-    "contact_name" : "Juan Pérez",
-    "phone" : "5551234567",
-    "category" : "Refrescos",
-    "visit_day" : "Lunes",
-    "delivery_day" : "Miércoles",
-    "frequency" : "Semanal",
-    "total_debt" : 1500.0,
-    "is_active" : 1,
-    "reg_borrado" : 1,
-    "created_at" : "2026-04-08T10:00:00Z",
-    "updated_at" : "2026-04-08T10:00:00Z"
-  } ]
-}
-
-=========== [ 2026-04-08T17:23:18.057445800-06:00 ] ===========
-TENANT_ID: d7c394ca-e074-4338-81c8-83b5f2d158e5
-RECORDS COUNT: 1
-PAYLOAD: 
-{
-  "tenantId" : "d7c394ca-e074-4338-81c8-83b5f2d158e5",
-  "records" : [ {
-    "id" : "f47ac10b-58cc-4372-a567-0e02b2c3d479",
-    "tenant_id" : "62d4dcb1-71dd-4a28-85c6-a6826ff56c85",
-    "name" : "Coca Cola FEMSA",
-    "contact_name" : "Juan Pérez",
-    "phone" : "5551234567",
-    "category" : "Refrescos",
-    "visit_day" : "Lunes",
-    "delivery_day" : "Miércoles",
-    "frequency" : "Semanal",
-    "total_debt" : 1500.0,
-    "is_active" : 1,
-    "reg_borrado" : 1,
-    "created_at" : "2026-04-08T10:00:00Z",
-    "updated_at" : "2026-04-08T10:00:00Z"
-  } ]
-}
-
-=========== [ 2026-04-08T18:23:26.807880100-06:00 ] ===========
-TENANT_ID: d7c394ca-e074-4338-81c8-83b5f2d158e5
-RECORDS COUNT: 1
-PAYLOAD: 
-{
-  "tenantId" : "d7c394ca-e074-4338-81c8-83b5f2d158e5",
-  "records" : [ {
-    "id" : "a9c715fc-9dea-4269-b228-5b60f8fa3234",
-    "tenant_id" : "d7c394ca-e074-4338-81c8-83b5f2d158e5",
-    "name" : "Gabriel Juárez",
-    "contact_name" : null,
-    "phone" : "9991557878",
-    "category" : "Lacteos",
-    "visit_day" : "Lunes",
-    "delivery_day" : "Lunes",
-    "frequency" : "Semanal",
-    "total_debt" : 100.0,
-    "is_active" : 1,
-    "reg_borrado" : 1,
-    "created_at" : "2026-04-08T18:08:42.409971",
-    "updated_at" : "2026-04-08T18:08:42.409971",
-    "is_dirty" : 1,
-    "synced_at" : null
-  } ]
-}
-
-=========== [ 2026-04-08T18:26:26.973632300-06:00 ] ===========
-TENANT_ID: d7c394ca-e074-4338-81c8-83b5f2d158e5
-RECORDS COUNT: 1
-PAYLOAD: 
-{
-  "tenantId" : "d7c394ca-e074-4338-81c8-83b5f2d158e5",
-  "records" : [ {
-    "id" : "a6044268-19bc-496d-b46d-786bde387c4e",
-    "tenant_id" : "d7c394ca-e074-4338-81c8-83b5f2d158e5",
-    "name" : "Gabriel Adrian",
-    "contact_name" : null,
-    "phone" : "9851459075",
-    "category" : "Gggf",
-    "visit_day" : "Lunes",
-    "delivery_day" : "Lunes",
-    "frequency" : "Semanal",
-    "total_debt" : 250.0,
-    "is_active" : 1,
-    "reg_borrado" : 1,
-    "created_at" : "2026-04-08T18:26:18.240276",
-    "updated_at" : "2026-04-08T18:26:18.240276",
-    "is_dirty" : 1,
-    "synced_at" : null
-  } ]
-}
-
-=========== [ 2026-04-08T19:06:01.531286100-06:00 ] ===========
-TENANT_ID: d7c394ca-e074-4338-81c8-83b5f2d158e5
-RECORDS COUNT: 1
-PAYLOAD: 
-{
-  "tenantId" : "d7c394ca-e074-4338-81c8-83b5f2d158e5",
-  "records" : [ {
-    "id" : "a9fac7ae-dd4f-455d-915d-4d0aac8f36d2",
-    "tenant_id" : "d7c394ca-e074-4338-81c8-83b5f2d158e5",
-    "name" : "Jorge Sánchez",
-    "contact_name" : null,
-    "phone" : "9852571389",
-    "category" : "Lácteos",
-    "visit_day" : "Lunes",
-    "delivery_day" : "Lunes",
-    "frequency" : "Semanal",
-    "total_debt" : 100.0,
-    "is_active" : 1,
-    "reg_borrado" : 1,
-    "created_at" : "2026-04-08T19:05:28.785888",
-    "updated_at" : "2026-04-08T19:05:28.785888",
-    "is_dirty" : 1,
-    "synced_at" : null
-  } ]
-}
-
-=========== [ 2026-04-08T21:38:25.689430500-06:00 ] ===========
-TENANT_ID: d6a743b0-6b8b-4d19-918b-395e4fe04758
-RECORDS COUNT: 1
-PAYLOAD: 
-{
-  "tenantId" : "d6a743b0-6b8b-4d19-918b-395e4fe04758",
-  "records" : [ {
-    "id" : "d098229b-76ff-408b-8402-12f3daaa751d",
-    "tenant_id" : "d6a743b0-6b8b-4d19-918b-395e4fe04758",
-    "name" : "Imelda De La Cruz",
-    "contact_name" : null,
-    "phone" : "9991557878",
-    "category" : "Lácteos",
-    "visit_day" : "Lunes",
-    "delivery_day" : "Lunes",
-    "frequency" : "Semanal",
-    "total_debt" : 1000.0,
-    "is_active" : 1,
-    "reg_borrado" : 1,
-    "created_at" : "2026-04-08T21:37:49.895924Z",
-    "updated_at" : "2026-04-08T21:37:49.895924Z",
-    "is_dirty" : 1,
-    "synced_at" : null
-  } ]
-}
-
-=========== [ 2026-04-09T00:25:23.445651300-06:00 ] ===========
-TENANT_ID: 36ca918f-2281-4cf0-8660-d3bc03935a98
-RECORDS COUNT: 2
-PAYLOAD: 
-{
-  "tenantId" : "36ca918f-2281-4cf0-8660-d3bc03935a98",
-  "records" : [ {
-    "id" : "cc981abd-ca54-42ed-beb8-472e32912dff",
-    "tenant_id" : "36ca918f-2281-4cf0-8660-d3bc03935a98",
-    "user_id" : "b8937fd7-e681-4dad-93ba-b26d53b1a0d3",
-    "cash_session_id" : "3e28c5b3-45f4-4ce6-bb8a-423d57687b29",
-    "folio" : "SAL-20260409-0001",
-    "total" : 25.0,
-    "payment_type" : "CASH",
-    "reg_borrado" : 1,
-    "created_at" : "2026-04-09T00:17:29.190564Z",
-    "updated_at" : "2026-04-09T00:17:29.190564Z",
-    "items" : [ {
-      "id" : "cc981abd-ca54-42ed-beb8-472e32912dff-7503039601277",
-      "sale_id" : "cc981abd-ca54-42ed-beb8-472e32912dff",
-      "upc" : "7503039601277",
-      "product_name" : "soary",
-      "measurement_unit" : "PZA",
-      "iva_amount" : 0.0,
-      "ieps_amount" : 0.0,
-      "quantity" : 1.0,
-      "unit_price" : 25.0,
-      "subtotal" : 25.0
-    } ]
-  }, {
-    "id" : "aea6caaa-7475-49fb-9d56-45c7bb6574e9",
-    "tenant_id" : "36ca918f-2281-4cf0-8660-d3bc03935a98",
-    "user_id" : "b8937fd7-e681-4dad-93ba-b26d53b1a0d3",
-    "cash_session_id" : "3e28c5b3-45f4-4ce6-bb8a-423d57687b29",
-    "folio" : "SAL-20260409-0002",
-    "total" : 25.0,
-    "payment_type" : "CARD",
-    "reg_borrado" : 1,
-    "created_at" : "2026-04-09T00:18:02.537085Z",
-    "updated_at" : "2026-04-09T00:18:02.537085Z",
-    "items" : [ {
-      "id" : "aea6caaa-7475-49fb-9d56-45c7bb6574e9-75007614",
-      "sale_id" : "aea6caaa-7475-49fb-9d56-45c7bb6574e9",
-      "upc" : "75007614",
-      "product_name" : "Coca cola 600 ml",
-      "measurement_unit" : "PZA",
-      "iva_amount" : 0.0,
-      "ieps_amount" : 0.0,
-      "quantity" : 1.0,
-      "unit_price" : 25.0,
-      "subtotal" : 25.0
-    } ]
-  } ]
-}
-
-=========== [ 2026-04-09T00:26:08.096242-06:00 ] ===========
-TENANT_ID: 36ca918f-2281-4cf0-8660-d3bc03935a98
-RECORDS COUNT: 2
-PAYLOAD: 
-{
-  "tenantId" : "36ca918f-2281-4cf0-8660-d3bc03935a98",
-  "records" : [ {
-    "id" : "cc981abd-ca54-42ed-beb8-472e32912dff",
-    "tenant_id" : "36ca918f-2281-4cf0-8660-d3bc03935a98",
-    "user_id" : "b8937fd7-e681-4dad-93ba-b26d53b1a0d3",
-    "cash_session_id" : "3e28c5b3-45f4-4ce6-bb8a-423d57687b29",
-    "folio" : "SAL-20260409-0001",
-    "total" : 25.0,
-    "payment_type" : "CASH",
-    "reg_borrado" : 1,
-    "created_at" : "2026-04-09T00:17:29.190564Z",
-    "updated_at" : "2026-04-09T00:17:29.190564Z",
-    "items" : [ {
-      "id" : "cc981abd-ca54-42ed-beb8-472e32912dff-7503039601277",
-      "sale_id" : "cc981abd-ca54-42ed-beb8-472e32912dff",
-      "upc" : "7503039601277",
-      "product_name" : "soary",
-      "measurement_unit" : "PZA",
-      "iva_amount" : 0.0,
-      "ieps_amount" : 0.0,
-      "quantity" : 1.0,
-      "unit_price" : 25.0,
-      "subtotal" : 25.0
-    } ]
-  }, {
-    "id" : "aea6caaa-7475-49fb-9d56-45c7bb6574e9",
-    "tenant_id" : "36ca918f-2281-4cf0-8660-d3bc03935a98",
-    "user_id" : "b8937fd7-e681-4dad-93ba-b26d53b1a0d3",
-    "cash_session_id" : "3e28c5b3-45f4-4ce6-bb8a-423d57687b29",
-    "folio" : "SAL-20260409-0002",
-    "total" : 25.0,
-    "payment_type" : "CARD",
-    "reg_borrado" : 1,
-    "created_at" : "2026-04-09T00:18:02.537085Z",
-    "updated_at" : "2026-04-09T00:18:02.537085Z",
-    "items" : [ {
-      "id" : "aea6caaa-7475-49fb-9d56-45c7bb6574e9-75007614",
-      "sale_id" : "aea6caaa-7475-49fb-9d56-45c7bb6574e9",
-      "upc" : "75007614",
-      "product_name" : "Coca cola 600 ml",
-      "measurement_unit" : "PZA",
-      "iva_amount" : 0.0,
-      "ieps_amount" : 0.0,
-      "quantity" : 1.0,
-      "unit_price" : 25.0,
-      "subtotal" : 25.0
-    } ]
-  } ]
-}
-
-=========== [ 2026-04-09T00:26:23.341817300-06:00 ] ===========
-TENANT_ID: 36ca918f-2281-4cf0-8660-d3bc03935a98
-RECORDS COUNT: 2
-PAYLOAD: 
-{
-  "tenantId" : "36ca918f-2281-4cf0-8660-d3bc03935a98",
-  "records" : [ {
-    "id" : "cc981abd-ca54-42ed-beb8-472e32912dff",
-    "tenant_id" : "36ca918f-2281-4cf0-8660-d3bc03935a98",
-    "user_id" : "b8937fd7-e681-4dad-93ba-b26d53b1a0d3",
-    "cash_session_id" : "3e28c5b3-45f4-4ce6-bb8a-423d57687b29",
-    "folio" : "SAL-20260409-0001",
-    "total" : 25.0,
-    "payment_type" : "CASH",
-    "reg_borrado" : 1,
-    "created_at" : "2026-04-09T00:17:29.190564Z",
-    "updated_at" : "2026-04-09T00:17:29.190564Z",
-    "items" : [ {
-      "id" : "cc981abd-ca54-42ed-beb8-472e32912dff-7503039601277",
-      "sale_id" : "cc981abd-ca54-42ed-beb8-472e32912dff",
-      "upc" : "7503039601277",
-      "product_name" : "soary",
-      "measurement_unit" : "PZA",
-      "iva_amount" : 0.0,
-      "ieps_amount" : 0.0,
-      "quantity" : 1.0,
-      "unit_price" : 25.0,
-      "subtotal" : 25.0
-    } ]
-  }, {
-    "id" : "aea6caaa-7475-49fb-9d56-45c7bb6574e9",
-    "tenant_id" : "36ca918f-2281-4cf0-8660-d3bc03935a98",
-    "user_id" : "b8937fd7-e681-4dad-93ba-b26d53b1a0d3",
-    "cash_session_id" : "3e28c5b3-45f4-4ce6-bb8a-423d57687b29",
-    "folio" : "SAL-20260409-0002",
-    "total" : 25.0,
-    "payment_type" : "CARD",
-    "reg_borrado" : 1,
-    "created_at" : "2026-04-09T00:18:02.537085Z",
-    "updated_at" : "2026-04-09T00:18:02.537085Z",
-    "items" : [ {
-      "id" : "aea6caaa-7475-49fb-9d56-45c7bb6574e9-75007614",
-      "sale_id" : "aea6caaa-7475-49fb-9d56-45c7bb6574e9",
-      "upc" : "75007614",
-      "product_name" : "Coca cola 600 ml",
-      "measurement_unit" : "PZA",
-      "iva_amount" : 0.0,
-      "ieps_amount" : 0.0,
-      "quantity" : 1.0,
-      "unit_price" : 25.0,
-      "subtotal" : 25.0
-    } ]
-  } ]
-}
-
-=========== [ 2026-04-09T00:28:23.381707500-06:00 ] ===========
-TENANT_ID: 36ca918f-2281-4cf0-8660-d3bc03935a98
-RECORDS COUNT: 2
-PAYLOAD: 
-{
-  "tenantId" : "36ca918f-2281-4cf0-8660-d3bc03935a98",
-  "records" : [ {
-    "id" : "cc981abd-ca54-42ed-beb8-472e32912dff",
-    "tenant_id" : "36ca918f-2281-4cf0-8660-d3bc03935a98",
-    "user_id" : "b8937fd7-e681-4dad-93ba-b26d53b1a0d3",
-    "cash_session_id" : "3e28c5b3-45f4-4ce6-bb8a-423d57687b29",
-    "folio" : "SAL-20260409-0001",
-    "total" : 25.0,
-    "payment_type" : "CASH",
-    "reg_borrado" : 1,
-    "created_at" : "2026-04-09T00:17:29.190564Z",
-    "updated_at" : "2026-04-09T00:17:29.190564Z",
-    "items" : [ {
-      "id" : "cc981abd-ca54-42ed-beb8-472e32912dff-7503039601277",
-      "sale_id" : "cc981abd-ca54-42ed-beb8-472e32912dff",
-      "upc" : "7503039601277",
-      "product_name" : "soary",
-      "measurement_unit" : "PZA",
-      "iva_amount" : 0.0,
-      "ieps_amount" : 0.0,
-      "quantity" : 1.0,
-      "unit_price" : 25.0,
-      "subtotal" : 25.0
-    } ]
-  }, {
-    "id" : "aea6caaa-7475-49fb-9d56-45c7bb6574e9",
-    "tenant_id" : "36ca918f-2281-4cf0-8660-d3bc03935a98",
-    "user_id" : "b8937fd7-e681-4dad-93ba-b26d53b1a0d3",
-    "cash_session_id" : "3e28c5b3-45f4-4ce6-bb8a-423d57687b29",
-    "folio" : "SAL-20260409-0002",
-    "total" : 25.0,
-    "payment_type" : "CARD",
-    "reg_borrado" : 1,
-    "created_at" : "2026-04-09T00:18:02.537085Z",
-    "updated_at" : "2026-04-09T00:18:02.537085Z",
-    "items" : [ {
-      "id" : "aea6caaa-7475-49fb-9d56-45c7bb6574e9-75007614",
-      "sale_id" : "aea6caaa-7475-49fb-9d56-45c7bb6574e9",
-      "upc" : "75007614",
-      "product_name" : "Coca cola 600 ml",
-      "measurement_unit" : "PZA",
-      "iva_amount" : 0.0,
-      "ieps_amount" : 0.0,
-      "quantity" : 1.0,
-      "unit_price" : 25.0,
-      "subtotal" : 25.0
-    } ]
-  } ]
-}
-
-=========== [ 2026-04-09T00:28:44.386153800-06:00 ] ===========
-TENANT_ID: 36ca918f-2281-4cf0-8660-d3bc03935a98
-RECORDS COUNT: 2
-PAYLOAD: 
-{
-  "tenantId" : "36ca918f-2281-4cf0-8660-d3bc03935a98",
-  "records" : [ {
-    "id" : "cc981abd-ca54-42ed-beb8-472e32912dff",
-    "tenant_id" : "36ca918f-2281-4cf0-8660-d3bc03935a98",
-    "user_id" : "b8937fd7-e681-4dad-93ba-b26d53b1a0d3",
-    "cash_session_id" : "3e28c5b3-45f4-4ce6-bb8a-423d57687b29",
-    "folio" : "SAL-20260409-0001",
-    "total" : 25.0,
-    "payment_type" : "CASH",
-    "reg_borrado" : 1,
-    "created_at" : "2026-04-09T00:17:29.190564Z",
-    "updated_at" : "2026-04-09T00:17:29.190564Z",
-    "items" : [ {
-      "id" : "cc981abd-ca54-42ed-beb8-472e32912dff-7503039601277",
-      "sale_id" : "cc981abd-ca54-42ed-beb8-472e32912dff",
-      "upc" : "7503039601277",
-      "product_name" : "soary",
-      "measurement_unit" : "PZA",
-      "iva_amount" : 0.0,
-      "ieps_amount" : 0.0,
-      "quantity" : 1.0,
-      "unit_price" : 25.0,
-      "subtotal" : 25.0
-    } ]
-  }, {
-    "id" : "aea6caaa-7475-49fb-9d56-45c7bb6574e9",
-    "tenant_id" : "36ca918f-2281-4cf0-8660-d3bc03935a98",
-    "user_id" : "b8937fd7-e681-4dad-93ba-b26d53b1a0d3",
-    "cash_session_id" : "3e28c5b3-45f4-4ce6-bb8a-423d57687b29",
-    "folio" : "SAL-20260409-0002",
-    "total" : 25.0,
-    "payment_type" : "CARD",
-    "reg_borrado" : 1,
-    "created_at" : "2026-04-09T00:18:02.537085Z",
-    "updated_at" : "2026-04-09T00:18:02.537085Z",
-    "items" : [ {
-      "id" : "aea6caaa-7475-49fb-9d56-45c7bb6574e9-75007614",
-      "sale_id" : "aea6caaa-7475-49fb-9d56-45c7bb6574e9",
-      "upc" : "75007614",
-      "product_name" : "Coca cola 600 ml",
-      "measurement_unit" : "PZA",
-      "iva_amount" : 0.0,
-      "ieps_amount" : 0.0,
-      "quantity" : 1.0,
-      "unit_price" : 25.0,
-      "subtotal" : 25.0
-    } ]
-  } ]
-}
-
-=========== [ 2026-04-09T00:29:23.574583100-06:00 ] ===========
-TENANT_ID: 36ca918f-2281-4cf0-8660-d3bc03935a98
-RECORDS COUNT: 2
-PAYLOAD: 
-{
-  "tenantId" : "36ca918f-2281-4cf0-8660-d3bc03935a98",
-  "records" : [ {
-    "id" : "cc981abd-ca54-42ed-beb8-472e32912dff",
-    "tenant_id" : "36ca918f-2281-4cf0-8660-d3bc03935a98",
-    "user_id" : "b8937fd7-e681-4dad-93ba-b26d53b1a0d3",
-    "cash_session_id" : "3e28c5b3-45f4-4ce6-bb8a-423d57687b29",
-    "folio" : "SAL-20260409-0001",
-    "total" : 25.0,
-    "payment_type" : "CASH",
-    "reg_borrado" : 1,
-    "created_at" : "2026-04-09T00:17:29.190564Z",
-    "updated_at" : "2026-04-09T00:17:29.190564Z",
-    "items" : [ {
-      "id" : "cc981abd-ca54-42ed-beb8-472e32912dff-7503039601277",
-      "sale_id" : "cc981abd-ca54-42ed-beb8-472e32912dff",
-      "upc" : "7503039601277",
-      "product_name" : "soary",
-      "measurement_unit" : "PZA",
-      "iva_amount" : 0.0,
-      "ieps_amount" : 0.0,
-      "quantity" : 1.0,
-      "unit_price" : 25.0,
-      "subtotal" : 25.0
-    } ]
-  }, {
-    "id" : "aea6caaa-7475-49fb-9d56-45c7bb6574e9",
-    "tenant_id" : "36ca918f-2281-4cf0-8660-d3bc03935a98",
-    "user_id" : "b8937fd7-e681-4dad-93ba-b26d53b1a0d3",
-    "cash_session_id" : "3e28c5b3-45f4-4ce6-bb8a-423d57687b29",
-    "folio" : "SAL-20260409-0002",
-    "total" : 25.0,
-    "payment_type" : "CARD",
-    "reg_borrado" : 1,
-    "created_at" : "2026-04-09T00:18:02.537085Z",
-    "updated_at" : "2026-04-09T00:18:02.537085Z",
-    "items" : [ {
-      "id" : "aea6caaa-7475-49fb-9d56-45c7bb6574e9-75007614",
-      "sale_id" : "aea6caaa-7475-49fb-9d56-45c7bb6574e9",
-      "upc" : "75007614",
-      "product_name" : "Coca cola 600 ml",
-      "measurement_unit" : "PZA",
-      "iva_amount" : 0.0,
-      "ieps_amount" : 0.0,
-      "quantity" : 1.0,
-      "unit_price" : 25.0,
-      "subtotal" : 25.0
-    } ]
-  } ]
-}
-
-=========== [ 2026-04-09T00:30:33.472948600-06:00 ] ===========
-TENANT_ID: 36ca918f-2281-4cf0-8660-d3bc03935a98
-RECORDS COUNT: 2
-PAYLOAD: 
-{
-  "tenantId" : "36ca918f-2281-4cf0-8660-d3bc03935a98",
-  "records" : [ {
-    "id" : "cc981abd-ca54-42ed-beb8-472e32912dff",
-    "tenant_id" : "36ca918f-2281-4cf0-8660-d3bc03935a98",
-    "user_id" : "b8937fd7-e681-4dad-93ba-b26d53b1a0d3",
-    "cash_session_id" : "3e28c5b3-45f4-4ce6-bb8a-423d57687b29",
-    "folio" : "SAL-20260409-0001",
-    "total" : 25.0,
-    "payment_type" : "CASH",
-    "reg_borrado" : 1,
-    "created_at" : "2026-04-09T00:17:29.190564Z",
-    "updated_at" : "2026-04-09T00:17:29.190564Z",
-    "items" : [ {
-      "id" : "cc981abd-ca54-42ed-beb8-472e32912dff-7503039601277",
-      "sale_id" : "cc981abd-ca54-42ed-beb8-472e32912dff",
-      "upc" : "7503039601277",
-      "product_name" : "soary",
-      "measurement_unit" : "PZA",
-      "iva_amount" : 0.0,
-      "ieps_amount" : 0.0,
-      "quantity" : 1.0,
-      "unit_price" : 25.0,
-      "subtotal" : 25.0
-    } ]
-  }, {
-    "id" : "aea6caaa-7475-49fb-9d56-45c7bb6574e9",
-    "tenant_id" : "36ca918f-2281-4cf0-8660-d3bc03935a98",
-    "user_id" : "b8937fd7-e681-4dad-93ba-b26d53b1a0d3",
-    "cash_session_id" : "3e28c5b3-45f4-4ce6-bb8a-423d57687b29",
-    "folio" : "SAL-20260409-0002",
-    "total" : 25.0,
-    "payment_type" : "CARD",
-    "reg_borrado" : 1,
-    "created_at" : "2026-04-09T00:18:02.537085Z",
-    "updated_at" : "2026-04-09T00:18:02.537085Z",
-    "items" : [ {
-      "id" : "aea6caaa-7475-49fb-9d56-45c7bb6574e9-75007614",
-      "sale_id" : "aea6caaa-7475-49fb-9d56-45c7bb6574e9",
-      "upc" : "75007614",
-      "product_name" : "Coca cola 600 ml",
-      "measurement_unit" : "PZA",
-      "iva_amount" : 0.0,
-      "ieps_amount" : 0.0,
-      "quantity" : 1.0,
-      "unit_price" : 25.0,
-      "subtotal" : 25.0
-    } ]
-  } ]
-}
-
-=========== [ 2026-04-09T00:33:50.750637900-06:00 ] ===========
+=========== [ 2026-04-09T23:23:25.316634200-06:00 ] ===========
 TENANT_ID: 8691f5d8-24f6-4c3d-93a1-0852e9540dae
-RECORDS COUNT: 1
+RECORDS COUNT: 10
 PAYLOAD: 
 {
   "tenantId" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
   "records" : [ {
-    "id" : "5a9d0a66-2c3b-4065-825b-633c70cf126e",
+    "id" : "61533570-571f-47a8-bf12-7085f7180bf8",
     "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
     "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
-    "initial_amount" : 208.0,
-    "total_sales" : 0.0,
-    "cash_total" : 0.0,
-    "card_total" : 0.0,
-    "transfer_total" : 0.0,
-    "opened_at" : "2026-04-09T06:33:32.157296Z",
-    "closed_at" : null
-  } ]
-}
-
-=========== [ 2026-04-09T00:33:53.992970800-06:00 ] ===========
-TENANT_ID: 8691f5d8-24f6-4c3d-93a1-0852e9540dae
-RECORDS COUNT: 1
-PAYLOAD: 
-{
-  "tenantId" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
-  "records" : [ {
-    "id" : "350f1122-eae0-4023-b533-badc32f5263c",
-    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
-    "upc" : "7503039601277",
-    "cost_price" : 0.0,
-    "supplier_id" : null,
-    "price" : 5.0,
-    "name" : "lsldmd",
-    "stock" : -1.0,
-    "min_stock" : 3.0,
-    "measurement_unit" : "PZA",
-    "product_type" : "STANDARD",
-    "is_active" : true,
-    "reg_borrado" : 1,
-    "created_at" : "2026-04-09T06:33:48.719009Z",
-    "updated_at" : "2026-04-09T06:33:52.386351Z"
-  } ]
-}
-
-=========== [ 2026-04-09T00:33:56.230203-06:00 ] ===========
-TENANT_ID: 8691f5d8-24f6-4c3d-93a1-0852e9540dae
-RECORDS COUNT: 1
-PAYLOAD: 
-{
-  "tenantId" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
-  "records" : [ {
-    "id" : "0371863d-8411-46a9-8df8-cbdb95565d88",
-    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
-    "tipo" : "SAL",
-    "fecha" : "2026-04-09",
-    "ultimo_folio" : 1
-  } ]
-}
-
-=========== [ 2026-04-09T00:34:02.773479100-06:00 ] ===========
-TENANT_ID: 8691f5d8-24f6-4c3d-93a1-0852e9540dae
-RECORDS COUNT: 1
-PAYLOAD: 
-{
-  "tenantId" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
-  "records" : [ {
-    "id" : "4784c577-75a5-421e-b461-cd7283e278c2",
-    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
-    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
-    "cash_session_id" : "5a9d0a66-2c3b-4065-825b-633c70cf126e",
-    "folio" : "SAL-20260409-0001",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0012",
     "total" : 5.0,
     "payment_type" : "CASH",
     "reg_borrado" : 1,
-    "created_at" : "2026-04-09T00:33:52.075870Z",
-    "updated_at" : "2026-04-09T00:33:52.075870Z",
+    "created_at" : "2026-04-09T11:47:03.032023Z",
+    "updated_at" : "2026-04-09T11:47:03.032023Z",
     "items" : [ {
-      "id" : "30095221-5d08-4d10-9544-b922c0158c8c",
-      "sale_id" : "4784c577-75a5-421e-b461-cd7283e278c2",
+      "id" : "e1c9c259-ae77-443b-a831-1ceccdbc7b0d",
+      "sale_id" : "61533570-571f-47a8-bf12-7085f7180bf8",
       "upc" : "7503039601277",
       "product_name" : "lsldmd",
       "measurement_unit" : "PZA",
@@ -624,49 +27,20 @@ PAYLOAD:
       "unit_price" : 5.0,
       "subtotal" : 5.0
     } ]
-  } ]
-}
-
-=========== [ 2026-04-09T00:34:23.147688500-06:00 ] ===========
-TENANT_ID: 8691f5d8-24f6-4c3d-93a1-0852e9540dae
-RECORDS COUNT: 1
-PAYLOAD: 
-{
-  "tenantId" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
-  "records" : [ {
-    "id" : "5a9d0a66-2c3b-4065-825b-633c70cf126e",
+  }, {
+    "id" : "87985203-4b6c-4c80-8b5d-b55e920d7bd7",
     "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
     "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
-    "initial_amount" : 208.0,
-    "total_sales" : 5.0,
-    "cash_total" : 5.0,
-    "card_total" : 0.0,
-    "transfer_total" : 0.0,
-    "opened_at" : "2026-04-09T06:33:32.157296Z",
-    "closed_at" : null
-  } ]
-}
-
-=========== [ 2026-04-09T00:34:33.680310300-06:00 ] ===========
-TENANT_ID: 8691f5d8-24f6-4c3d-93a1-0852e9540dae
-RECORDS COUNT: 1
-PAYLOAD: 
-{
-  "tenantId" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
-  "records" : [ {
-    "id" : "4784c577-75a5-421e-b461-cd7283e278c2",
-    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
-    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
-    "cash_session_id" : "5a9d0a66-2c3b-4065-825b-633c70cf126e",
-    "folio" : "SAL-20260409-0001",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0013",
     "total" : 5.0,
     "payment_type" : "CASH",
     "reg_borrado" : 1,
-    "created_at" : "2026-04-09T00:33:52.075870Z",
-    "updated_at" : "2026-04-09T00:33:52.075870Z",
+    "created_at" : "2026-04-09T11:47:14.933403Z",
+    "updated_at" : "2026-04-09T11:47:14.933403Z",
     "items" : [ {
-      "id" : "30095221-5d08-4d10-9544-b922c0158c8c",
-      "sale_id" : "4784c577-75a5-421e-b461-cd7283e278c2",
+      "id" : "0930c207-9c33-44b8-b011-872a88aa28e4",
+      "sale_id" : "87985203-4b6c-4c80-8b5d-b55e920d7bd7",
       "upc" : "7503039601277",
       "product_name" : "lsldmd",
       "measurement_unit" : "PZA",
@@ -676,29 +50,20 @@ PAYLOAD:
       "unit_price" : 5.0,
       "subtotal" : 5.0
     } ]
-  } ]
-}
-
-=========== [ 2026-04-09T00:43:00.971026-06:00 ] ===========
-TENANT_ID: 8691f5d8-24f6-4c3d-93a1-0852e9540dae
-RECORDS COUNT: 1
-PAYLOAD: 
-{
-  "tenantId" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
-  "records" : [ {
-    "id" : "4784c577-75a5-421e-b461-cd7283e278c2",
+  }, {
+    "id" : "e0fbaee4-4f2d-46ca-a5b6-18e21ffadf68",
     "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
     "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
-    "cash_session_id" : "5a9d0a66-2c3b-4065-825b-633c70cf126e",
-    "folio" : "SAL-20260409-0001",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0014",
     "total" : 5.0,
     "payment_type" : "CASH",
     "reg_borrado" : 1,
-    "created_at" : "2026-04-09T00:33:52.075870Z",
-    "updated_at" : "2026-04-09T00:33:52.075870Z",
+    "created_at" : "2026-04-09T11:47:28.402004Z",
+    "updated_at" : "2026-04-09T11:47:28.402004Z",
     "items" : [ {
-      "id" : "30095221-5d08-4d10-9544-b922c0158c8c",
-      "sale_id" : "4784c577-75a5-421e-b461-cd7283e278c2",
+      "id" : "013c48b2-23dc-4dfa-aa2f-ff3cf6049477",
+      "sale_id" : "e0fbaee4-4f2d-46ca-a5b6-18e21ffadf68",
       "upc" : "7503039601277",
       "product_name" : "lsldmd",
       "measurement_unit" : "PZA",
@@ -708,153 +73,20 @@ PAYLOAD:
       "unit_price" : 5.0,
       "subtotal" : 5.0
     } ]
-  } ]
-}
-
-=========== [ 2026-04-09T00:44:50.817804500-06:00 ] ===========
-TENANT_ID: 8691f5d8-24f6-4c3d-93a1-0852e9540dae
-RECORDS COUNT: 1
-PAYLOAD: 
-{
-  "tenantId" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
-  "records" : [ {
-    "id" : "5a9d0a66-2c3b-4065-825b-633c70cf126e",
+  }, {
+    "id" : "655ad33a-a601-44b6-b9de-0ed92abeb955",
     "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
     "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
-    "initial_amount" : 208.0,
-    "total_sales" : 255.0,
-    "cash_total" : 255.0,
-    "card_total" : 0.0,
-    "transfer_total" : 0.0,
-    "opened_at" : "2026-04-09T06:33:32.157296Z",
-    "closed_at" : null
-  } ]
-}
-
-=========== [ 2026-04-09T00:44:53.131613900-06:00 ] ===========
-TENANT_ID: 8691f5d8-24f6-4c3d-93a1-0852e9540dae
-RECORDS COUNT: 5
-PAYLOAD: 
-{
-  "tenantId" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
-  "records" : [ {
-    "id" : "1213cf5f-5bf9-472a-b41f-38a72de1a890",
-    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
-    "upc" : "7501032925529",
-    "cost_price" : 0.0,
-    "supplier_id" : null,
-    "price" : 82.0,
-    "name" : "ggcv baygo",
-    "stock" : -1.0,
-    "min_stock" : 3.0,
-    "measurement_unit" : "PZA",
-    "product_type" : "STANDARD",
-    "is_active" : true,
-    "reg_borrado" : 1,
-    "created_at" : "2026-04-09T06:44:03.487727Z",
-    "updated_at" : "2026-04-09T06:44:35.994393Z"
-  }, {
-    "id" : "fce8926d-77b9-4e4e-9431-d8172adb5549",
-    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
-    "upc" : "7501055300594",
-    "cost_price" : 0.0,
-    "supplier_id" : null,
-    "price" : 50.0,
-    "name" : "Coca cola",
-    "stock" : -1.0,
-    "min_stock" : 3.0,
-    "measurement_unit" : "PZA",
-    "product_type" : "STANDARD",
-    "is_active" : true,
-    "reg_borrado" : 1,
-    "created_at" : "2026-04-09T06:44:21.617611Z",
-    "updated_at" : "2026-04-09T06:44:36.021057Z"
-  }, {
-    "id" : "dfbcf3f0-300c-403a-85f0-eabb55c33e22",
-    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
-    "upc" : "7501055333851",
-    "cost_price" : 0.0,
-    "supplier_id" : null,
-    "price" : 25.0,
-    "name" : "Del Valle Nectar de Durazno",
-    "stock" : -1.0,
-    "min_stock" : 3.0,
-    "measurement_unit" : "PZA",
-    "product_type" : "STANDARD",
-    "is_active" : true,
-    "reg_borrado" : 1,
-    "created_at" : "2026-04-09T06:44:15.066592Z",
-    "updated_at" : "2026-04-09T06:44:36.006720Z"
-  }, {
-    "id" : "01719470-aab7-44da-bc5d-9aa9acff5855",
-    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
-    "upc" : "7501072200723",
-    "cost_price" : 0.0,
-    "supplier_id" : null,
-    "price" : 88.0,
-    "name" : "ggg",
-    "stock" : -1.0,
-    "min_stock" : 3.0,
-    "measurement_unit" : "PZA",
-    "product_type" : "STANDARD",
-    "is_active" : true,
-    "reg_borrado" : 1,
-    "created_at" : "2026-04-09T06:44:30.846417Z",
-    "updated_at" : "2026-04-09T06:44:36.035467Z"
-  }, {
-    "id" : "350f1122-eae0-4023-b533-badc32f5263c",
-    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
-    "upc" : "7503039601277",
-    "cost_price" : 0.0,
-    "supplier_id" : null,
-    "price" : 5.0,
-    "name" : "lsldmd",
-    "stock" : -2.0,
-    "min_stock" : 3.0,
-    "measurement_unit" : "PZA",
-    "product_type" : "STANDARD",
-    "is_active" : true,
-    "reg_borrado" : 1,
-    "created_at" : "2026-04-09T06:33:48.719009Z",
-    "updated_at" : "2026-04-09T06:44:35.987192Z"
-  } ]
-}
-
-=========== [ 2026-04-09T00:44:55.420002400-06:00 ] ===========
-TENANT_ID: 8691f5d8-24f6-4c3d-93a1-0852e9540dae
-RECORDS COUNT: 1
-PAYLOAD: 
-{
-  "tenantId" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
-  "records" : [ {
-    "id" : "0371863d-8411-46a9-8df8-cbdb95565d88",
-    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
-    "tipo" : "SAL",
-    "fecha" : "2026-04-09",
-    "ultimo_folio" : 2
-  } ]
-}
-
-=========== [ 2026-04-09T00:45:01.949032200-06:00 ] ===========
-TENANT_ID: 8691f5d8-24f6-4c3d-93a1-0852e9540dae
-RECORDS COUNT: 1
-PAYLOAD: 
-{
-  "tenantId" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
-  "records" : [ {
-    "id" : "6dbdccd6-46b5-4909-9ddf-122d3086209d",
-    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
-    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
-    "cash_session_id" : "5a9d0a66-2c3b-4065-825b-633c70cf126e",
-    "folio" : "SAL-20260409-0002",
-    "total" : 250.0,
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0015",
+    "total" : 5.0,
     "payment_type" : "CASH",
     "reg_borrado" : 1,
-    "created_at" : "2026-04-09T00:44:35.832663Z",
-    "updated_at" : "2026-04-09T00:44:35.832663Z",
+    "created_at" : "2026-04-09T11:47:38.770874Z",
+    "updated_at" : "2026-04-09T11:47:38.770874Z",
     "items" : [ {
-      "id" : "8ed52713-b2d9-46e5-a1c3-b2d14bc6e95b",
-      "sale_id" : "6dbdccd6-46b5-4909-9ddf-122d3086209d",
+      "id" : "7e73bbd4-b5ae-4922-b691-ce8083eb100d",
+      "sale_id" : "655ad33a-a601-44b6-b9de-0ed92abeb955",
       "upc" : "7503039601277",
       "product_name" : "lsldmd",
       "measurement_unit" : "PZA",
@@ -863,20 +95,21 @@ PAYLOAD:
       "quantity" : 1.0,
       "unit_price" : 5.0,
       "subtotal" : 5.0
-    }, {
-      "id" : "3c531276-2af9-4097-924e-4be9d41e6d81",
-      "sale_id" : "6dbdccd6-46b5-4909-9ddf-122d3086209d",
-      "upc" : "7501032925529",
-      "product_name" : "ggcv baygo",
-      "measurement_unit" : "PZA",
-      "iva_amount" : 0.0,
-      "ieps_amount" : 0.0,
-      "quantity" : 1.0,
-      "unit_price" : 82.0,
-      "subtotal" : 82.0
-    }, {
-      "id" : "1cc032a1-8d47-4922-b0a1-b0f610fb2e4a",
-      "sale_id" : "6dbdccd6-46b5-4909-9ddf-122d3086209d",
+    } ]
+  }, {
+    "id" : "fddb83aa-da21-4a02-beea-4e7d4388a99c",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0016",
+    "total" : 25.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T11:50:13.257831Z",
+    "updated_at" : "2026-04-09T11:50:13.257831Z",
+    "items" : [ {
+      "id" : "a110e63b-a7fc-489e-94ae-68d7dc4209b0",
+      "sale_id" : "fddb83aa-da21-4a02-beea-4e7d4388a99c",
       "upc" : "7501055333851",
       "product_name" : "Del Valle Nectar de Durazno",
       "measurement_unit" : "PZA",
@@ -885,28 +118,4219 @@ PAYLOAD:
       "quantity" : 1.0,
       "unit_price" : 25.0,
       "subtotal" : 25.0
+    } ]
+  }, {
+    "id" : "74c5c5e4-6107-47e2-8fdb-31015df0d2ef",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0017",
+    "total" : 674.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T12:22:02.165261Z",
+    "updated_at" : "2026-04-09T12:22:02.165261Z",
+    "items" : [ {
+      "id" : "d8477bf3-9cd5-4318-9cd5-21ff45e8da74",
+      "sale_id" : "74c5c5e4-6107-47e2-8fdb-31015df0d2ef",
+      "upc" : "N/A",
+      "product_name" : "Tortillas (1kg)",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 26.0,
+      "unit_price" : 24.0,
+      "subtotal" : 624.0
     }, {
-      "id" : "6a450051-2d94-4ae5-9b47-15c2ef13c880",
-      "sale_id" : "6dbdccd6-46b5-4909-9ddf-122d3086209d",
-      "upc" : "7501055300594",
-      "product_name" : "Coca cola",
+      "id" : "1a0d9b27-d860-409e-95da-502ba38e4b13",
+      "sale_id" : "74c5c5e4-6107-47e2-8fdb-31015df0d2ef",
+      "upc" : "PRP-719551605",
+      "product_name" : "Tacos De Pastor",
       "measurement_unit" : "PZA",
       "iva_amount" : 0.0,
       "ieps_amount" : 0.0,
       "quantity" : 1.0,
-      "unit_price" : 50.0,
-      "subtotal" : 50.0
+      "unit_price" : 25.0,
+      "subtotal" : 25.0
     }, {
-      "id" : "d31e8c4f-4267-4583-892c-f8742e8dcd5b",
-      "sale_id" : "6dbdccd6-46b5-4909-9ddf-122d3086209d",
-      "upc" : "7501072200723",
-      "product_name" : "ggg",
+      "id" : "b6dfbcf7-445e-4094-94eb-1a849495ffcf",
+      "sale_id" : "74c5c5e4-6107-47e2-8fdb-31015df0d2ef",
+      "upc" : "7501791669276",
+      "product_name" : "AU jamón cocido",
       "measurement_unit" : "PZA",
       "iva_amount" : 0.0,
       "ieps_amount" : 0.0,
       "quantity" : 1.0,
-      "unit_price" : 88.0,
-      "subtotal" : 88.0
+      "unit_price" : 25.0,
+      "subtotal" : 25.0
+    } ]
+  }, {
+    "id" : "2229d859-5d34-43f7-a75e-b899c284b232",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0018",
+    "total" : 45.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T18:36:56.729746Z",
+    "updated_at" : "2026-04-09T18:36:56.729746Z",
+    "items" : [ {
+      "id" : "d4ab66e0-16ed-4ff2-b324-d242c1101990",
+      "sale_id" : "2229d859-5d34-43f7-a75e-b899c284b232",
+      "upc" : "INT-001",
+      "product_name" : "Huevo (1kg)",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 45.0,
+      "subtotal" : 45.0
+    } ]
+  }, {
+    "id" : "ebb27e26-fb41-448b-af7c-b29ebaff51ca",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0019",
+    "total" : 25.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T18:43:02.857810Z",
+    "updated_at" : "2026-04-09T18:43:02.857810Z",
+    "items" : [ {
+      "id" : "5f9c6c2a-58c2-4363-b404-5e28c559fbbf",
+      "sale_id" : "ebb27e26-fb41-448b-af7c-b29ebaff51ca",
+      "upc" : "7501032925529",
+      "product_name" : "ggcv baygo",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0
+    } ]
+  }, {
+    "id" : "b2e5a48e-3078-4820-a40f-c71a5e8e4ea0",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0020",
+    "total" : 141.5,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-10T03:28:34.379274Z",
+    "updated_at" : "2026-04-10T03:28:34.379274Z",
+    "items" : [ {
+      "id" : "58b67fe9-8bc7-4515-b53b-2c4e8c416ff1",
+      "sale_id" : "b2e5a48e-3078-4820-a40f-c71a5e8e4ea0",
+      "upc" : "INT-001",
+      "product_name" : "Huevo (1kg)",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 2.0,
+      "unit_price" : 45.0,
+      "subtotal" : 90.0
+    }, {
+      "id" : "f8ad4b8b-af10-4eb2-b7c7-56a87f260f1e",
+      "sale_id" : "b2e5a48e-3078-4820-a40f-c71a5e8e4ea0",
+      "upc" : "INT-002",
+      "product_name" : "Tortillas (1kg)",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 2.0,
+      "unit_price" : 24.0,
+      "subtotal" : 48.0
+    }, {
+      "id" : "7c2e938e-f873-4368-8c43-c6523dfeee00",
+      "sale_id" : "b2e5a48e-3078-4820-a40f-c71a5e8e4ea0",
+      "upc" : "INT-003",
+      "product_name" : "Bolillo (Pza)",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 3.5,
+      "subtotal" : 3.5
+    } ]
+  }, {
+    "id" : "d12ae8e9-e319-4c25-93b7-41d59f967c31",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0021",
+    "total" : 90.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-10T03:28:47.399969Z",
+    "updated_at" : "2026-04-10T03:28:47.399969Z",
+    "items" : [ {
+      "id" : "23ab9a52-f2cf-4c8b-ac4e-e7850dca9dce",
+      "sale_id" : "d12ae8e9-e319-4c25-93b7-41d59f967c31",
+      "upc" : "INT-001",
+      "product_name" : "Huevo (1kg)",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 2.0,
+      "unit_price" : 45.0,
+      "subtotal" : 90.0
+    } ]
+  } ]
+}
+
+=========== [ 2026-04-09T23:23:56.719574500-06:00 ] ===========
+TENANT_ID: 8691f5d8-24f6-4c3d-93a1-0852e9540dae
+RECORDS COUNT: 10
+PAYLOAD: 
+{
+  "tenantId" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+  "records" : [ {
+    "id" : "61533570-571f-47a8-bf12-7085f7180bf8",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0012",
+    "total" : 5.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T11:47:03.032023Z",
+    "updated_at" : "2026-04-09T11:47:03.032023Z",
+    "items" : [ {
+      "id" : "e1c9c259-ae77-443b-a831-1ceccdbc7b0d",
+      "sale_id" : "61533570-571f-47a8-bf12-7085f7180bf8",
+      "upc" : "7503039601277",
+      "product_name" : "lsldmd",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 5.0,
+      "subtotal" : 5.0
+    } ]
+  }, {
+    "id" : "87985203-4b6c-4c80-8b5d-b55e920d7bd7",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0013",
+    "total" : 5.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T11:47:14.933403Z",
+    "updated_at" : "2026-04-09T11:47:14.933403Z",
+    "items" : [ {
+      "id" : "0930c207-9c33-44b8-b011-872a88aa28e4",
+      "sale_id" : "87985203-4b6c-4c80-8b5d-b55e920d7bd7",
+      "upc" : "7503039601277",
+      "product_name" : "lsldmd",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 5.0,
+      "subtotal" : 5.0
+    } ]
+  }, {
+    "id" : "e0fbaee4-4f2d-46ca-a5b6-18e21ffadf68",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0014",
+    "total" : 5.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T11:47:28.402004Z",
+    "updated_at" : "2026-04-09T11:47:28.402004Z",
+    "items" : [ {
+      "id" : "013c48b2-23dc-4dfa-aa2f-ff3cf6049477",
+      "sale_id" : "e0fbaee4-4f2d-46ca-a5b6-18e21ffadf68",
+      "upc" : "7503039601277",
+      "product_name" : "lsldmd",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 5.0,
+      "subtotal" : 5.0
+    } ]
+  }, {
+    "id" : "655ad33a-a601-44b6-b9de-0ed92abeb955",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0015",
+    "total" : 5.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T11:47:38.770874Z",
+    "updated_at" : "2026-04-09T11:47:38.770874Z",
+    "items" : [ {
+      "id" : "7e73bbd4-b5ae-4922-b691-ce8083eb100d",
+      "sale_id" : "655ad33a-a601-44b6-b9de-0ed92abeb955",
+      "upc" : "7503039601277",
+      "product_name" : "lsldmd",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 5.0,
+      "subtotal" : 5.0
+    } ]
+  }, {
+    "id" : "fddb83aa-da21-4a02-beea-4e7d4388a99c",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0016",
+    "total" : 25.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T11:50:13.257831Z",
+    "updated_at" : "2026-04-09T11:50:13.257831Z",
+    "items" : [ {
+      "id" : "a110e63b-a7fc-489e-94ae-68d7dc4209b0",
+      "sale_id" : "fddb83aa-da21-4a02-beea-4e7d4388a99c",
+      "upc" : "7501055333851",
+      "product_name" : "Del Valle Nectar de Durazno",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0
+    } ]
+  }, {
+    "id" : "74c5c5e4-6107-47e2-8fdb-31015df0d2ef",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0017",
+    "total" : 674.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T12:22:02.165261Z",
+    "updated_at" : "2026-04-09T12:22:02.165261Z",
+    "items" : [ {
+      "id" : "d8477bf3-9cd5-4318-9cd5-21ff45e8da74",
+      "sale_id" : "74c5c5e4-6107-47e2-8fdb-31015df0d2ef",
+      "upc" : "N/A",
+      "product_name" : "Tortillas (1kg)",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 26.0,
+      "unit_price" : 24.0,
+      "subtotal" : 624.0
+    }, {
+      "id" : "1a0d9b27-d860-409e-95da-502ba38e4b13",
+      "sale_id" : "74c5c5e4-6107-47e2-8fdb-31015df0d2ef",
+      "upc" : "PRP-719551605",
+      "product_name" : "Tacos De Pastor",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0
+    }, {
+      "id" : "b6dfbcf7-445e-4094-94eb-1a849495ffcf",
+      "sale_id" : "74c5c5e4-6107-47e2-8fdb-31015df0d2ef",
+      "upc" : "7501791669276",
+      "product_name" : "AU jamón cocido",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0
+    } ]
+  }, {
+    "id" : "2229d859-5d34-43f7-a75e-b899c284b232",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0018",
+    "total" : 45.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T18:36:56.729746Z",
+    "updated_at" : "2026-04-09T18:36:56.729746Z",
+    "items" : [ {
+      "id" : "d4ab66e0-16ed-4ff2-b324-d242c1101990",
+      "sale_id" : "2229d859-5d34-43f7-a75e-b899c284b232",
+      "upc" : "INT-001",
+      "product_name" : "Huevo (1kg)",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 45.0,
+      "subtotal" : 45.0
+    } ]
+  }, {
+    "id" : "ebb27e26-fb41-448b-af7c-b29ebaff51ca",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0019",
+    "total" : 25.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T18:43:02.857810Z",
+    "updated_at" : "2026-04-09T18:43:02.857810Z",
+    "items" : [ {
+      "id" : "5f9c6c2a-58c2-4363-b404-5e28c559fbbf",
+      "sale_id" : "ebb27e26-fb41-448b-af7c-b29ebaff51ca",
+      "upc" : "7501032925529",
+      "product_name" : "ggcv baygo",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0
+    } ]
+  }, {
+    "id" : "b2e5a48e-3078-4820-a40f-c71a5e8e4ea0",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0020",
+    "total" : 141.5,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-10T03:28:34.379274Z",
+    "updated_at" : "2026-04-10T03:28:34.379274Z",
+    "items" : [ {
+      "id" : "58b67fe9-8bc7-4515-b53b-2c4e8c416ff1",
+      "sale_id" : "b2e5a48e-3078-4820-a40f-c71a5e8e4ea0",
+      "upc" : "INT-001",
+      "product_name" : "Huevo (1kg)",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 2.0,
+      "unit_price" : 45.0,
+      "subtotal" : 90.0
+    }, {
+      "id" : "f8ad4b8b-af10-4eb2-b7c7-56a87f260f1e",
+      "sale_id" : "b2e5a48e-3078-4820-a40f-c71a5e8e4ea0",
+      "upc" : "INT-002",
+      "product_name" : "Tortillas (1kg)",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 2.0,
+      "unit_price" : 24.0,
+      "subtotal" : 48.0
+    }, {
+      "id" : "7c2e938e-f873-4368-8c43-c6523dfeee00",
+      "sale_id" : "b2e5a48e-3078-4820-a40f-c71a5e8e4ea0",
+      "upc" : "INT-003",
+      "product_name" : "Bolillo (Pza)",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 3.5,
+      "subtotal" : 3.5
+    } ]
+  }, {
+    "id" : "d12ae8e9-e319-4c25-93b7-41d59f967c31",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0021",
+    "total" : 90.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-10T03:28:47.399969Z",
+    "updated_at" : "2026-04-10T03:28:47.399969Z",
+    "items" : [ {
+      "id" : "23ab9a52-f2cf-4c8b-ac4e-e7850dca9dce",
+      "sale_id" : "d12ae8e9-e319-4c25-93b7-41d59f967c31",
+      "upc" : "INT-001",
+      "product_name" : "Huevo (1kg)",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 2.0,
+      "unit_price" : 45.0,
+      "subtotal" : 90.0
+    } ]
+  } ]
+}
+
+=========== [ 2026-04-09T23:25:24.488025100-06:00 ] ===========
+TENANT_ID: 8691f5d8-24f6-4c3d-93a1-0852e9540dae
+RECORDS COUNT: 10
+PAYLOAD: 
+{
+  "tenantId" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+  "records" : [ {
+    "id" : "61533570-571f-47a8-bf12-7085f7180bf8",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0012",
+    "total" : 5.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T11:47:03.032023Z",
+    "updated_at" : "2026-04-09T11:47:03.032023Z",
+    "items" : [ {
+      "id" : "e1c9c259-ae77-443b-a831-1ceccdbc7b0d",
+      "sale_id" : "61533570-571f-47a8-bf12-7085f7180bf8",
+      "upc" : "7503039601277",
+      "product_name" : "lsldmd",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 5.0,
+      "subtotal" : 5.0
+    } ]
+  }, {
+    "id" : "87985203-4b6c-4c80-8b5d-b55e920d7bd7",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0013",
+    "total" : 5.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T11:47:14.933403Z",
+    "updated_at" : "2026-04-09T11:47:14.933403Z",
+    "items" : [ {
+      "id" : "0930c207-9c33-44b8-b011-872a88aa28e4",
+      "sale_id" : "87985203-4b6c-4c80-8b5d-b55e920d7bd7",
+      "upc" : "7503039601277",
+      "product_name" : "lsldmd",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 5.0,
+      "subtotal" : 5.0
+    } ]
+  }, {
+    "id" : "e0fbaee4-4f2d-46ca-a5b6-18e21ffadf68",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0014",
+    "total" : 5.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T11:47:28.402004Z",
+    "updated_at" : "2026-04-09T11:47:28.402004Z",
+    "items" : [ {
+      "id" : "013c48b2-23dc-4dfa-aa2f-ff3cf6049477",
+      "sale_id" : "e0fbaee4-4f2d-46ca-a5b6-18e21ffadf68",
+      "upc" : "7503039601277",
+      "product_name" : "lsldmd",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 5.0,
+      "subtotal" : 5.0
+    } ]
+  }, {
+    "id" : "655ad33a-a601-44b6-b9de-0ed92abeb955",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0015",
+    "total" : 5.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T11:47:38.770874Z",
+    "updated_at" : "2026-04-09T11:47:38.770874Z",
+    "items" : [ {
+      "id" : "7e73bbd4-b5ae-4922-b691-ce8083eb100d",
+      "sale_id" : "655ad33a-a601-44b6-b9de-0ed92abeb955",
+      "upc" : "7503039601277",
+      "product_name" : "lsldmd",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 5.0,
+      "subtotal" : 5.0
+    } ]
+  }, {
+    "id" : "fddb83aa-da21-4a02-beea-4e7d4388a99c",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0016",
+    "total" : 25.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T11:50:13.257831Z",
+    "updated_at" : "2026-04-09T11:50:13.257831Z",
+    "items" : [ {
+      "id" : "a110e63b-a7fc-489e-94ae-68d7dc4209b0",
+      "sale_id" : "fddb83aa-da21-4a02-beea-4e7d4388a99c",
+      "upc" : "7501055333851",
+      "product_name" : "Del Valle Nectar de Durazno",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0
+    } ]
+  }, {
+    "id" : "74c5c5e4-6107-47e2-8fdb-31015df0d2ef",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0017",
+    "total" : 674.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T12:22:02.165261Z",
+    "updated_at" : "2026-04-09T12:22:02.165261Z",
+    "items" : [ {
+      "id" : "d8477bf3-9cd5-4318-9cd5-21ff45e8da74",
+      "sale_id" : "74c5c5e4-6107-47e2-8fdb-31015df0d2ef",
+      "upc" : "N/A",
+      "product_name" : "Tortillas (1kg)",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 26.0,
+      "unit_price" : 24.0,
+      "subtotal" : 624.0
+    }, {
+      "id" : "1a0d9b27-d860-409e-95da-502ba38e4b13",
+      "sale_id" : "74c5c5e4-6107-47e2-8fdb-31015df0d2ef",
+      "upc" : "PRP-719551605",
+      "product_name" : "Tacos De Pastor",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0
+    }, {
+      "id" : "b6dfbcf7-445e-4094-94eb-1a849495ffcf",
+      "sale_id" : "74c5c5e4-6107-47e2-8fdb-31015df0d2ef",
+      "upc" : "7501791669276",
+      "product_name" : "AU jamón cocido",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0
+    } ]
+  }, {
+    "id" : "2229d859-5d34-43f7-a75e-b899c284b232",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0018",
+    "total" : 45.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T18:36:56.729746Z",
+    "updated_at" : "2026-04-09T18:36:56.729746Z",
+    "items" : [ {
+      "id" : "d4ab66e0-16ed-4ff2-b324-d242c1101990",
+      "sale_id" : "2229d859-5d34-43f7-a75e-b899c284b232",
+      "upc" : "INT-001",
+      "product_name" : "Huevo (1kg)",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 45.0,
+      "subtotal" : 45.0
+    } ]
+  }, {
+    "id" : "ebb27e26-fb41-448b-af7c-b29ebaff51ca",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0019",
+    "total" : 25.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T18:43:02.857810Z",
+    "updated_at" : "2026-04-09T18:43:02.857810Z",
+    "items" : [ {
+      "id" : "5f9c6c2a-58c2-4363-b404-5e28c559fbbf",
+      "sale_id" : "ebb27e26-fb41-448b-af7c-b29ebaff51ca",
+      "upc" : "7501032925529",
+      "product_name" : "ggcv baygo",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0
+    } ]
+  }, {
+    "id" : "b2e5a48e-3078-4820-a40f-c71a5e8e4ea0",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0020",
+    "total" : 141.5,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-10T03:28:34.379274Z",
+    "updated_at" : "2026-04-10T03:28:34.379274Z",
+    "items" : [ {
+      "id" : "58b67fe9-8bc7-4515-b53b-2c4e8c416ff1",
+      "sale_id" : "b2e5a48e-3078-4820-a40f-c71a5e8e4ea0",
+      "upc" : "INT-001",
+      "product_name" : "Huevo (1kg)",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 2.0,
+      "unit_price" : 45.0,
+      "subtotal" : 90.0
+    }, {
+      "id" : "f8ad4b8b-af10-4eb2-b7c7-56a87f260f1e",
+      "sale_id" : "b2e5a48e-3078-4820-a40f-c71a5e8e4ea0",
+      "upc" : "INT-002",
+      "product_name" : "Tortillas (1kg)",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 2.0,
+      "unit_price" : 24.0,
+      "subtotal" : 48.0
+    }, {
+      "id" : "7c2e938e-f873-4368-8c43-c6523dfeee00",
+      "sale_id" : "b2e5a48e-3078-4820-a40f-c71a5e8e4ea0",
+      "upc" : "INT-003",
+      "product_name" : "Bolillo (Pza)",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 3.5,
+      "subtotal" : 3.5
+    } ]
+  }, {
+    "id" : "d12ae8e9-e319-4c25-93b7-41d59f967c31",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0021",
+    "total" : 90.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-10T03:28:47.399969Z",
+    "updated_at" : "2026-04-10T03:28:47.399969Z",
+    "items" : [ {
+      "id" : "23ab9a52-f2cf-4c8b-ac4e-e7850dca9dce",
+      "sale_id" : "d12ae8e9-e319-4c25-93b7-41d59f967c31",
+      "upc" : "INT-001",
+      "product_name" : "Huevo (1kg)",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 2.0,
+      "unit_price" : 45.0,
+      "subtotal" : 90.0
+    } ]
+  } ]
+}
+
+=========== [ 2026-04-09T23:34:25.634869900-06:00 ] ===========
+TENANT_ID: 8691f5d8-24f6-4c3d-93a1-0852e9540dae
+RECORDS COUNT: 10
+PAYLOAD: 
+{
+  "tenantId" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+  "records" : [ {
+    "id" : "61533570-571f-47a8-bf12-7085f7180bf8",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0012",
+    "total" : 5.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T11:47:03.032023Z",
+    "updated_at" : "2026-04-09T11:47:03.032023Z",
+    "items" : [ {
+      "id" : "e1c9c259-ae77-443b-a831-1ceccdbc7b0d",
+      "sale_id" : "61533570-571f-47a8-bf12-7085f7180bf8",
+      "upc" : "7503039601277",
+      "product_name" : "lsldmd",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 5.0,
+      "subtotal" : 5.0
+    } ]
+  }, {
+    "id" : "87985203-4b6c-4c80-8b5d-b55e920d7bd7",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0013",
+    "total" : 5.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T11:47:14.933403Z",
+    "updated_at" : "2026-04-09T11:47:14.933403Z",
+    "items" : [ {
+      "id" : "0930c207-9c33-44b8-b011-872a88aa28e4",
+      "sale_id" : "87985203-4b6c-4c80-8b5d-b55e920d7bd7",
+      "upc" : "7503039601277",
+      "product_name" : "lsldmd",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 5.0,
+      "subtotal" : 5.0
+    } ]
+  }, {
+    "id" : "e0fbaee4-4f2d-46ca-a5b6-18e21ffadf68",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0014",
+    "total" : 5.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T11:47:28.402004Z",
+    "updated_at" : "2026-04-09T11:47:28.402004Z",
+    "items" : [ {
+      "id" : "013c48b2-23dc-4dfa-aa2f-ff3cf6049477",
+      "sale_id" : "e0fbaee4-4f2d-46ca-a5b6-18e21ffadf68",
+      "upc" : "7503039601277",
+      "product_name" : "lsldmd",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 5.0,
+      "subtotal" : 5.0
+    } ]
+  }, {
+    "id" : "655ad33a-a601-44b6-b9de-0ed92abeb955",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0015",
+    "total" : 5.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T11:47:38.770874Z",
+    "updated_at" : "2026-04-09T11:47:38.770874Z",
+    "items" : [ {
+      "id" : "7e73bbd4-b5ae-4922-b691-ce8083eb100d",
+      "sale_id" : "655ad33a-a601-44b6-b9de-0ed92abeb955",
+      "upc" : "7503039601277",
+      "product_name" : "lsldmd",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 5.0,
+      "subtotal" : 5.0
+    } ]
+  }, {
+    "id" : "fddb83aa-da21-4a02-beea-4e7d4388a99c",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0016",
+    "total" : 25.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T11:50:13.257831Z",
+    "updated_at" : "2026-04-09T11:50:13.257831Z",
+    "items" : [ {
+      "id" : "a110e63b-a7fc-489e-94ae-68d7dc4209b0",
+      "sale_id" : "fddb83aa-da21-4a02-beea-4e7d4388a99c",
+      "upc" : "7501055333851",
+      "product_name" : "Del Valle Nectar de Durazno",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0
+    } ]
+  }, {
+    "id" : "74c5c5e4-6107-47e2-8fdb-31015df0d2ef",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0017",
+    "total" : 674.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T12:22:02.165261Z",
+    "updated_at" : "2026-04-09T12:22:02.165261Z",
+    "items" : [ {
+      "id" : "d8477bf3-9cd5-4318-9cd5-21ff45e8da74",
+      "sale_id" : "74c5c5e4-6107-47e2-8fdb-31015df0d2ef",
+      "upc" : "N/A",
+      "product_name" : "Tortillas (1kg)",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 26.0,
+      "unit_price" : 24.0,
+      "subtotal" : 624.0
+    }, {
+      "id" : "1a0d9b27-d860-409e-95da-502ba38e4b13",
+      "sale_id" : "74c5c5e4-6107-47e2-8fdb-31015df0d2ef",
+      "upc" : "PRP-719551605",
+      "product_name" : "Tacos De Pastor",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0
+    }, {
+      "id" : "b6dfbcf7-445e-4094-94eb-1a849495ffcf",
+      "sale_id" : "74c5c5e4-6107-47e2-8fdb-31015df0d2ef",
+      "upc" : "7501791669276",
+      "product_name" : "AU jamón cocido",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0
+    } ]
+  }, {
+    "id" : "2229d859-5d34-43f7-a75e-b899c284b232",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0018",
+    "total" : 45.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T18:36:56.729746Z",
+    "updated_at" : "2026-04-09T18:36:56.729746Z",
+    "items" : [ {
+      "id" : "d4ab66e0-16ed-4ff2-b324-d242c1101990",
+      "sale_id" : "2229d859-5d34-43f7-a75e-b899c284b232",
+      "upc" : "INT-001",
+      "product_name" : "Huevo (1kg)",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 45.0,
+      "subtotal" : 45.0
+    } ]
+  }, {
+    "id" : "ebb27e26-fb41-448b-af7c-b29ebaff51ca",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0019",
+    "total" : 25.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T18:43:02.857810Z",
+    "updated_at" : "2026-04-09T18:43:02.857810Z",
+    "items" : [ {
+      "id" : "5f9c6c2a-58c2-4363-b404-5e28c559fbbf",
+      "sale_id" : "ebb27e26-fb41-448b-af7c-b29ebaff51ca",
+      "upc" : "7501032925529",
+      "product_name" : "ggcv baygo",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0
+    } ]
+  }, {
+    "id" : "b2e5a48e-3078-4820-a40f-c71a5e8e4ea0",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0020",
+    "total" : 141.5,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-10T03:28:34.379274Z",
+    "updated_at" : "2026-04-10T03:28:34.379274Z",
+    "items" : [ {
+      "id" : "58b67fe9-8bc7-4515-b53b-2c4e8c416ff1",
+      "sale_id" : "b2e5a48e-3078-4820-a40f-c71a5e8e4ea0",
+      "upc" : "INT-001",
+      "product_name" : "Huevo (1kg)",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 2.0,
+      "unit_price" : 45.0,
+      "subtotal" : 90.0
+    }, {
+      "id" : "f8ad4b8b-af10-4eb2-b7c7-56a87f260f1e",
+      "sale_id" : "b2e5a48e-3078-4820-a40f-c71a5e8e4ea0",
+      "upc" : "INT-002",
+      "product_name" : "Tortillas (1kg)",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 2.0,
+      "unit_price" : 24.0,
+      "subtotal" : 48.0
+    }, {
+      "id" : "7c2e938e-f873-4368-8c43-c6523dfeee00",
+      "sale_id" : "b2e5a48e-3078-4820-a40f-c71a5e8e4ea0",
+      "upc" : "INT-003",
+      "product_name" : "Bolillo (Pza)",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 3.5,
+      "subtotal" : 3.5
+    } ]
+  }, {
+    "id" : "d12ae8e9-e319-4c25-93b7-41d59f967c31",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0021",
+    "total" : 90.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-10T03:28:47.399969Z",
+    "updated_at" : "2026-04-10T03:28:47.399969Z",
+    "items" : [ {
+      "id" : "23ab9a52-f2cf-4c8b-ac4e-e7850dca9dce",
+      "sale_id" : "d12ae8e9-e319-4c25-93b7-41d59f967c31",
+      "upc" : "INT-001",
+      "product_name" : "Huevo (1kg)",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 2.0,
+      "unit_price" : 45.0,
+      "subtotal" : 90.0
+    } ]
+  } ]
+}
+
+=========== [ 2026-04-09T23:35:46.736183300-06:00 ] ===========
+TENANT_ID: 8691f5d8-24f6-4c3d-93a1-0852e9540dae
+RECORDS COUNT: 10
+PAYLOAD: 
+{
+  "tenantId" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+  "records" : [ {
+    "id" : "61533570-571f-47a8-bf12-7085f7180bf8",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0012",
+    "total" : 5.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T11:47:03.032023Z",
+    "updated_at" : "2026-04-09T11:47:03.032023Z",
+    "items" : [ {
+      "id" : "e1c9c259-ae77-443b-a831-1ceccdbc7b0d",
+      "sale_id" : "61533570-571f-47a8-bf12-7085f7180bf8",
+      "upc" : "7503039601277",
+      "product_name" : "lsldmd",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 5.0,
+      "subtotal" : 5.0
+    } ]
+  }, {
+    "id" : "87985203-4b6c-4c80-8b5d-b55e920d7bd7",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0013",
+    "total" : 5.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T11:47:14.933403Z",
+    "updated_at" : "2026-04-09T11:47:14.933403Z",
+    "items" : [ {
+      "id" : "0930c207-9c33-44b8-b011-872a88aa28e4",
+      "sale_id" : "87985203-4b6c-4c80-8b5d-b55e920d7bd7",
+      "upc" : "7503039601277",
+      "product_name" : "lsldmd",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 5.0,
+      "subtotal" : 5.0
+    } ]
+  }, {
+    "id" : "e0fbaee4-4f2d-46ca-a5b6-18e21ffadf68",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0014",
+    "total" : 5.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T11:47:28.402004Z",
+    "updated_at" : "2026-04-09T11:47:28.402004Z",
+    "items" : [ {
+      "id" : "013c48b2-23dc-4dfa-aa2f-ff3cf6049477",
+      "sale_id" : "e0fbaee4-4f2d-46ca-a5b6-18e21ffadf68",
+      "upc" : "7503039601277",
+      "product_name" : "lsldmd",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 5.0,
+      "subtotal" : 5.0
+    } ]
+  }, {
+    "id" : "655ad33a-a601-44b6-b9de-0ed92abeb955",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0015",
+    "total" : 5.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T11:47:38.770874Z",
+    "updated_at" : "2026-04-09T11:47:38.770874Z",
+    "items" : [ {
+      "id" : "7e73bbd4-b5ae-4922-b691-ce8083eb100d",
+      "sale_id" : "655ad33a-a601-44b6-b9de-0ed92abeb955",
+      "upc" : "7503039601277",
+      "product_name" : "lsldmd",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 5.0,
+      "subtotal" : 5.0
+    } ]
+  }, {
+    "id" : "fddb83aa-da21-4a02-beea-4e7d4388a99c",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0016",
+    "total" : 25.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T11:50:13.257831Z",
+    "updated_at" : "2026-04-09T11:50:13.257831Z",
+    "items" : [ {
+      "id" : "a110e63b-a7fc-489e-94ae-68d7dc4209b0",
+      "sale_id" : "fddb83aa-da21-4a02-beea-4e7d4388a99c",
+      "upc" : "7501055333851",
+      "product_name" : "Del Valle Nectar de Durazno",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0
+    } ]
+  }, {
+    "id" : "74c5c5e4-6107-47e2-8fdb-31015df0d2ef",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0017",
+    "total" : 674.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T12:22:02.165261Z",
+    "updated_at" : "2026-04-09T12:22:02.165261Z",
+    "items" : [ {
+      "id" : "d8477bf3-9cd5-4318-9cd5-21ff45e8da74",
+      "sale_id" : "74c5c5e4-6107-47e2-8fdb-31015df0d2ef",
+      "upc" : "N/A",
+      "product_name" : "Tortillas (1kg)",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 26.0,
+      "unit_price" : 24.0,
+      "subtotal" : 624.0
+    }, {
+      "id" : "1a0d9b27-d860-409e-95da-502ba38e4b13",
+      "sale_id" : "74c5c5e4-6107-47e2-8fdb-31015df0d2ef",
+      "upc" : "PRP-719551605",
+      "product_name" : "Tacos De Pastor",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0
+    }, {
+      "id" : "b6dfbcf7-445e-4094-94eb-1a849495ffcf",
+      "sale_id" : "74c5c5e4-6107-47e2-8fdb-31015df0d2ef",
+      "upc" : "7501791669276",
+      "product_name" : "AU jamón cocido",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0
+    } ]
+  }, {
+    "id" : "2229d859-5d34-43f7-a75e-b899c284b232",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0018",
+    "total" : 45.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T18:36:56.729746Z",
+    "updated_at" : "2026-04-09T18:36:56.729746Z",
+    "items" : [ {
+      "id" : "d4ab66e0-16ed-4ff2-b324-d242c1101990",
+      "sale_id" : "2229d859-5d34-43f7-a75e-b899c284b232",
+      "upc" : "INT-001",
+      "product_name" : "Huevo (1kg)",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 45.0,
+      "subtotal" : 45.0
+    } ]
+  }, {
+    "id" : "ebb27e26-fb41-448b-af7c-b29ebaff51ca",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0019",
+    "total" : 25.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T18:43:02.857810Z",
+    "updated_at" : "2026-04-09T18:43:02.857810Z",
+    "items" : [ {
+      "id" : "5f9c6c2a-58c2-4363-b404-5e28c559fbbf",
+      "sale_id" : "ebb27e26-fb41-448b-af7c-b29ebaff51ca",
+      "upc" : "7501032925529",
+      "product_name" : "ggcv baygo",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0
+    } ]
+  }, {
+    "id" : "b2e5a48e-3078-4820-a40f-c71a5e8e4ea0",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0020",
+    "total" : 141.5,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-10T03:28:34.379274Z",
+    "updated_at" : "2026-04-10T03:28:34.379274Z",
+    "items" : [ {
+      "id" : "58b67fe9-8bc7-4515-b53b-2c4e8c416ff1",
+      "sale_id" : "b2e5a48e-3078-4820-a40f-c71a5e8e4ea0",
+      "upc" : "INT-001",
+      "product_name" : "Huevo (1kg)",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 2.0,
+      "unit_price" : 45.0,
+      "subtotal" : 90.0
+    }, {
+      "id" : "f8ad4b8b-af10-4eb2-b7c7-56a87f260f1e",
+      "sale_id" : "b2e5a48e-3078-4820-a40f-c71a5e8e4ea0",
+      "upc" : "INT-002",
+      "product_name" : "Tortillas (1kg)",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 2.0,
+      "unit_price" : 24.0,
+      "subtotal" : 48.0
+    }, {
+      "id" : "7c2e938e-f873-4368-8c43-c6523dfeee00",
+      "sale_id" : "b2e5a48e-3078-4820-a40f-c71a5e8e4ea0",
+      "upc" : "INT-003",
+      "product_name" : "Bolillo (Pza)",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 3.5,
+      "subtotal" : 3.5
+    } ]
+  }, {
+    "id" : "d12ae8e9-e319-4c25-93b7-41d59f967c31",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0021",
+    "total" : 90.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-10T03:28:47.399969Z",
+    "updated_at" : "2026-04-10T03:28:47.399969Z",
+    "items" : [ {
+      "id" : "23ab9a52-f2cf-4c8b-ac4e-e7850dca9dce",
+      "sale_id" : "d12ae8e9-e319-4c25-93b7-41d59f967c31",
+      "upc" : "INT-001",
+      "product_name" : "Huevo (1kg)",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 2.0,
+      "unit_price" : 45.0,
+      "subtotal" : 90.0
+    } ]
+  } ]
+}
+
+=========== [ 2026-04-09T23:37:23.330755-06:00 ] ===========
+TENANT_ID: 8691f5d8-24f6-4c3d-93a1-0852e9540dae
+RECORDS COUNT: 10
+PAYLOAD: 
+{
+  "tenantId" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+  "records" : [ {
+    "id" : "61533570-571f-47a8-bf12-7085f7180bf8",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0012",
+    "total" : 5.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T11:47:03.032023Z",
+    "updated_at" : "2026-04-09T11:47:03.032023Z",
+    "items" : [ {
+      "id" : "e1c9c259-ae77-443b-a831-1ceccdbc7b0d",
+      "sale_id" : "61533570-571f-47a8-bf12-7085f7180bf8",
+      "upc" : "7503039601277",
+      "product_name" : "lsldmd",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 5.0,
+      "subtotal" : 5.0
+    } ]
+  }, {
+    "id" : "87985203-4b6c-4c80-8b5d-b55e920d7bd7",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0013",
+    "total" : 5.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T11:47:14.933403Z",
+    "updated_at" : "2026-04-09T11:47:14.933403Z",
+    "items" : [ {
+      "id" : "0930c207-9c33-44b8-b011-872a88aa28e4",
+      "sale_id" : "87985203-4b6c-4c80-8b5d-b55e920d7bd7",
+      "upc" : "7503039601277",
+      "product_name" : "lsldmd",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 5.0,
+      "subtotal" : 5.0
+    } ]
+  }, {
+    "id" : "e0fbaee4-4f2d-46ca-a5b6-18e21ffadf68",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0014",
+    "total" : 5.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T11:47:28.402004Z",
+    "updated_at" : "2026-04-09T11:47:28.402004Z",
+    "items" : [ {
+      "id" : "013c48b2-23dc-4dfa-aa2f-ff3cf6049477",
+      "sale_id" : "e0fbaee4-4f2d-46ca-a5b6-18e21ffadf68",
+      "upc" : "7503039601277",
+      "product_name" : "lsldmd",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 5.0,
+      "subtotal" : 5.0
+    } ]
+  }, {
+    "id" : "655ad33a-a601-44b6-b9de-0ed92abeb955",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0015",
+    "total" : 5.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T11:47:38.770874Z",
+    "updated_at" : "2026-04-09T11:47:38.770874Z",
+    "items" : [ {
+      "id" : "7e73bbd4-b5ae-4922-b691-ce8083eb100d",
+      "sale_id" : "655ad33a-a601-44b6-b9de-0ed92abeb955",
+      "upc" : "7503039601277",
+      "product_name" : "lsldmd",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 5.0,
+      "subtotal" : 5.0
+    } ]
+  }, {
+    "id" : "fddb83aa-da21-4a02-beea-4e7d4388a99c",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0016",
+    "total" : 25.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T11:50:13.257831Z",
+    "updated_at" : "2026-04-09T11:50:13.257831Z",
+    "items" : [ {
+      "id" : "a110e63b-a7fc-489e-94ae-68d7dc4209b0",
+      "sale_id" : "fddb83aa-da21-4a02-beea-4e7d4388a99c",
+      "upc" : "7501055333851",
+      "product_name" : "Del Valle Nectar de Durazno",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0
+    } ]
+  }, {
+    "id" : "74c5c5e4-6107-47e2-8fdb-31015df0d2ef",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0017",
+    "total" : 674.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T12:22:02.165261Z",
+    "updated_at" : "2026-04-09T12:22:02.165261Z",
+    "items" : [ {
+      "id" : "d8477bf3-9cd5-4318-9cd5-21ff45e8da74",
+      "sale_id" : "74c5c5e4-6107-47e2-8fdb-31015df0d2ef",
+      "upc" : "N/A",
+      "product_name" : "Tortillas (1kg)",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 26.0,
+      "unit_price" : 24.0,
+      "subtotal" : 624.0
+    }, {
+      "id" : "1a0d9b27-d860-409e-95da-502ba38e4b13",
+      "sale_id" : "74c5c5e4-6107-47e2-8fdb-31015df0d2ef",
+      "upc" : "PRP-719551605",
+      "product_name" : "Tacos De Pastor",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0
+    }, {
+      "id" : "b6dfbcf7-445e-4094-94eb-1a849495ffcf",
+      "sale_id" : "74c5c5e4-6107-47e2-8fdb-31015df0d2ef",
+      "upc" : "7501791669276",
+      "product_name" : "AU jamón cocido",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0
+    } ]
+  }, {
+    "id" : "2229d859-5d34-43f7-a75e-b899c284b232",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0018",
+    "total" : 45.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T18:36:56.729746Z",
+    "updated_at" : "2026-04-09T18:36:56.729746Z",
+    "items" : [ {
+      "id" : "d4ab66e0-16ed-4ff2-b324-d242c1101990",
+      "sale_id" : "2229d859-5d34-43f7-a75e-b899c284b232",
+      "upc" : "INT-001",
+      "product_name" : "Huevo (1kg)",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 45.0,
+      "subtotal" : 45.0
+    } ]
+  }, {
+    "id" : "ebb27e26-fb41-448b-af7c-b29ebaff51ca",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0019",
+    "total" : 25.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-09T18:43:02.857810Z",
+    "updated_at" : "2026-04-09T18:43:02.857810Z",
+    "items" : [ {
+      "id" : "5f9c6c2a-58c2-4363-b404-5e28c559fbbf",
+      "sale_id" : "ebb27e26-fb41-448b-af7c-b29ebaff51ca",
+      "upc" : "7501032925529",
+      "product_name" : "ggcv baygo",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0
+    } ]
+  }, {
+    "id" : "b2e5a48e-3078-4820-a40f-c71a5e8e4ea0",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0020",
+    "total" : 141.5,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-10T03:28:34.379274Z",
+    "updated_at" : "2026-04-10T03:28:34.379274Z",
+    "items" : [ {
+      "id" : "58b67fe9-8bc7-4515-b53b-2c4e8c416ff1",
+      "sale_id" : "b2e5a48e-3078-4820-a40f-c71a5e8e4ea0",
+      "upc" : "INT-001",
+      "product_name" : "Huevo (1kg)",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 2.0,
+      "unit_price" : 45.0,
+      "subtotal" : 90.0
+    }, {
+      "id" : "f8ad4b8b-af10-4eb2-b7c7-56a87f260f1e",
+      "sale_id" : "b2e5a48e-3078-4820-a40f-c71a5e8e4ea0",
+      "upc" : "INT-002",
+      "product_name" : "Tortillas (1kg)",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 2.0,
+      "unit_price" : 24.0,
+      "subtotal" : 48.0
+    }, {
+      "id" : "7c2e938e-f873-4368-8c43-c6523dfeee00",
+      "sale_id" : "b2e5a48e-3078-4820-a40f-c71a5e8e4ea0",
+      "upc" : "INT-003",
+      "product_name" : "Bolillo (Pza)",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 3.5,
+      "subtotal" : 3.5
+    } ]
+  }, {
+    "id" : "d12ae8e9-e319-4c25-93b7-41d59f967c31",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0021",
+    "total" : 90.0,
+    "payment_type" : "CASH",
+    "reg_borrado" : 1,
+    "created_at" : "2026-04-10T03:28:47.399969Z",
+    "updated_at" : "2026-04-10T03:28:47.399969Z",
+    "items" : [ {
+      "id" : "23ab9a52-f2cf-4c8b-ac4e-e7850dca9dce",
+      "sale_id" : "d12ae8e9-e319-4c25-93b7-41d59f967c31",
+      "upc" : "INT-001",
+      "product_name" : "Huevo (1kg)",
+      "measurement_unit" : "PZA",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 2.0,
+      "unit_price" : 45.0,
+      "subtotal" : 90.0
+    } ]
+  } ]
+}
+
+=========== [ 2026-04-09T23:40:46.401008300-06:00 ] ===========
+TENANT_ID: 8691f5d8-24f6-4c3d-93a1-0852e9540dae
+RECORDS COUNT: 10
+PAYLOAD: 
+{
+  "tenantId" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+  "records" : [ {
+    "id" : "61533570-571f-47a8-bf12-7085f7180bf8",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0012",
+    "total" : 5.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T11:47:03.032023Z",
+    "updatedAt" : "2026-04-09T11:47:03.032023Z",
+    "items" : [ {
+      "id" : "e1c9c259-ae77-443b-a831-1ceccdbc7b0d",
+      "sale_id" : "61533570-571f-47a8-bf12-7085f7180bf8",
+      "upc" : "7503039601277",
+      "product_name" : "lsldmd",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 5.0,
+      "subtotal" : 5.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "87985203-4b6c-4c80-8b5d-b55e920d7bd7",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0013",
+    "total" : 5.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T11:47:14.933403Z",
+    "updatedAt" : "2026-04-09T11:47:14.933403Z",
+    "items" : [ {
+      "id" : "0930c207-9c33-44b8-b011-872a88aa28e4",
+      "sale_id" : "87985203-4b6c-4c80-8b5d-b55e920d7bd7",
+      "upc" : "7503039601277",
+      "product_name" : "lsldmd",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 5.0,
+      "subtotal" : 5.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "e0fbaee4-4f2d-46ca-a5b6-18e21ffadf68",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0014",
+    "total" : 5.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T11:47:28.402004Z",
+    "updatedAt" : "2026-04-09T11:47:28.402004Z",
+    "items" : [ {
+      "id" : "013c48b2-23dc-4dfa-aa2f-ff3cf6049477",
+      "sale_id" : "e0fbaee4-4f2d-46ca-a5b6-18e21ffadf68",
+      "upc" : "7503039601277",
+      "product_name" : "lsldmd",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 5.0,
+      "subtotal" : 5.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "655ad33a-a601-44b6-b9de-0ed92abeb955",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0015",
+    "total" : 5.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T11:47:38.770874Z",
+    "updatedAt" : "2026-04-09T11:47:38.770874Z",
+    "items" : [ {
+      "id" : "7e73bbd4-b5ae-4922-b691-ce8083eb100d",
+      "sale_id" : "655ad33a-a601-44b6-b9de-0ed92abeb955",
+      "upc" : "7503039601277",
+      "product_name" : "lsldmd",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 5.0,
+      "subtotal" : 5.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "fddb83aa-da21-4a02-beea-4e7d4388a99c",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0016",
+    "total" : 25.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T11:50:13.257831Z",
+    "updatedAt" : "2026-04-09T11:50:13.257831Z",
+    "items" : [ {
+      "id" : "a110e63b-a7fc-489e-94ae-68d7dc4209b0",
+      "sale_id" : "fddb83aa-da21-4a02-beea-4e7d4388a99c",
+      "upc" : "7501055333851",
+      "product_name" : "Del Valle Nectar de Durazno",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "74c5c5e4-6107-47e2-8fdb-31015df0d2ef",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0017",
+    "total" : 674.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T12:22:02.165261Z",
+    "updatedAt" : "2026-04-09T12:22:02.165261Z",
+    "items" : [ {
+      "id" : "d8477bf3-9cd5-4318-9cd5-21ff45e8da74",
+      "sale_id" : "74c5c5e4-6107-47e2-8fdb-31015df0d2ef",
+      "upc" : "N/A",
+      "product_name" : "Tortillas (1kg)",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 26.0,
+      "unit_price" : 24.0,
+      "subtotal" : 624.0,
+      "measurementUnit" : "PZA"
+    }, {
+      "id" : "1a0d9b27-d860-409e-95da-502ba38e4b13",
+      "sale_id" : "74c5c5e4-6107-47e2-8fdb-31015df0d2ef",
+      "upc" : "PRP-719551605",
+      "product_name" : "Tacos De Pastor",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0,
+      "measurementUnit" : "PZA"
+    }, {
+      "id" : "b6dfbcf7-445e-4094-94eb-1a849495ffcf",
+      "sale_id" : "74c5c5e4-6107-47e2-8fdb-31015df0d2ef",
+      "upc" : "7501791669276",
+      "product_name" : "AU jamón cocido",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "2229d859-5d34-43f7-a75e-b899c284b232",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0018",
+    "total" : 45.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T18:36:56.729746Z",
+    "updatedAt" : "2026-04-09T18:36:56.729746Z",
+    "items" : [ {
+      "id" : "d4ab66e0-16ed-4ff2-b324-d242c1101990",
+      "sale_id" : "2229d859-5d34-43f7-a75e-b899c284b232",
+      "upc" : "INT-001",
+      "product_name" : "Huevo (1kg)",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 45.0,
+      "subtotal" : 45.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "ebb27e26-fb41-448b-af7c-b29ebaff51ca",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0019",
+    "total" : 25.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T18:43:02.857810Z",
+    "updatedAt" : "2026-04-09T18:43:02.857810Z",
+    "items" : [ {
+      "id" : "5f9c6c2a-58c2-4363-b404-5e28c559fbbf",
+      "sale_id" : "ebb27e26-fb41-448b-af7c-b29ebaff51ca",
+      "upc" : "7501032925529",
+      "product_name" : "ggcv baygo",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "b2e5a48e-3078-4820-a40f-c71a5e8e4ea0",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0020",
+    "total" : 141.5,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-10T03:28:34.379274Z",
+    "updatedAt" : "2026-04-10T03:28:34.379274Z",
+    "items" : [ {
+      "id" : "58b67fe9-8bc7-4515-b53b-2c4e8c416ff1",
+      "sale_id" : "b2e5a48e-3078-4820-a40f-c71a5e8e4ea0",
+      "upc" : "INT-001",
+      "product_name" : "Huevo (1kg)",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 2.0,
+      "unit_price" : 45.0,
+      "subtotal" : 90.0,
+      "measurementUnit" : "PZA"
+    }, {
+      "id" : "f8ad4b8b-af10-4eb2-b7c7-56a87f260f1e",
+      "sale_id" : "b2e5a48e-3078-4820-a40f-c71a5e8e4ea0",
+      "upc" : "INT-002",
+      "product_name" : "Tortillas (1kg)",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 2.0,
+      "unit_price" : 24.0,
+      "subtotal" : 48.0,
+      "measurementUnit" : "PZA"
+    }, {
+      "id" : "7c2e938e-f873-4368-8c43-c6523dfeee00",
+      "sale_id" : "b2e5a48e-3078-4820-a40f-c71a5e8e4ea0",
+      "upc" : "INT-003",
+      "product_name" : "Bolillo (Pza)",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 3.5,
+      "subtotal" : 3.5,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "d12ae8e9-e319-4c25-93b7-41d59f967c31",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0021",
+    "total" : 90.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-10T03:28:47.399969Z",
+    "updatedAt" : "2026-04-10T03:28:47.399969Z",
+    "items" : [ {
+      "id" : "23ab9a52-f2cf-4c8b-ac4e-e7850dca9dce",
+      "sale_id" : "d12ae8e9-e319-4c25-93b7-41d59f967c31",
+      "upc" : "INT-001",
+      "product_name" : "Huevo (1kg)",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 2.0,
+      "unit_price" : 45.0,
+      "subtotal" : 90.0,
+      "measurementUnit" : "PZA"
+    } ]
+  } ]
+}
+
+=========== [ 2026-04-09T23:47:15.134049400-06:00 ] ===========
+TENANT_ID: 8691f5d8-24f6-4c3d-93a1-0852e9540dae
+RECORDS COUNT: 10
+PAYLOAD: 
+{
+  "tenantId" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+  "records" : [ {
+    "id" : "61533570-571f-47a8-bf12-7085f7180bf8",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0012",
+    "total" : 5.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T11:47:03.032023Z",
+    "updatedAt" : "2026-04-09T11:47:03.032023Z",
+    "items" : [ {
+      "id" : "e1c9c259-ae77-443b-a831-1ceccdbc7b0d",
+      "sale_id" : "61533570-571f-47a8-bf12-7085f7180bf8",
+      "upc" : "7503039601277",
+      "product_name" : "lsldmd",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 5.0,
+      "subtotal" : 5.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "87985203-4b6c-4c80-8b5d-b55e920d7bd7",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0013",
+    "total" : 5.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T11:47:14.933403Z",
+    "updatedAt" : "2026-04-09T11:47:14.933403Z",
+    "items" : [ {
+      "id" : "0930c207-9c33-44b8-b011-872a88aa28e4",
+      "sale_id" : "87985203-4b6c-4c80-8b5d-b55e920d7bd7",
+      "upc" : "7503039601277",
+      "product_name" : "lsldmd",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 5.0,
+      "subtotal" : 5.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "e0fbaee4-4f2d-46ca-a5b6-18e21ffadf68",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0014",
+    "total" : 5.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T11:47:28.402004Z",
+    "updatedAt" : "2026-04-09T11:47:28.402004Z",
+    "items" : [ {
+      "id" : "013c48b2-23dc-4dfa-aa2f-ff3cf6049477",
+      "sale_id" : "e0fbaee4-4f2d-46ca-a5b6-18e21ffadf68",
+      "upc" : "7503039601277",
+      "product_name" : "lsldmd",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 5.0,
+      "subtotal" : 5.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "655ad33a-a601-44b6-b9de-0ed92abeb955",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0015",
+    "total" : 5.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T11:47:38.770874Z",
+    "updatedAt" : "2026-04-09T11:47:38.770874Z",
+    "items" : [ {
+      "id" : "7e73bbd4-b5ae-4922-b691-ce8083eb100d",
+      "sale_id" : "655ad33a-a601-44b6-b9de-0ed92abeb955",
+      "upc" : "7503039601277",
+      "product_name" : "lsldmd",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 5.0,
+      "subtotal" : 5.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "fddb83aa-da21-4a02-beea-4e7d4388a99c",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0016",
+    "total" : 25.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T11:50:13.257831Z",
+    "updatedAt" : "2026-04-09T11:50:13.257831Z",
+    "items" : [ {
+      "id" : "a110e63b-a7fc-489e-94ae-68d7dc4209b0",
+      "sale_id" : "fddb83aa-da21-4a02-beea-4e7d4388a99c",
+      "upc" : "7501055333851",
+      "product_name" : "Del Valle Nectar de Durazno",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "74c5c5e4-6107-47e2-8fdb-31015df0d2ef",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0017",
+    "total" : 674.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T12:22:02.165261Z",
+    "updatedAt" : "2026-04-09T12:22:02.165261Z",
+    "items" : [ {
+      "id" : "d8477bf3-9cd5-4318-9cd5-21ff45e8da74",
+      "sale_id" : "74c5c5e4-6107-47e2-8fdb-31015df0d2ef",
+      "upc" : "N/A",
+      "product_name" : "Tortillas (1kg)",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 26.0,
+      "unit_price" : 24.0,
+      "subtotal" : 624.0,
+      "measurementUnit" : "PZA"
+    }, {
+      "id" : "1a0d9b27-d860-409e-95da-502ba38e4b13",
+      "sale_id" : "74c5c5e4-6107-47e2-8fdb-31015df0d2ef",
+      "upc" : "PRP-719551605",
+      "product_name" : "Tacos De Pastor",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0,
+      "measurementUnit" : "PZA"
+    }, {
+      "id" : "b6dfbcf7-445e-4094-94eb-1a849495ffcf",
+      "sale_id" : "74c5c5e4-6107-47e2-8fdb-31015df0d2ef",
+      "upc" : "7501791669276",
+      "product_name" : "AU jamón cocido",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "2229d859-5d34-43f7-a75e-b899c284b232",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0018",
+    "total" : 45.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T18:36:56.729746Z",
+    "updatedAt" : "2026-04-09T18:36:56.729746Z",
+    "items" : [ {
+      "id" : "d4ab66e0-16ed-4ff2-b324-d242c1101990",
+      "sale_id" : "2229d859-5d34-43f7-a75e-b899c284b232",
+      "upc" : "INT-001",
+      "product_name" : "Huevo (1kg)",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 45.0,
+      "subtotal" : 45.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "ebb27e26-fb41-448b-af7c-b29ebaff51ca",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0019",
+    "total" : 25.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T18:43:02.857810Z",
+    "updatedAt" : "2026-04-09T18:43:02.857810Z",
+    "items" : [ {
+      "id" : "5f9c6c2a-58c2-4363-b404-5e28c559fbbf",
+      "sale_id" : "ebb27e26-fb41-448b-af7c-b29ebaff51ca",
+      "upc" : "7501032925529",
+      "product_name" : "ggcv baygo",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "b2e5a48e-3078-4820-a40f-c71a5e8e4ea0",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0020",
+    "total" : 141.5,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-10T03:28:34.379274Z",
+    "updatedAt" : "2026-04-10T03:28:34.379274Z",
+    "items" : [ {
+      "id" : "58b67fe9-8bc7-4515-b53b-2c4e8c416ff1",
+      "sale_id" : "b2e5a48e-3078-4820-a40f-c71a5e8e4ea0",
+      "upc" : "INT-001",
+      "product_name" : "Huevo (1kg)",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 2.0,
+      "unit_price" : 45.0,
+      "subtotal" : 90.0,
+      "measurementUnit" : "PZA"
+    }, {
+      "id" : "f8ad4b8b-af10-4eb2-b7c7-56a87f260f1e",
+      "sale_id" : "b2e5a48e-3078-4820-a40f-c71a5e8e4ea0",
+      "upc" : "INT-002",
+      "product_name" : "Tortillas (1kg)",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 2.0,
+      "unit_price" : 24.0,
+      "subtotal" : 48.0,
+      "measurementUnit" : "PZA"
+    }, {
+      "id" : "7c2e938e-f873-4368-8c43-c6523dfeee00",
+      "sale_id" : "b2e5a48e-3078-4820-a40f-c71a5e8e4ea0",
+      "upc" : "INT-003",
+      "product_name" : "Bolillo (Pza)",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 3.5,
+      "subtotal" : 3.5,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "d12ae8e9-e319-4c25-93b7-41d59f967c31",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0021",
+    "total" : 90.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-10T03:28:47.399969Z",
+    "updatedAt" : "2026-04-10T03:28:47.399969Z",
+    "items" : [ {
+      "id" : "23ab9a52-f2cf-4c8b-ac4e-e7850dca9dce",
+      "sale_id" : "d12ae8e9-e319-4c25-93b7-41d59f967c31",
+      "upc" : "INT-001",
+      "product_name" : "Huevo (1kg)",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 2.0,
+      "unit_price" : 45.0,
+      "subtotal" : 90.0,
+      "measurementUnit" : "PZA"
+    } ]
+  } ]
+}
+
+=========== [ 2026-04-09T23:52:18.016842900-06:00 ] ===========
+TENANT_ID: 8691f5d8-24f6-4c3d-93a1-0852e9540dae
+RECORDS COUNT: 10
+PAYLOAD: 
+{
+  "tenantId" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+  "records" : [ {
+    "id" : "61533570-571f-47a8-bf12-7085f7180bf8",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0012",
+    "total" : 5.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T11:47:03.032023Z",
+    "updatedAt" : "2026-04-09T11:47:03.032023Z",
+    "items" : [ {
+      "id" : "e1c9c259-ae77-443b-a831-1ceccdbc7b0d",
+      "sale_id" : "61533570-571f-47a8-bf12-7085f7180bf8",
+      "upc" : "7503039601277",
+      "product_name" : "lsldmd",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 5.0,
+      "subtotal" : 5.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "87985203-4b6c-4c80-8b5d-b55e920d7bd7",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0013",
+    "total" : 5.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T11:47:14.933403Z",
+    "updatedAt" : "2026-04-09T11:47:14.933403Z",
+    "items" : [ {
+      "id" : "0930c207-9c33-44b8-b011-872a88aa28e4",
+      "sale_id" : "87985203-4b6c-4c80-8b5d-b55e920d7bd7",
+      "upc" : "7503039601277",
+      "product_name" : "lsldmd",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 5.0,
+      "subtotal" : 5.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "e0fbaee4-4f2d-46ca-a5b6-18e21ffadf68",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0014",
+    "total" : 5.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T11:47:28.402004Z",
+    "updatedAt" : "2026-04-09T11:47:28.402004Z",
+    "items" : [ {
+      "id" : "013c48b2-23dc-4dfa-aa2f-ff3cf6049477",
+      "sale_id" : "e0fbaee4-4f2d-46ca-a5b6-18e21ffadf68",
+      "upc" : "7503039601277",
+      "product_name" : "lsldmd",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 5.0,
+      "subtotal" : 5.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "655ad33a-a601-44b6-b9de-0ed92abeb955",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0015",
+    "total" : 5.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T11:47:38.770874Z",
+    "updatedAt" : "2026-04-09T11:47:38.770874Z",
+    "items" : [ {
+      "id" : "7e73bbd4-b5ae-4922-b691-ce8083eb100d",
+      "sale_id" : "655ad33a-a601-44b6-b9de-0ed92abeb955",
+      "upc" : "7503039601277",
+      "product_name" : "lsldmd",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 5.0,
+      "subtotal" : 5.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "fddb83aa-da21-4a02-beea-4e7d4388a99c",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0016",
+    "total" : 25.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T11:50:13.257831Z",
+    "updatedAt" : "2026-04-09T11:50:13.257831Z",
+    "items" : [ {
+      "id" : "a110e63b-a7fc-489e-94ae-68d7dc4209b0",
+      "sale_id" : "fddb83aa-da21-4a02-beea-4e7d4388a99c",
+      "upc" : "7501055333851",
+      "product_name" : "Del Valle Nectar de Durazno",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "74c5c5e4-6107-47e2-8fdb-31015df0d2ef",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0017",
+    "total" : 674.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T12:22:02.165261Z",
+    "updatedAt" : "2026-04-09T12:22:02.165261Z",
+    "items" : [ {
+      "id" : "d8477bf3-9cd5-4318-9cd5-21ff45e8da74",
+      "sale_id" : "74c5c5e4-6107-47e2-8fdb-31015df0d2ef",
+      "upc" : "N/A",
+      "product_name" : "Tortillas (1kg)",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 26.0,
+      "unit_price" : 24.0,
+      "subtotal" : 624.0,
+      "measurementUnit" : "PZA"
+    }, {
+      "id" : "1a0d9b27-d860-409e-95da-502ba38e4b13",
+      "sale_id" : "74c5c5e4-6107-47e2-8fdb-31015df0d2ef",
+      "upc" : "PRP-719551605",
+      "product_name" : "Tacos De Pastor",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0,
+      "measurementUnit" : "PZA"
+    }, {
+      "id" : "b6dfbcf7-445e-4094-94eb-1a849495ffcf",
+      "sale_id" : "74c5c5e4-6107-47e2-8fdb-31015df0d2ef",
+      "upc" : "7501791669276",
+      "product_name" : "AU jamón cocido",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "2229d859-5d34-43f7-a75e-b899c284b232",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0018",
+    "total" : 45.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T18:36:56.729746Z",
+    "updatedAt" : "2026-04-09T18:36:56.729746Z",
+    "items" : [ {
+      "id" : "d4ab66e0-16ed-4ff2-b324-d242c1101990",
+      "sale_id" : "2229d859-5d34-43f7-a75e-b899c284b232",
+      "upc" : "INT-001",
+      "product_name" : "Huevo (1kg)",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 45.0,
+      "subtotal" : 45.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "ebb27e26-fb41-448b-af7c-b29ebaff51ca",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0019",
+    "total" : 25.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T18:43:02.857810Z",
+    "updatedAt" : "2026-04-09T18:43:02.857810Z",
+    "items" : [ {
+      "id" : "5f9c6c2a-58c2-4363-b404-5e28c559fbbf",
+      "sale_id" : "ebb27e26-fb41-448b-af7c-b29ebaff51ca",
+      "upc" : "7501032925529",
+      "product_name" : "ggcv baygo",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "b2e5a48e-3078-4820-a40f-c71a5e8e4ea0",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0020",
+    "total" : 141.5,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-10T03:28:34.379274Z",
+    "updatedAt" : "2026-04-10T03:28:34.379274Z",
+    "items" : [ {
+      "id" : "58b67fe9-8bc7-4515-b53b-2c4e8c416ff1",
+      "sale_id" : "b2e5a48e-3078-4820-a40f-c71a5e8e4ea0",
+      "upc" : "INT-001",
+      "product_name" : "Huevo (1kg)",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 2.0,
+      "unit_price" : 45.0,
+      "subtotal" : 90.0,
+      "measurementUnit" : "PZA"
+    }, {
+      "id" : "f8ad4b8b-af10-4eb2-b7c7-56a87f260f1e",
+      "sale_id" : "b2e5a48e-3078-4820-a40f-c71a5e8e4ea0",
+      "upc" : "INT-002",
+      "product_name" : "Tortillas (1kg)",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 2.0,
+      "unit_price" : 24.0,
+      "subtotal" : 48.0,
+      "measurementUnit" : "PZA"
+    }, {
+      "id" : "7c2e938e-f873-4368-8c43-c6523dfeee00",
+      "sale_id" : "b2e5a48e-3078-4820-a40f-c71a5e8e4ea0",
+      "upc" : "INT-003",
+      "product_name" : "Bolillo (Pza)",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 3.5,
+      "subtotal" : 3.5,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "d12ae8e9-e319-4c25-93b7-41d59f967c31",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0021",
+    "total" : 90.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-10T03:28:47.399969Z",
+    "updatedAt" : "2026-04-10T03:28:47.399969Z",
+    "items" : [ {
+      "id" : "23ab9a52-f2cf-4c8b-ac4e-e7850dca9dce",
+      "sale_id" : "d12ae8e9-e319-4c25-93b7-41d59f967c31",
+      "upc" : "INT-001",
+      "product_name" : "Huevo (1kg)",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 2.0,
+      "unit_price" : 45.0,
+      "subtotal" : 90.0,
+      "measurementUnit" : "PZA"
+    } ]
+  } ]
+}
+
+=========== [ 2026-04-09T23:57:50.835096200-06:00 ] ===========
+TENANT_ID: 8691f5d8-24f6-4c3d-93a1-0852e9540dae
+RECORDS COUNT: 10
+PAYLOAD: 
+{
+  "tenantId" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+  "records" : [ {
+    "id" : "61533570-571f-47a8-bf12-7085f7180bf8",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0012",
+    "total" : 5.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T11:47:03.032023Z",
+    "updatedAt" : "2026-04-09T11:47:03.032023Z",
+    "items" : [ {
+      "id" : "e1c9c259-ae77-443b-a831-1ceccdbc7b0d",
+      "sale_id" : "61533570-571f-47a8-bf12-7085f7180bf8",
+      "upc" : "7503039601277",
+      "product_name" : "lsldmd",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 5.0,
+      "subtotal" : 5.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "87985203-4b6c-4c80-8b5d-b55e920d7bd7",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0013",
+    "total" : 5.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T11:47:14.933403Z",
+    "updatedAt" : "2026-04-09T11:47:14.933403Z",
+    "items" : [ {
+      "id" : "0930c207-9c33-44b8-b011-872a88aa28e4",
+      "sale_id" : "87985203-4b6c-4c80-8b5d-b55e920d7bd7",
+      "upc" : "7503039601277",
+      "product_name" : "lsldmd",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 5.0,
+      "subtotal" : 5.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "e0fbaee4-4f2d-46ca-a5b6-18e21ffadf68",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0014",
+    "total" : 5.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T11:47:28.402004Z",
+    "updatedAt" : "2026-04-09T11:47:28.402004Z",
+    "items" : [ {
+      "id" : "013c48b2-23dc-4dfa-aa2f-ff3cf6049477",
+      "sale_id" : "e0fbaee4-4f2d-46ca-a5b6-18e21ffadf68",
+      "upc" : "7503039601277",
+      "product_name" : "lsldmd",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 5.0,
+      "subtotal" : 5.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "655ad33a-a601-44b6-b9de-0ed92abeb955",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0015",
+    "total" : 5.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T11:47:38.770874Z",
+    "updatedAt" : "2026-04-09T11:47:38.770874Z",
+    "items" : [ {
+      "id" : "7e73bbd4-b5ae-4922-b691-ce8083eb100d",
+      "sale_id" : "655ad33a-a601-44b6-b9de-0ed92abeb955",
+      "upc" : "7503039601277",
+      "product_name" : "lsldmd",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 5.0,
+      "subtotal" : 5.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "fddb83aa-da21-4a02-beea-4e7d4388a99c",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0016",
+    "total" : 25.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T11:50:13.257831Z",
+    "updatedAt" : "2026-04-09T11:50:13.257831Z",
+    "items" : [ {
+      "id" : "a110e63b-a7fc-489e-94ae-68d7dc4209b0",
+      "sale_id" : "fddb83aa-da21-4a02-beea-4e7d4388a99c",
+      "upc" : "7501055333851",
+      "product_name" : "Del Valle Nectar de Durazno",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "74c5c5e4-6107-47e2-8fdb-31015df0d2ef",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0017",
+    "total" : 674.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T12:22:02.165261Z",
+    "updatedAt" : "2026-04-09T12:22:02.165261Z",
+    "items" : [ {
+      "id" : "d8477bf3-9cd5-4318-9cd5-21ff45e8da74",
+      "sale_id" : "74c5c5e4-6107-47e2-8fdb-31015df0d2ef",
+      "upc" : "N/A",
+      "product_name" : "Tortillas (1kg)",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 26.0,
+      "unit_price" : 24.0,
+      "subtotal" : 624.0,
+      "measurementUnit" : "PZA"
+    }, {
+      "id" : "1a0d9b27-d860-409e-95da-502ba38e4b13",
+      "sale_id" : "74c5c5e4-6107-47e2-8fdb-31015df0d2ef",
+      "upc" : "PRP-719551605",
+      "product_name" : "Tacos De Pastor",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0,
+      "measurementUnit" : "PZA"
+    }, {
+      "id" : "b6dfbcf7-445e-4094-94eb-1a849495ffcf",
+      "sale_id" : "74c5c5e4-6107-47e2-8fdb-31015df0d2ef",
+      "upc" : "7501791669276",
+      "product_name" : "AU jamón cocido",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "2229d859-5d34-43f7-a75e-b899c284b232",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0018",
+    "total" : 45.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T18:36:56.729746Z",
+    "updatedAt" : "2026-04-09T18:36:56.729746Z",
+    "items" : [ {
+      "id" : "d4ab66e0-16ed-4ff2-b324-d242c1101990",
+      "sale_id" : "2229d859-5d34-43f7-a75e-b899c284b232",
+      "upc" : "INT-001",
+      "product_name" : "Huevo (1kg)",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 45.0,
+      "subtotal" : 45.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "ebb27e26-fb41-448b-af7c-b29ebaff51ca",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0019",
+    "total" : 25.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T18:43:02.857810Z",
+    "updatedAt" : "2026-04-09T18:43:02.857810Z",
+    "items" : [ {
+      "id" : "5f9c6c2a-58c2-4363-b404-5e28c559fbbf",
+      "sale_id" : "ebb27e26-fb41-448b-af7c-b29ebaff51ca",
+      "upc" : "7501032925529",
+      "product_name" : "ggcv baygo",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "b2e5a48e-3078-4820-a40f-c71a5e8e4ea0",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0020",
+    "total" : 141.5,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-10T03:28:34.379274Z",
+    "updatedAt" : "2026-04-10T03:28:34.379274Z",
+    "items" : [ {
+      "id" : "58b67fe9-8bc7-4515-b53b-2c4e8c416ff1",
+      "sale_id" : "b2e5a48e-3078-4820-a40f-c71a5e8e4ea0",
+      "upc" : "INT-001",
+      "product_name" : "Huevo (1kg)",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 2.0,
+      "unit_price" : 45.0,
+      "subtotal" : 90.0,
+      "measurementUnit" : "PZA"
+    }, {
+      "id" : "f8ad4b8b-af10-4eb2-b7c7-56a87f260f1e",
+      "sale_id" : "b2e5a48e-3078-4820-a40f-c71a5e8e4ea0",
+      "upc" : "INT-002",
+      "product_name" : "Tortillas (1kg)",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 2.0,
+      "unit_price" : 24.0,
+      "subtotal" : 48.0,
+      "measurementUnit" : "PZA"
+    }, {
+      "id" : "7c2e938e-f873-4368-8c43-c6523dfeee00",
+      "sale_id" : "b2e5a48e-3078-4820-a40f-c71a5e8e4ea0",
+      "upc" : "INT-003",
+      "product_name" : "Bolillo (Pza)",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 3.5,
+      "subtotal" : 3.5,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "d12ae8e9-e319-4c25-93b7-41d59f967c31",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0021",
+    "total" : 90.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-10T03:28:47.399969Z",
+    "updatedAt" : "2026-04-10T03:28:47.399969Z",
+    "items" : [ {
+      "id" : "23ab9a52-f2cf-4c8b-ac4e-e7850dca9dce",
+      "sale_id" : "d12ae8e9-e319-4c25-93b7-41d59f967c31",
+      "upc" : "INT-001",
+      "product_name" : "Huevo (1kg)",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 2.0,
+      "unit_price" : 45.0,
+      "subtotal" : 90.0,
+      "measurementUnit" : "PZA"
+    } ]
+  } ]
+}
+
+=========== [ 2026-04-09T23:58:18.868665400-06:00 ] ===========
+TENANT_ID: 8691f5d8-24f6-4c3d-93a1-0852e9540dae
+RECORDS COUNT: 10
+PAYLOAD: 
+{
+  "tenantId" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+  "records" : [ {
+    "id" : "61533570-571f-47a8-bf12-7085f7180bf8",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0012",
+    "total" : 5.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T11:47:03.032023Z",
+    "updatedAt" : "2026-04-09T11:47:03.032023Z",
+    "items" : [ {
+      "id" : "e1c9c259-ae77-443b-a831-1ceccdbc7b0d",
+      "sale_id" : "61533570-571f-47a8-bf12-7085f7180bf8",
+      "upc" : "7503039601277",
+      "product_name" : "lsldmd",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 5.0,
+      "subtotal" : 5.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "87985203-4b6c-4c80-8b5d-b55e920d7bd7",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0013",
+    "total" : 5.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T11:47:14.933403Z",
+    "updatedAt" : "2026-04-09T11:47:14.933403Z",
+    "items" : [ {
+      "id" : "0930c207-9c33-44b8-b011-872a88aa28e4",
+      "sale_id" : "87985203-4b6c-4c80-8b5d-b55e920d7bd7",
+      "upc" : "7503039601277",
+      "product_name" : "lsldmd",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 5.0,
+      "subtotal" : 5.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "e0fbaee4-4f2d-46ca-a5b6-18e21ffadf68",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0014",
+    "total" : 5.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T11:47:28.402004Z",
+    "updatedAt" : "2026-04-09T11:47:28.402004Z",
+    "items" : [ {
+      "id" : "013c48b2-23dc-4dfa-aa2f-ff3cf6049477",
+      "sale_id" : "e0fbaee4-4f2d-46ca-a5b6-18e21ffadf68",
+      "upc" : "7503039601277",
+      "product_name" : "lsldmd",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 5.0,
+      "subtotal" : 5.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "655ad33a-a601-44b6-b9de-0ed92abeb955",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0015",
+    "total" : 5.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T11:47:38.770874Z",
+    "updatedAt" : "2026-04-09T11:47:38.770874Z",
+    "items" : [ {
+      "id" : "7e73bbd4-b5ae-4922-b691-ce8083eb100d",
+      "sale_id" : "655ad33a-a601-44b6-b9de-0ed92abeb955",
+      "upc" : "7503039601277",
+      "product_name" : "lsldmd",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 5.0,
+      "subtotal" : 5.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "fddb83aa-da21-4a02-beea-4e7d4388a99c",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0016",
+    "total" : 25.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T11:50:13.257831Z",
+    "updatedAt" : "2026-04-09T11:50:13.257831Z",
+    "items" : [ {
+      "id" : "a110e63b-a7fc-489e-94ae-68d7dc4209b0",
+      "sale_id" : "fddb83aa-da21-4a02-beea-4e7d4388a99c",
+      "upc" : "7501055333851",
+      "product_name" : "Del Valle Nectar de Durazno",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "74c5c5e4-6107-47e2-8fdb-31015df0d2ef",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0017",
+    "total" : 674.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T12:22:02.165261Z",
+    "updatedAt" : "2026-04-09T12:22:02.165261Z",
+    "items" : [ {
+      "id" : "d8477bf3-9cd5-4318-9cd5-21ff45e8da74",
+      "sale_id" : "74c5c5e4-6107-47e2-8fdb-31015df0d2ef",
+      "upc" : "N/A",
+      "product_name" : "Tortillas (1kg)",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 26.0,
+      "unit_price" : 24.0,
+      "subtotal" : 624.0,
+      "measurementUnit" : "PZA"
+    }, {
+      "id" : "1a0d9b27-d860-409e-95da-502ba38e4b13",
+      "sale_id" : "74c5c5e4-6107-47e2-8fdb-31015df0d2ef",
+      "upc" : "PRP-719551605",
+      "product_name" : "Tacos De Pastor",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0,
+      "measurementUnit" : "PZA"
+    }, {
+      "id" : "b6dfbcf7-445e-4094-94eb-1a849495ffcf",
+      "sale_id" : "74c5c5e4-6107-47e2-8fdb-31015df0d2ef",
+      "upc" : "7501791669276",
+      "product_name" : "AU jamón cocido",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "2229d859-5d34-43f7-a75e-b899c284b232",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0018",
+    "total" : 45.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T18:36:56.729746Z",
+    "updatedAt" : "2026-04-09T18:36:56.729746Z",
+    "items" : [ {
+      "id" : "d4ab66e0-16ed-4ff2-b324-d242c1101990",
+      "sale_id" : "2229d859-5d34-43f7-a75e-b899c284b232",
+      "upc" : "INT-001",
+      "product_name" : "Huevo (1kg)",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 45.0,
+      "subtotal" : 45.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "ebb27e26-fb41-448b-af7c-b29ebaff51ca",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0019",
+    "total" : 25.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T18:43:02.857810Z",
+    "updatedAt" : "2026-04-09T18:43:02.857810Z",
+    "items" : [ {
+      "id" : "5f9c6c2a-58c2-4363-b404-5e28c559fbbf",
+      "sale_id" : "ebb27e26-fb41-448b-af7c-b29ebaff51ca",
+      "upc" : "7501032925529",
+      "product_name" : "ggcv baygo",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "b2e5a48e-3078-4820-a40f-c71a5e8e4ea0",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0020",
+    "total" : 141.5,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-10T03:28:34.379274Z",
+    "updatedAt" : "2026-04-10T03:28:34.379274Z",
+    "items" : [ {
+      "id" : "58b67fe9-8bc7-4515-b53b-2c4e8c416ff1",
+      "sale_id" : "b2e5a48e-3078-4820-a40f-c71a5e8e4ea0",
+      "upc" : "INT-001",
+      "product_name" : "Huevo (1kg)",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 2.0,
+      "unit_price" : 45.0,
+      "subtotal" : 90.0,
+      "measurementUnit" : "PZA"
+    }, {
+      "id" : "f8ad4b8b-af10-4eb2-b7c7-56a87f260f1e",
+      "sale_id" : "b2e5a48e-3078-4820-a40f-c71a5e8e4ea0",
+      "upc" : "INT-002",
+      "product_name" : "Tortillas (1kg)",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 2.0,
+      "unit_price" : 24.0,
+      "subtotal" : 48.0,
+      "measurementUnit" : "PZA"
+    }, {
+      "id" : "7c2e938e-f873-4368-8c43-c6523dfeee00",
+      "sale_id" : "b2e5a48e-3078-4820-a40f-c71a5e8e4ea0",
+      "upc" : "INT-003",
+      "product_name" : "Bolillo (Pza)",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 3.5,
+      "subtotal" : 3.5,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "d12ae8e9-e319-4c25-93b7-41d59f967c31",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0021",
+    "total" : 90.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-10T03:28:47.399969Z",
+    "updatedAt" : "2026-04-10T03:28:47.399969Z",
+    "items" : [ {
+      "id" : "23ab9a52-f2cf-4c8b-ac4e-e7850dca9dce",
+      "sale_id" : "d12ae8e9-e319-4c25-93b7-41d59f967c31",
+      "upc" : "INT-001",
+      "product_name" : "Huevo (1kg)",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 2.0,
+      "unit_price" : 45.0,
+      "subtotal" : 90.0,
+      "measurementUnit" : "PZA"
+    } ]
+  } ]
+}
+
+=========== [ 2026-04-10T00:08:43.180134600-06:00 ] ===========
+TENANT_ID: 8691f5d8-24f6-4c3d-93a1-0852e9540dae
+RECORDS COUNT: 10
+PAYLOAD: 
+{
+  "tenantId" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+  "records" : [ {
+    "id" : "61533570-571f-47a8-bf12-7085f7180bf8",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0012",
+    "total" : 5.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T11:47:03.032023Z",
+    "updatedAt" : "2026-04-09T11:47:03.032023Z",
+    "items" : [ {
+      "id" : "e1c9c259-ae77-443b-a831-1ceccdbc7b0d",
+      "sale_id" : "61533570-571f-47a8-bf12-7085f7180bf8",
+      "upc" : "7503039601277",
+      "product_name" : "lsldmd",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 5.0,
+      "subtotal" : 5.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "87985203-4b6c-4c80-8b5d-b55e920d7bd7",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0013",
+    "total" : 5.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T11:47:14.933403Z",
+    "updatedAt" : "2026-04-09T11:47:14.933403Z",
+    "items" : [ {
+      "id" : "0930c207-9c33-44b8-b011-872a88aa28e4",
+      "sale_id" : "87985203-4b6c-4c80-8b5d-b55e920d7bd7",
+      "upc" : "7503039601277",
+      "product_name" : "lsldmd",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 5.0,
+      "subtotal" : 5.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "e0fbaee4-4f2d-46ca-a5b6-18e21ffadf68",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0014",
+    "total" : 5.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T11:47:28.402004Z",
+    "updatedAt" : "2026-04-09T11:47:28.402004Z",
+    "items" : [ {
+      "id" : "013c48b2-23dc-4dfa-aa2f-ff3cf6049477",
+      "sale_id" : "e0fbaee4-4f2d-46ca-a5b6-18e21ffadf68",
+      "upc" : "7503039601277",
+      "product_name" : "lsldmd",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 5.0,
+      "subtotal" : 5.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "655ad33a-a601-44b6-b9de-0ed92abeb955",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0015",
+    "total" : 5.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T11:47:38.770874Z",
+    "updatedAt" : "2026-04-09T11:47:38.770874Z",
+    "items" : [ {
+      "id" : "7e73bbd4-b5ae-4922-b691-ce8083eb100d",
+      "sale_id" : "655ad33a-a601-44b6-b9de-0ed92abeb955",
+      "upc" : "7503039601277",
+      "product_name" : "lsldmd",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 5.0,
+      "subtotal" : 5.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "fddb83aa-da21-4a02-beea-4e7d4388a99c",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0016",
+    "total" : 25.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T11:50:13.257831Z",
+    "updatedAt" : "2026-04-09T11:50:13.257831Z",
+    "items" : [ {
+      "id" : "a110e63b-a7fc-489e-94ae-68d7dc4209b0",
+      "sale_id" : "fddb83aa-da21-4a02-beea-4e7d4388a99c",
+      "upc" : "7501055333851",
+      "product_name" : "Del Valle Nectar de Durazno",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "74c5c5e4-6107-47e2-8fdb-31015df0d2ef",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0017",
+    "total" : 674.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T12:22:02.165261Z",
+    "updatedAt" : "2026-04-09T12:22:02.165261Z",
+    "items" : [ {
+      "id" : "d8477bf3-9cd5-4318-9cd5-21ff45e8da74",
+      "sale_id" : "74c5c5e4-6107-47e2-8fdb-31015df0d2ef",
+      "upc" : "N/A",
+      "product_name" : "Tortillas (1kg)",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 26.0,
+      "unit_price" : 24.0,
+      "subtotal" : 624.0,
+      "measurementUnit" : "PZA"
+    }, {
+      "id" : "1a0d9b27-d860-409e-95da-502ba38e4b13",
+      "sale_id" : "74c5c5e4-6107-47e2-8fdb-31015df0d2ef",
+      "upc" : "PRP-719551605",
+      "product_name" : "Tacos De Pastor",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0,
+      "measurementUnit" : "PZA"
+    }, {
+      "id" : "b6dfbcf7-445e-4094-94eb-1a849495ffcf",
+      "sale_id" : "74c5c5e4-6107-47e2-8fdb-31015df0d2ef",
+      "upc" : "7501791669276",
+      "product_name" : "AU jamón cocido",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "2229d859-5d34-43f7-a75e-b899c284b232",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0018",
+    "total" : 45.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T18:36:56.729746Z",
+    "updatedAt" : "2026-04-09T18:36:56.729746Z",
+    "items" : [ {
+      "id" : "d4ab66e0-16ed-4ff2-b324-d242c1101990",
+      "sale_id" : "2229d859-5d34-43f7-a75e-b899c284b232",
+      "upc" : "INT-001",
+      "product_name" : "Huevo (1kg)",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 45.0,
+      "subtotal" : 45.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "ebb27e26-fb41-448b-af7c-b29ebaff51ca",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0019",
+    "total" : 25.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T18:43:02.857810Z",
+    "updatedAt" : "2026-04-09T18:43:02.857810Z",
+    "items" : [ {
+      "id" : "5f9c6c2a-58c2-4363-b404-5e28c559fbbf",
+      "sale_id" : "ebb27e26-fb41-448b-af7c-b29ebaff51ca",
+      "upc" : "7501032925529",
+      "product_name" : "ggcv baygo",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "b2e5a48e-3078-4820-a40f-c71a5e8e4ea0",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0020",
+    "total" : 141.5,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-10T03:28:34.379274Z",
+    "updatedAt" : "2026-04-10T03:28:34.379274Z",
+    "items" : [ {
+      "id" : "58b67fe9-8bc7-4515-b53b-2c4e8c416ff1",
+      "sale_id" : "b2e5a48e-3078-4820-a40f-c71a5e8e4ea0",
+      "upc" : "INT-001",
+      "product_name" : "Huevo (1kg)",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 2.0,
+      "unit_price" : 45.0,
+      "subtotal" : 90.0,
+      "measurementUnit" : "PZA"
+    }, {
+      "id" : "f8ad4b8b-af10-4eb2-b7c7-56a87f260f1e",
+      "sale_id" : "b2e5a48e-3078-4820-a40f-c71a5e8e4ea0",
+      "upc" : "INT-002",
+      "product_name" : "Tortillas (1kg)",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 2.0,
+      "unit_price" : 24.0,
+      "subtotal" : 48.0,
+      "measurementUnit" : "PZA"
+    }, {
+      "id" : "7c2e938e-f873-4368-8c43-c6523dfeee00",
+      "sale_id" : "b2e5a48e-3078-4820-a40f-c71a5e8e4ea0",
+      "upc" : "INT-003",
+      "product_name" : "Bolillo (Pza)",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 3.5,
+      "subtotal" : 3.5,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "d12ae8e9-e319-4c25-93b7-41d59f967c31",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0021",
+    "total" : 90.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-10T03:28:47.399969Z",
+    "updatedAt" : "2026-04-10T03:28:47.399969Z",
+    "items" : [ {
+      "id" : "23ab9a52-f2cf-4c8b-ac4e-e7850dca9dce",
+      "sale_id" : "d12ae8e9-e319-4c25-93b7-41d59f967c31",
+      "upc" : "INT-001",
+      "product_name" : "Huevo (1kg)",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 2.0,
+      "unit_price" : 45.0,
+      "subtotal" : 90.0,
+      "measurementUnit" : "PZA"
+    } ]
+  } ]
+}
+
+=========== [ 2026-04-10T00:09:27.621646700-06:00 ] ===========
+TENANT_ID: 8691f5d8-24f6-4c3d-93a1-0852e9540dae
+RECORDS COUNT: 10
+PAYLOAD: 
+{
+  "tenantId" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+  "records" : [ {
+    "id" : "61533570-571f-47a8-bf12-7085f7180bf8",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0012",
+    "total" : 5.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T11:47:03.032023Z",
+    "updatedAt" : "2026-04-09T11:47:03.032023Z",
+    "items" : [ {
+      "id" : "e1c9c259-ae77-443b-a831-1ceccdbc7b0d",
+      "sale_id" : "61533570-571f-47a8-bf12-7085f7180bf8",
+      "upc" : "7503039601277",
+      "product_name" : "lsldmd",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 5.0,
+      "subtotal" : 5.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "87985203-4b6c-4c80-8b5d-b55e920d7bd7",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0013",
+    "total" : 5.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T11:47:14.933403Z",
+    "updatedAt" : "2026-04-09T11:47:14.933403Z",
+    "items" : [ {
+      "id" : "0930c207-9c33-44b8-b011-872a88aa28e4",
+      "sale_id" : "87985203-4b6c-4c80-8b5d-b55e920d7bd7",
+      "upc" : "7503039601277",
+      "product_name" : "lsldmd",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 5.0,
+      "subtotal" : 5.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "e0fbaee4-4f2d-46ca-a5b6-18e21ffadf68",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0014",
+    "total" : 5.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T11:47:28.402004Z",
+    "updatedAt" : "2026-04-09T11:47:28.402004Z",
+    "items" : [ {
+      "id" : "013c48b2-23dc-4dfa-aa2f-ff3cf6049477",
+      "sale_id" : "e0fbaee4-4f2d-46ca-a5b6-18e21ffadf68",
+      "upc" : "7503039601277",
+      "product_name" : "lsldmd",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 5.0,
+      "subtotal" : 5.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "655ad33a-a601-44b6-b9de-0ed92abeb955",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0015",
+    "total" : 5.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T11:47:38.770874Z",
+    "updatedAt" : "2026-04-09T11:47:38.770874Z",
+    "items" : [ {
+      "id" : "7e73bbd4-b5ae-4922-b691-ce8083eb100d",
+      "sale_id" : "655ad33a-a601-44b6-b9de-0ed92abeb955",
+      "upc" : "7503039601277",
+      "product_name" : "lsldmd",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 5.0,
+      "subtotal" : 5.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "fddb83aa-da21-4a02-beea-4e7d4388a99c",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0016",
+    "total" : 25.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T11:50:13.257831Z",
+    "updatedAt" : "2026-04-09T11:50:13.257831Z",
+    "items" : [ {
+      "id" : "a110e63b-a7fc-489e-94ae-68d7dc4209b0",
+      "sale_id" : "fddb83aa-da21-4a02-beea-4e7d4388a99c",
+      "upc" : "7501055333851",
+      "product_name" : "Del Valle Nectar de Durazno",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "74c5c5e4-6107-47e2-8fdb-31015df0d2ef",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0017",
+    "total" : 674.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T12:22:02.165261Z",
+    "updatedAt" : "2026-04-09T12:22:02.165261Z",
+    "items" : [ {
+      "id" : "d8477bf3-9cd5-4318-9cd5-21ff45e8da74",
+      "sale_id" : "74c5c5e4-6107-47e2-8fdb-31015df0d2ef",
+      "upc" : "N/A",
+      "product_name" : "Tortillas (1kg)",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 26.0,
+      "unit_price" : 24.0,
+      "subtotal" : 624.0,
+      "measurementUnit" : "PZA"
+    }, {
+      "id" : "1a0d9b27-d860-409e-95da-502ba38e4b13",
+      "sale_id" : "74c5c5e4-6107-47e2-8fdb-31015df0d2ef",
+      "upc" : "PRP-719551605",
+      "product_name" : "Tacos De Pastor",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0,
+      "measurementUnit" : "PZA"
+    }, {
+      "id" : "b6dfbcf7-445e-4094-94eb-1a849495ffcf",
+      "sale_id" : "74c5c5e4-6107-47e2-8fdb-31015df0d2ef",
+      "upc" : "7501791669276",
+      "product_name" : "AU jamón cocido",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "2229d859-5d34-43f7-a75e-b899c284b232",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0018",
+    "total" : 45.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T18:36:56.729746Z",
+    "updatedAt" : "2026-04-09T18:36:56.729746Z",
+    "items" : [ {
+      "id" : "d4ab66e0-16ed-4ff2-b324-d242c1101990",
+      "sale_id" : "2229d859-5d34-43f7-a75e-b899c284b232",
+      "upc" : "INT-001",
+      "product_name" : "Huevo (1kg)",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 45.0,
+      "subtotal" : 45.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "ebb27e26-fb41-448b-af7c-b29ebaff51ca",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0019",
+    "total" : 25.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T18:43:02.857810Z",
+    "updatedAt" : "2026-04-09T18:43:02.857810Z",
+    "items" : [ {
+      "id" : "5f9c6c2a-58c2-4363-b404-5e28c559fbbf",
+      "sale_id" : "ebb27e26-fb41-448b-af7c-b29ebaff51ca",
+      "upc" : "7501032925529",
+      "product_name" : "ggcv baygo",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "b2e5a48e-3078-4820-a40f-c71a5e8e4ea0",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0020",
+    "total" : 141.5,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-10T03:28:34.379274Z",
+    "updatedAt" : "2026-04-10T03:28:34.379274Z",
+    "items" : [ {
+      "id" : "58b67fe9-8bc7-4515-b53b-2c4e8c416ff1",
+      "sale_id" : "b2e5a48e-3078-4820-a40f-c71a5e8e4ea0",
+      "upc" : "INT-001",
+      "product_name" : "Huevo (1kg)",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 2.0,
+      "unit_price" : 45.0,
+      "subtotal" : 90.0,
+      "measurementUnit" : "PZA"
+    }, {
+      "id" : "f8ad4b8b-af10-4eb2-b7c7-56a87f260f1e",
+      "sale_id" : "b2e5a48e-3078-4820-a40f-c71a5e8e4ea0",
+      "upc" : "INT-002",
+      "product_name" : "Tortillas (1kg)",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 2.0,
+      "unit_price" : 24.0,
+      "subtotal" : 48.0,
+      "measurementUnit" : "PZA"
+    }, {
+      "id" : "7c2e938e-f873-4368-8c43-c6523dfeee00",
+      "sale_id" : "b2e5a48e-3078-4820-a40f-c71a5e8e4ea0",
+      "upc" : "INT-003",
+      "product_name" : "Bolillo (Pza)",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 3.5,
+      "subtotal" : 3.5,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "d12ae8e9-e319-4c25-93b7-41d59f967c31",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0021",
+    "total" : 90.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-10T03:28:47.399969Z",
+    "updatedAt" : "2026-04-10T03:28:47.399969Z",
+    "items" : [ {
+      "id" : "23ab9a52-f2cf-4c8b-ac4e-e7850dca9dce",
+      "sale_id" : "d12ae8e9-e319-4c25-93b7-41d59f967c31",
+      "upc" : "INT-001",
+      "product_name" : "Huevo (1kg)",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 2.0,
+      "unit_price" : 45.0,
+      "subtotal" : 90.0,
+      "measurementUnit" : "PZA"
+    } ]
+  } ]
+}
+
+=========== [ 2026-04-10T00:10:26.900670800-06:00 ] ===========
+TENANT_ID: 8691f5d8-24f6-4c3d-93a1-0852e9540dae
+RECORDS COUNT: 10
+PAYLOAD: 
+{
+  "tenantId" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+  "records" : [ {
+    "id" : "61533570-571f-47a8-bf12-7085f7180bf8",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0012",
+    "total" : 5.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T11:47:03.032023Z",
+    "updatedAt" : "2026-04-09T11:47:03.032023Z",
+    "items" : [ {
+      "id" : "e1c9c259-ae77-443b-a831-1ceccdbc7b0d",
+      "sale_id" : "61533570-571f-47a8-bf12-7085f7180bf8",
+      "upc" : "7503039601277",
+      "product_name" : "lsldmd",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 5.0,
+      "subtotal" : 5.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "87985203-4b6c-4c80-8b5d-b55e920d7bd7",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0013",
+    "total" : 5.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T11:47:14.933403Z",
+    "updatedAt" : "2026-04-09T11:47:14.933403Z",
+    "items" : [ {
+      "id" : "0930c207-9c33-44b8-b011-872a88aa28e4",
+      "sale_id" : "87985203-4b6c-4c80-8b5d-b55e920d7bd7",
+      "upc" : "7503039601277",
+      "product_name" : "lsldmd",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 5.0,
+      "subtotal" : 5.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "e0fbaee4-4f2d-46ca-a5b6-18e21ffadf68",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0014",
+    "total" : 5.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T11:47:28.402004Z",
+    "updatedAt" : "2026-04-09T11:47:28.402004Z",
+    "items" : [ {
+      "id" : "013c48b2-23dc-4dfa-aa2f-ff3cf6049477",
+      "sale_id" : "e0fbaee4-4f2d-46ca-a5b6-18e21ffadf68",
+      "upc" : "7503039601277",
+      "product_name" : "lsldmd",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 5.0,
+      "subtotal" : 5.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "655ad33a-a601-44b6-b9de-0ed92abeb955",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0015",
+    "total" : 5.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T11:47:38.770874Z",
+    "updatedAt" : "2026-04-09T11:47:38.770874Z",
+    "items" : [ {
+      "id" : "7e73bbd4-b5ae-4922-b691-ce8083eb100d",
+      "sale_id" : "655ad33a-a601-44b6-b9de-0ed92abeb955",
+      "upc" : "7503039601277",
+      "product_name" : "lsldmd",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 5.0,
+      "subtotal" : 5.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "fddb83aa-da21-4a02-beea-4e7d4388a99c",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0016",
+    "total" : 25.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T11:50:13.257831Z",
+    "updatedAt" : "2026-04-09T11:50:13.257831Z",
+    "items" : [ {
+      "id" : "a110e63b-a7fc-489e-94ae-68d7dc4209b0",
+      "sale_id" : "fddb83aa-da21-4a02-beea-4e7d4388a99c",
+      "upc" : "7501055333851",
+      "product_name" : "Del Valle Nectar de Durazno",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "74c5c5e4-6107-47e2-8fdb-31015df0d2ef",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0017",
+    "total" : 674.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T12:22:02.165261Z",
+    "updatedAt" : "2026-04-09T12:22:02.165261Z",
+    "items" : [ {
+      "id" : "d8477bf3-9cd5-4318-9cd5-21ff45e8da74",
+      "sale_id" : "74c5c5e4-6107-47e2-8fdb-31015df0d2ef",
+      "upc" : "N/A",
+      "product_name" : "Tortillas (1kg)",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 26.0,
+      "unit_price" : 24.0,
+      "subtotal" : 624.0,
+      "measurementUnit" : "PZA"
+    }, {
+      "id" : "1a0d9b27-d860-409e-95da-502ba38e4b13",
+      "sale_id" : "74c5c5e4-6107-47e2-8fdb-31015df0d2ef",
+      "upc" : "PRP-719551605",
+      "product_name" : "Tacos De Pastor",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0,
+      "measurementUnit" : "PZA"
+    }, {
+      "id" : "b6dfbcf7-445e-4094-94eb-1a849495ffcf",
+      "sale_id" : "74c5c5e4-6107-47e2-8fdb-31015df0d2ef",
+      "upc" : "7501791669276",
+      "product_name" : "AU jamón cocido",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "2229d859-5d34-43f7-a75e-b899c284b232",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0018",
+    "total" : 45.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T18:36:56.729746Z",
+    "updatedAt" : "2026-04-09T18:36:56.729746Z",
+    "items" : [ {
+      "id" : "d4ab66e0-16ed-4ff2-b324-d242c1101990",
+      "sale_id" : "2229d859-5d34-43f7-a75e-b899c284b232",
+      "upc" : "INT-001",
+      "product_name" : "Huevo (1kg)",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 45.0,
+      "subtotal" : 45.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "ebb27e26-fb41-448b-af7c-b29ebaff51ca",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0019",
+    "total" : 25.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T18:43:02.857810Z",
+    "updatedAt" : "2026-04-09T18:43:02.857810Z",
+    "items" : [ {
+      "id" : "5f9c6c2a-58c2-4363-b404-5e28c559fbbf",
+      "sale_id" : "ebb27e26-fb41-448b-af7c-b29ebaff51ca",
+      "upc" : "7501032925529",
+      "product_name" : "ggcv baygo",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "b2e5a48e-3078-4820-a40f-c71a5e8e4ea0",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0020",
+    "total" : 141.5,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-10T03:28:34.379274Z",
+    "updatedAt" : "2026-04-10T03:28:34.379274Z",
+    "items" : [ {
+      "id" : "58b67fe9-8bc7-4515-b53b-2c4e8c416ff1",
+      "sale_id" : "b2e5a48e-3078-4820-a40f-c71a5e8e4ea0",
+      "upc" : "INT-001",
+      "product_name" : "Huevo (1kg)",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 2.0,
+      "unit_price" : 45.0,
+      "subtotal" : 90.0,
+      "measurementUnit" : "PZA"
+    }, {
+      "id" : "f8ad4b8b-af10-4eb2-b7c7-56a87f260f1e",
+      "sale_id" : "b2e5a48e-3078-4820-a40f-c71a5e8e4ea0",
+      "upc" : "INT-002",
+      "product_name" : "Tortillas (1kg)",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 2.0,
+      "unit_price" : 24.0,
+      "subtotal" : 48.0,
+      "measurementUnit" : "PZA"
+    }, {
+      "id" : "7c2e938e-f873-4368-8c43-c6523dfeee00",
+      "sale_id" : "b2e5a48e-3078-4820-a40f-c71a5e8e4ea0",
+      "upc" : "INT-003",
+      "product_name" : "Bolillo (Pza)",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 3.5,
+      "subtotal" : 3.5,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "d12ae8e9-e319-4c25-93b7-41d59f967c31",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0021",
+    "total" : 90.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-10T03:28:47.399969Z",
+    "updatedAt" : "2026-04-10T03:28:47.399969Z",
+    "items" : [ {
+      "id" : "23ab9a52-f2cf-4c8b-ac4e-e7850dca9dce",
+      "sale_id" : "d12ae8e9-e319-4c25-93b7-41d59f967c31",
+      "upc" : "INT-001",
+      "product_name" : "Huevo (1kg)",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 2.0,
+      "unit_price" : 45.0,
+      "subtotal" : 90.0,
+      "measurementUnit" : "PZA"
+    } ]
+  } ]
+}
+
+=========== [ 2026-04-10T00:19:06.038441900-06:00 ] ===========
+TENANT_ID: 8691f5d8-24f6-4c3d-93a1-0852e9540dae
+RECORDS COUNT: 10
+PAYLOAD: 
+{
+  "tenantId" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+  "records" : [ {
+    "id" : "61533570-571f-47a8-bf12-7085f7180bf8",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0012",
+    "total" : 5.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T11:47:03.032023Z",
+    "updatedAt" : "2026-04-09T11:47:03.032023Z",
+    "items" : [ {
+      "id" : "e1c9c259-ae77-443b-a831-1ceccdbc7b0d",
+      "sale_id" : "61533570-571f-47a8-bf12-7085f7180bf8",
+      "upc" : "7503039601277",
+      "product_name" : "lsldmd",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 5.0,
+      "subtotal" : 5.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "87985203-4b6c-4c80-8b5d-b55e920d7bd7",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0013",
+    "total" : 5.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T11:47:14.933403Z",
+    "updatedAt" : "2026-04-09T11:47:14.933403Z",
+    "items" : [ {
+      "id" : "0930c207-9c33-44b8-b011-872a88aa28e4",
+      "sale_id" : "87985203-4b6c-4c80-8b5d-b55e920d7bd7",
+      "upc" : "7503039601277",
+      "product_name" : "lsldmd",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 5.0,
+      "subtotal" : 5.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "e0fbaee4-4f2d-46ca-a5b6-18e21ffadf68",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0014",
+    "total" : 5.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T11:47:28.402004Z",
+    "updatedAt" : "2026-04-09T11:47:28.402004Z",
+    "items" : [ {
+      "id" : "013c48b2-23dc-4dfa-aa2f-ff3cf6049477",
+      "sale_id" : "e0fbaee4-4f2d-46ca-a5b6-18e21ffadf68",
+      "upc" : "7503039601277",
+      "product_name" : "lsldmd",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 5.0,
+      "subtotal" : 5.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "655ad33a-a601-44b6-b9de-0ed92abeb955",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0015",
+    "total" : 5.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T11:47:38.770874Z",
+    "updatedAt" : "2026-04-09T11:47:38.770874Z",
+    "items" : [ {
+      "id" : "7e73bbd4-b5ae-4922-b691-ce8083eb100d",
+      "sale_id" : "655ad33a-a601-44b6-b9de-0ed92abeb955",
+      "upc" : "7503039601277",
+      "product_name" : "lsldmd",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 5.0,
+      "subtotal" : 5.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "fddb83aa-da21-4a02-beea-4e7d4388a99c",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0016",
+    "total" : 25.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T11:50:13.257831Z",
+    "updatedAt" : "2026-04-09T11:50:13.257831Z",
+    "items" : [ {
+      "id" : "a110e63b-a7fc-489e-94ae-68d7dc4209b0",
+      "sale_id" : "fddb83aa-da21-4a02-beea-4e7d4388a99c",
+      "upc" : "7501055333851",
+      "product_name" : "Del Valle Nectar de Durazno",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "74c5c5e4-6107-47e2-8fdb-31015df0d2ef",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0017",
+    "total" : 674.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T12:22:02.165261Z",
+    "updatedAt" : "2026-04-09T12:22:02.165261Z",
+    "items" : [ {
+      "id" : "d8477bf3-9cd5-4318-9cd5-21ff45e8da74",
+      "sale_id" : "74c5c5e4-6107-47e2-8fdb-31015df0d2ef",
+      "upc" : "N/A",
+      "product_name" : "Tortillas (1kg)",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 26.0,
+      "unit_price" : 24.0,
+      "subtotal" : 624.0,
+      "measurementUnit" : "PZA"
+    }, {
+      "id" : "1a0d9b27-d860-409e-95da-502ba38e4b13",
+      "sale_id" : "74c5c5e4-6107-47e2-8fdb-31015df0d2ef",
+      "upc" : "PRP-719551605",
+      "product_name" : "Tacos De Pastor",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0,
+      "measurementUnit" : "PZA"
+    }, {
+      "id" : "b6dfbcf7-445e-4094-94eb-1a849495ffcf",
+      "sale_id" : "74c5c5e4-6107-47e2-8fdb-31015df0d2ef",
+      "upc" : "7501791669276",
+      "product_name" : "AU jamón cocido",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "2229d859-5d34-43f7-a75e-b899c284b232",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0018",
+    "total" : 45.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T18:36:56.729746Z",
+    "updatedAt" : "2026-04-09T18:36:56.729746Z",
+    "items" : [ {
+      "id" : "d4ab66e0-16ed-4ff2-b324-d242c1101990",
+      "sale_id" : "2229d859-5d34-43f7-a75e-b899c284b232",
+      "upc" : "INT-001",
+      "product_name" : "Huevo (1kg)",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 45.0,
+      "subtotal" : 45.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "ebb27e26-fb41-448b-af7c-b29ebaff51ca",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0019",
+    "total" : 25.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-09T18:43:02.857810Z",
+    "updatedAt" : "2026-04-09T18:43:02.857810Z",
+    "items" : [ {
+      "id" : "5f9c6c2a-58c2-4363-b404-5e28c559fbbf",
+      "sale_id" : "ebb27e26-fb41-448b-af7c-b29ebaff51ca",
+      "upc" : "7501032925529",
+      "product_name" : "ggcv baygo",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 25.0,
+      "subtotal" : 25.0,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "b2e5a48e-3078-4820-a40f-c71a5e8e4ea0",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0020",
+    "total" : 141.5,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-10T03:28:34.379274Z",
+    "updatedAt" : "2026-04-10T03:28:34.379274Z",
+    "items" : [ {
+      "id" : "58b67fe9-8bc7-4515-b53b-2c4e8c416ff1",
+      "sale_id" : "b2e5a48e-3078-4820-a40f-c71a5e8e4ea0",
+      "upc" : "INT-001",
+      "product_name" : "Huevo (1kg)",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 2.0,
+      "unit_price" : 45.0,
+      "subtotal" : 90.0,
+      "measurementUnit" : "PZA"
+    }, {
+      "id" : "f8ad4b8b-af10-4eb2-b7c7-56a87f260f1e",
+      "sale_id" : "b2e5a48e-3078-4820-a40f-c71a5e8e4ea0",
+      "upc" : "INT-002",
+      "product_name" : "Tortillas (1kg)",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 2.0,
+      "unit_price" : 24.0,
+      "subtotal" : 48.0,
+      "measurementUnit" : "PZA"
+    }, {
+      "id" : "7c2e938e-f873-4368-8c43-c6523dfeee00",
+      "sale_id" : "b2e5a48e-3078-4820-a40f-c71a5e8e4ea0",
+      "upc" : "INT-003",
+      "product_name" : "Bolillo (Pza)",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 3.5,
+      "subtotal" : 3.5,
+      "measurementUnit" : "PZA"
+    } ]
+  }, {
+    "id" : "d12ae8e9-e319-4c25-93b7-41d59f967c31",
+    "tenant_id" : "8691f5d8-24f6-4c3d-93a1-0852e9540dae",
+    "user_id" : "a4602c27-f504-4eba-bb91-682b7d98ad96",
+    "cash_session_id" : "8e5cb70a-5c38-43de-ac69-9f3fe06b428b",
+    "folio" : "SAL-20260409-0021",
+    "total" : 90.0,
+    "payment_type" : "CASH",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-10T03:28:47.399969Z",
+    "updatedAt" : "2026-04-10T03:28:47.399969Z",
+    "items" : [ {
+      "id" : "23ab9a52-f2cf-4c8b-ac4e-e7850dca9dce",
+      "sale_id" : "d12ae8e9-e319-4c25-93b7-41d59f967c31",
+      "upc" : "INT-001",
+      "product_name" : "Huevo (1kg)",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 2.0,
+      "unit_price" : 45.0,
+      "subtotal" : 90.0,
+      "measurementUnit" : "PZA"
+    } ]
+  } ]
+}
+
+=========== [ 2026-04-10T00:21:35.020893700-06:00 ] ===========
+TENANT_ID: 4717de09-80b6-431e-a869-f5343aaf1d37
+RECORDS COUNT: 1
+PAYLOAD: 
+{
+  "tenantId" : "4717de09-80b6-431e-a869-f5343aaf1d37",
+  "records" : [ {
+    "id" : "cd9bd75c-4351-47f6-a1a8-4516413853d2",
+    "tenant_id" : "4717de09-80b6-431e-a869-f5343aaf1d37",
+    "user_id" : "e25e13b9-1714-4752-a3cb-6a341ca8abed",
+    "initial_amount" : 100.0,
+    "total_sales" : 100.0,
+    "cash_total" : 0.0,
+    "card_total" : 100.0,
+    "transfer_total" : 0.0,
+    "opened_at" : "2026-04-10T06:20:56.848357Z",
+    "closed_at" : null
+  } ]
+}
+
+=========== [ 2026-04-10T00:21:37.258623200-06:00 ] ===========
+TENANT_ID: 4717de09-80b6-431e-a869-f5343aaf1d37
+RECORDS COUNT: 1
+PAYLOAD: 
+{
+  "tenantId" : "4717de09-80b6-431e-a869-f5343aaf1d37",
+  "records" : [ {
+    "id" : "43d08951-61fd-4cc0-abfb-2886d9bf25aa",
+    "tenant_id" : "4717de09-80b6-431e-a869-f5343aaf1d37",
+    "upc" : "7501055313532",
+    "supplier_id" : null,
+    "price" : 100.0,
+    "name" : "Coca-Cola",
+    "stock" : -1.0,
+    "productType" : "STANDARD",
+    "minStock" : 3.0,
+    "costPrice" : 0.0,
+    "regBorrado" : 1,
+    "measurementUnit" : "PZA",
+    "isActive" : true,
+    "createdAt" : "2026-04-10T06:21:10.712979Z",
+    "updatedAt" : "2026-04-10T06:21:16.114141Z"
+  } ]
+}
+
+=========== [ 2026-04-10T00:21:39.505241900-06:00 ] ===========
+TENANT_ID: 4717de09-80b6-431e-a869-f5343aaf1d37
+RECORDS COUNT: 1
+PAYLOAD: 
+{
+  "tenantId" : "4717de09-80b6-431e-a869-f5343aaf1d37",
+  "records" : [ {
+    "id" : "95474b33-7f1a-445d-bd2f-6d2b6c9d644d",
+    "tenant_id" : "4717de09-80b6-431e-a869-f5343aaf1d37",
+    "tipo" : "SAL",
+    "fecha" : "2026-04-10",
+    "ultimo_folio" : 1
+  } ]
+}
+
+=========== [ 2026-04-10T00:21:45.983254100-06:00 ] ===========
+TENANT_ID: 4717de09-80b6-431e-a869-f5343aaf1d37
+RECORDS COUNT: 1
+PAYLOAD: 
+{
+  "tenantId" : "4717de09-80b6-431e-a869-f5343aaf1d37",
+  "records" : [ {
+    "id" : "4eb26536-e894-4faa-9113-13834ed8530b",
+    "tenant_id" : "4717de09-80b6-431e-a869-f5343aaf1d37",
+    "user_id" : "e25e13b9-1714-4752-a3cb-6a341ca8abed",
+    "cash_session_id" : "cd9bd75c-4351-47f6-a1a8-4516413853d2",
+    "folio" : "SAL-20260410-0001",
+    "total" : 100.0,
+    "payment_type" : "CARD",
+    "regBorrado" : 1,
+    "createdAt" : "2026-04-10T06:21:15.814860Z",
+    "updatedAt" : "2026-04-10T06:21:15.814860Z",
+    "items" : [ {
+      "id" : "156e9da1-05e7-46b5-9f1b-6f50a60235f6",
+      "sale_id" : "4eb26536-e894-4faa-9113-13834ed8530b",
+      "upc" : "7501055313532",
+      "product_name" : "Coca-Cola",
+      "iva_amount" : 0.0,
+      "ieps_amount" : 0.0,
+      "quantity" : 1.0,
+      "unit_price" : 100.0,
+      "subtotal" : 100.0,
+      "measurementUnit" : "PZA"
     } ]
   } ]
 }

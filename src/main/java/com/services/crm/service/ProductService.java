@@ -58,10 +58,10 @@ public class ProductService {
     @Transactional(readOnly = true)
     public ProductLookupResponse lookup(String query, UUID tenantId) {
         // 1. Buscar en inventario local del tenant
-        return storeProductRepository.findByTenantIdAndUpcAndRegBorrado(tenantId, query, 1)
+        return storeProductRepository.findByTenantIdAndUpcCatalogUpcAndRegBorrado(tenantId, query, 1)
                 .map(product -> new ProductLookupResponse(
                         "LOCAL",
-                        product.getUpc(),
+                        product.getUpcCatalog().getUpc(),
                         product.getName(),
                         product.getPrice(),
                         product.getStock(),
@@ -103,12 +103,12 @@ public class ProductService {
         storeProductRepository.searchByTermRealTime(tenantId, query, limit).forEach(sp -> {
             results.add(new ProductLookupResponse(
                     "LOCAL",
-                    sp.getUpc(),
+                    sp.getUpcCatalog().getUpc(),
                     sp.getName(),
                     sp.getPrice(),
                     sp.getStock(),
                     false));
-            foundUpcs.add(sp.getUpc());
+            foundUpcs.add(sp.getUpcCatalog().getUpc());
         });
 
         // 2. Buscar en catálogo global (excluyendo los que ya encontramos en local)
@@ -161,11 +161,11 @@ public class ProductService {
 
         // 2. Buscar si ya existe en la tienda
         StoreProduct product = storeProductRepository
-                .findByTenantIdAndUpcAndRegBorrado(tenant.getId(), request.upc(), 1)
+                .findByTenantIdAndUpcCatalogUpcAndRegBorrado(tenant.getId(), request.upc(), 1)
                 .orElse(new StoreProduct());
 
         product.setTenant(tenant);
-        product.setUpc(catalog.getUpc());
+        product.setUpcCatalog(catalog);
         product.setName(catalog.getNombre());
         if (catalog.getMeasurementUnit() != null) {
             product.setMeasurementUnit(catalog.getMeasurementUnit().name());

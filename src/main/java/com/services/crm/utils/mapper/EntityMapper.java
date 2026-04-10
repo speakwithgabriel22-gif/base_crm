@@ -70,6 +70,7 @@ public interface EntityMapper {
      * name y upc vienen de upcCatalog. category y description se ignoran.
      * status se calcula desde stock y minStock via calculateStockStatus().
      */
+    @Mapping(target = "upc", source = "upcCatalog.upc")
     @Mapping(target = "category", ignore = true)
     @Mapping(target = "description", ignore = true)
     @Mapping(target = "status", source = ".", qualifiedByName = "calculateStockStatus")
@@ -105,7 +106,7 @@ public interface EntityMapper {
     SaleDTO toDto(Sale sale);
 
     // ─── Caja (Cash Session) ───────────────────────────────────────────────────────
-    @Mapping(target = "upc", source = "upcCatalog.upc")
+    @Mapping(target = "upc", source = "storeProduct.upcCatalog.upc")
     SaleItemDTO toDto(SaleItem saleItem);
 
     // ─── UserTenant ──────────────────────────────────────────────────────────────

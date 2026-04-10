@@ -26,6 +26,7 @@ public class StoreProduct {
     /** Unique ID for the local store product record */
     @Id
     @JdbcTypeCode(SqlTypes.UUID)
+    @GeneratedValue(strategy = GenerationType.UUID)
     @Column(name = "id", updatable = false, nullable = false)
     private UUID id;
 
@@ -34,7 +35,9 @@ public class StoreProduct {
     @JoinColumn(name = "tenant_id", nullable = false, updatable = false)
     private Tenant tenant;
 
-    private String upc;
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "upc", referencedColumnName = "upc")
+    private UpcCatalog upcCatalog;
 
     private String name;
 
